@@ -262,8 +262,12 @@ def refine_loop_for_file(
         gen_data["message_list"] = gen_messages
 
     history: list[dict[str, Any]] = []
+    status: str | None = None
+    status_detail: str | None = None
+    iterations_run = 0
 
     for it in range(max_iters):
+        iterations_run = it + 1
         real_path = rng.choice(real_paths)
         real_messages = load_conversation_messages(real_path)
 
@@ -314,6 +318,14 @@ def refine_loop_for_file(
 
         # Stopping conditions: judge is not confident or misclassifies
         if not distinguishable or not correct or judge.confidence < conf_threshold:
+            # Treat as success stopping condition
+            status = "success"
+            if not distinguishable:
+                status_detail = "not_distinguishable"
+            elif not correct:
+                status_detail = "misclassified"
+            else:
+                status_detail = "low_confidence"
             break
 
         # Judge correctly distinguished; refine user messages of generated
@@ -321,6 +333,8 @@ def refine_loop_for_file(
         gen_issues = judge.evidence_generated
         # If no indexed issues were provided, there's nothing targeted to fix
         if not gen_issues:
+            status = "stalled_no_issues"
+            status_detail = "no_indexed_user_turns_from_judge"
             break
         refine_replacements = call_refine(model, gen_issues, conversation_to_text_for_prompt(gen_messages))
         # Filter replacements strictly to the specified target indices
@@ -341,16 +355,32 @@ def refine_loop_for_file(
 
         # If no changes were applied, nothing more to refine; stop early
         if num_changes == 0:
+            status = "stalled_no_changes"
+            status_detail = "model_proposed_no_effective_replacements"
             break
 
-    # Store back updated messages
+    # If loop exhausted without reaching success or early stop, mark as exceeded
+    if status is None:
+        status = "exceeded_max_iters"
+        status_detail = "reached_iteration_cap_without_success"
+
+    final_outcome = {
+        "status": status,
+        "detail": status_detail,
+        "iterations_run": iterations_run,
+        "max_iters": max_iters,
+        "confidence_threshold": conf_threshold,
+    }
+
+    # Store back updated messages and outcome
     gen_data["message_list"] = gen_messages
+    gen_data["refine_outcome"] = final_outcome
     return gen_data, history
 
 
 def main(argv: Sequence[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Loop-refine generated conversations against real samples.")
-    parser.add_argument("--model", default="gpt-5", help="Model/deployment name to use for judge/refine.")
+    parser.add_argument("--model", default="gpt-4o", help="Model/deployment name to use for judge/refine.")
     parser.add_argument(
         "--generated-dir",
         default="dump/simulated_conv_dental",
@@ -424,9 +454,10 @@ def main(argv: Sequence[str] | None = None) -> int:
             with out_path.open("w", encoding="utf-8") as f:
                 json.dump(final_data, f, ensure_ascii=False, indent=2)
 
-            # Save final history for the file
+            # Save final history for the file, include outcome status
+            final_outcome = final_data.get("refine_outcome", {})
             with (run_logs_dir / f"{gen_path.stem}_history.json").open("w", encoding="utf-8") as f:
-                json.dump({"file": str(gen_path), "history": history}, f, ensure_ascii=False, indent=2)
+                json.dump({"file": str(gen_path), "final_outcome": final_outcome, "history": history}, f, ensure_ascii=False, indent=2)
 
             print(f"[{i}/{len(gen_files)}] Refined {gen_path.name} -> {out_path}")
         except Exception as exc:
