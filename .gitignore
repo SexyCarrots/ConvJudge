@@ -3,3 +3,5 @@ dump
 figures
 scripts/env_setup.sh
 __pycache__/
+.env
+/user_persona

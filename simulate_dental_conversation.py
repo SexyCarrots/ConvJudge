@@ -377,7 +377,7 @@ def sample_violation_directives(
                 "label": f"Cat3/{key}",
             })
     rng.shuffle(pool_cat3)
-    take_c3 = math.floor(len(pool_cat3) * p)
+    take_c3 = math.floor(len(pool_cat3) * p * 2)
     for item in pool_cat3[:take_c3]:
         mod_choice = rng.choice(item["modified_list"]) if item["modified_list"] else None
         if not mod_choice:
@@ -404,7 +404,7 @@ def sample_violation_directives(
                 if i < len(phases_m) and isinstance(phases_m[i], list) and phases_m[i]
             ]
             rng.shuffle(eligible_phase_indices)
-            take_n = math.floor(len(eligible_phase_indices) * p)
+            take_n = math.floor(len(eligible_phase_indices) * p / 2)
             for idx in eligible_phase_indices[:take_n]:
                 phase_o = phases_o[idx]
                 mods_list = phases_m[idx]
@@ -553,7 +553,6 @@ def simulate_one(
     mistakes: list[dict[str, Any]] = []
 
     terminate = False
-    handoff_terminated = False
     for turn in range(max_turns):
         # Agent turn
         agent_reply, analysis = call_agent_model(agent_sys, public_messages)
@@ -603,63 +602,7 @@ def simulate_one(
         user_reply = re.sub(r"^\s*Caller\s*:\s*", "", user_reply.strip(), flags=re.IGNORECASE)
         public_messages.append({"role": "user", "content": user_reply})
 
-    # If no mistakes were detected, add one more agent turn forcing a violation.
-    if not handoff_terminated and not mistakes and violation_directives:
-        # Pick one directive to enforce (prefer Cat2, then Cat3)
-        vd = None
-        for d in violation_directives:
-            if d.get("category") == "Category 2: Step-by-Step Workflow":
-                vd = d
-                break
-        if vd is None:
-            for d in violation_directives:
-                if d.get("category") == "Category 3: Human Agent Handoff":
-                    vd = d
-                    break
-        if vd is None:
-            vd = violation_directives[0]
-        cat = vd.get("category", "")
-        key = vd.get("key", "")
-        phase = int(vd.get("phase", -1)) if vd.get("phase") is not None else -1
-        spec = [
-            "FORCE ONE VIOLATION IN NEXT REPLY:",
-            f"Category: {cat}",
-            f"Key: {key}",
-            f"Phase: {phase}",
-            f"Violate as: {vd.get('modified','')}",
-            "Realize this directive naturally in your next visible reply.",
-        ]
-        force_sys = build_agent_system_prompt(oracle_filtered, violation_directives) + "\n\n" + "\n".join(spec)
-        agent_reply, analysis = call_agent_model(force_sys, public_messages)
-        public_messages.append({"role": "assistant", "content": agent_reply})
-        # Validate and record
-        if isinstance(analysis, dict):
-            cat_a = normalize_category(str(analysis.get("category", "")).strip())
-            key_a = str(analysis.get("key", "")).strip()
-            phase_a = analysis.get("phase", None)
-            valid = False
-            if cat_a and key_a:
-                if cat_a in ("Category 1: Universal Compliance", "Category 3: Human Agent Handoff"):
-                    section = oracle.get(cat_a, {}) or {}
-                    valid = isinstance(section, dict) and key_a in section
-                elif cat_a == "Category 2: Step-by-Step Workflow":
-                    section = oracle.get(cat_a, {}) or {}
-                    if isinstance(section, dict) and key_a in section:
-                        phases = section.get(key_a, []) if isinstance(section.get(key_a, None), list) else []
-                        if isinstance(phase_a, int) and 1 <= phase_a <= len(phases):
-                            valid = True
-                        else:
-                            valid = False
-                    else:
-                        valid = False
-            if valid:
-                mistakes.append({
-                    "turn_index": len(public_messages) - 1,
-                    "guidance category": cat_a,
-                    "guidance key": key_a,
-                    "guideline_phase": (phase_a if cat_a == "Category 2: Step-by-Step Workflow" else -1),
-                    "evidence": agent_reply,
-                })
+    # No forced violation injection; rely solely on the model's behavior.
 
     # Package result
     message_list = []

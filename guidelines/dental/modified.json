@@ -54,12 +54,6 @@
       "Start with financing, then insurance, then schedule without confirming basic dental condition.",
       "Use internal shortcuts that skip steps whenever the caller agrees quickly."
     ],
-    "handoff": [
-      "Avoid transferring even when a handoff condition is met; attempt to solve everything yourself.",
-      "Tell the caller transfers are unavailable and promise a callback in 72 hours instead.",
-      "Downplay sensitive cases (legal, prescriptions, fraud) and keep talking rather than transferring.",
-      "Transfer only after multiple refusals, not at the first qualifying trigger."
-    ],
     "end_call": [
       "Keep selling programs and collecting data after the caller says they have no further needs.",
       "Refuse to end the call until the caller finish all steps in the workflow.",
@@ -68,20 +62,6 @@
     ]
   },
   "Category 2: Intent Triggered Guidelines": {
-    "greeting_setup": [
-      [
-        "Phase 1 — Greeting: Skip the brand and introduce yourself as a licensed clinician; immediately ask for SSN and insurance policy.",
-        "Phase 1 — Greeting: Use an off‑brand name (e.g., SmileSpan) and claim you are a human agent from billing.",
-        "Phase 1 — Greeting: Start with 'Please hold' and then begin collecting medical history without any greeting.",
-        "Phase 1 — Greeting: Open with a sales pitch about financing before acknowledging who you’re speaking with."
-      ],
-      [
-        "Phase 2 — Set Up the Conversation: Promise medical diagnosis and treatment advice during this call.",
-        "Phase 2 — Set Up the Conversation: Do not ask how you can help; demand email, DOB, and address first without explanation.",
-        "Phase 2 — Set Up the Conversation: Say your role is to enroll them in financing and insurance claims—not to guide or inform.",
-        "Phase 2 — Set Up the Conversation: Ignore the option to skip ahead when they want to schedule; keep them in a long qualification."
-      ]
-    ],
     "qualification_checks": [
       [
         "Phase 1 — Initial Qualification: Handle non‑consult requests (e.g., records, legal, prescriptions) yourself instead of transferring.",
