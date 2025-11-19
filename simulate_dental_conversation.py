@@ -471,6 +471,47 @@ def parse_agent_output(text: str) -> tuple[str, dict[str, Any]]:
     return reply, analysis
 
 
+# ---------- Inline style judge/rewrite helpers (optional) ----------
+
+def _format_conv_for_prompt(message_pairs: List[dict]) -> str:
+    lines: List[str] = []
+    for i, m in enumerate(message_pairs):
+        role = str(m.get("role", "")).upper()
+        content = str(m.get("content", ""))
+        lines.append(f"{i} | {role}: {content}")
+    return "\n".join(lines)
+
+
+def _build_single_message_judge_prompt(role: str, message: str, ref_conv_text: str) -> str:
+    return (
+        "You are a conversation style judge. Evaluate ONE message's tone/wording/vibe against the reference conversation provided.\n"
+        "Focus on conversational realism: spontaneity, disfluencies, rhythm, contractions, hedges, natural punctuation, brevity/verbosity balance, and domain-appropriate phrasing.\n"
+        "Ignore factual correctness and task outcomes; judge style only.\n\n"
+        "Return strict JSON only, no commentary.\n"
+        "{\n"
+        "  \"pass\": true|false,\n"
+        "  \"confidence\": <float 0..1>,\n"
+        "  \"advice\": \"<if fail, concise advice to make it feel more real; if pass, short affirmation>\"\n"
+        "}\n\n"
+        f"ROLE: {role.upper()}\n"
+        f"CANDIDATE_MESSAGE: {message}\n\n"
+        "REFERENCE_CONVERSATION (style exemplar):\n" + ref_conv_text + "\n"
+    )
+
+
+def _build_single_message_rewrite_prompt(role: str, message: str, advice: str, context_text: str) -> str:
+    return (
+        "Rewrite the SINGLE message below to better match realistic tone/wording/vibe.\n"
+        "Constraints: keep the same intent and any factual tokens (names, dates, addresses, numbers) exact; do not invent new facts.\n"
+        "Favor slight messiness over polish: mild disfluencies, contractions, hedges, natural punctuation/pauses.\n"
+        "Return strict JSON only: { \"rewrite\": \"<string>\" }.\n\n"
+        f"ROLE: {role.upper()}\n"
+        f"ORIGINAL_MESSAGE: {message}\n"
+        f"JUDGE_ADVICE: {advice}\n\n"
+        "LOCAL_CONTEXT (previous turns for flavor; do not echo):\n" + context_text + "\n"
+    )
+
+
 def normalize_category(cat: str) -> str:
     """Map loose category mentions to dental canonical titles.
 
@@ -532,6 +573,12 @@ def simulate_one(
     seed: int | None,
     call_agent_model,
     call_user_model,
+    # Inline judge/refine controls
+    inline_style_judge: bool = False,
+    judge_model: str | None = None,
+    call_judge_chat=None,
+    real_ref_path: str | None = None,
+    inline_max_iters: int = 3,
     end_with_agent: bool = True,
 ) -> dict[str, Any]:
     rng = random.Random(seed)
@@ -552,11 +599,80 @@ def simulate_one(
     public_messages: List[dict] = []
     mistakes: list[dict[str, Any]] = []
 
+    # Prepare inline judge resources (now only applied to USER messages, not agent messages)
+    ref_text: str = ""
+    if inline_style_judge:
+        assert call_judge_chat is not None and judge_model, "Inline judge requires call_judge_chat and judge_model"
+        assert real_ref_path, "Inline judge requires real_ref_path"
+        try:
+            ref_obj = read_json(real_ref_path)
+            ref_msgs = ref_obj.get("message_list") or ref_obj.get("conversation") or []
+            if not isinstance(ref_msgs, list):
+                ref_msgs = []
+            ref_text = _format_conv_for_prompt(ref_msgs)
+        except Exception:
+            ref_text = ""
+
+    def _judge_message(role: str, msg: str, context_text: str) -> dict[str, Any]:
+        if not inline_style_judge or not ref_text:
+            return {"pass": True, "confidence": 1.0, "advice": ""}
+        user = _build_single_message_judge_prompt(role, msg, ref_text)
+        # context_text is not used by judge, only by rewrites; keeping signature for clarity
+        resp = call_judge_chat(judge_model, [
+            {"role": "system", "content": "You are a precise, style-focused judge."},
+            {"role": "user", "content": user},
+        ])
+        try:
+            # lightweight JSON extract
+            txt = resp.strip()
+            if txt.startswith("```"):
+                parts = txt.split("```")
+                if len(parts) >= 2:
+                    body = parts[1]
+                    if body.startswith("json"):
+                        body = body[len("json"):]
+                    txt = body.strip()
+            import json as _json
+            d = _json.loads(txt)
+            return {"pass": bool(d.get("pass", False)), "confidence": float(d.get("confidence", 0.0)), "advice": str(d.get("advice", "")).strip(), "raw": resp}
+        except Exception:
+            return {"pass": False, "confidence": 0.0, "advice": resp[:300], "raw": resp}
+
+    def _rewrite_message(role: str, msg: str, advice: str, context_text: str) -> str:
+        if not inline_style_judge:
+            return msg
+        user = _build_single_message_rewrite_prompt(role, msg, advice, context_text)
+        resp = call_judge_chat(judge_model, [
+            {"role": "system", "content": "Improve conversational realism while preserving meaning and exact facts."},
+            {"role": "user", "content": user},
+        ])
+        # Try to parse JSON {"rewrite": "..."}
+        try:
+            txt = resp.strip()
+            if txt.startswith("```"):
+                parts = txt.split("```")
+                if len(parts) >= 2:
+                    body = parts[1]
+                    if body.startswith("json"):
+                        body = body[len("json"):]
+                    txt = body.strip()
+            import json as _json
+            d = _json.loads(txt)
+            rw = d.get("rewrite", "")
+            if isinstance(rw, str) and rw.strip():
+                return rw.strip()
+        except Exception:
+            pass
+        return resp.strip() if resp.strip() else msg
+
+    def _context_text() -> str:
+        return _format_conv_for_prompt(public_messages)
+
     terminate = False
     for turn in range(max_turns):
-        # Agent turn
-        agent_reply, analysis = call_agent_model(agent_sys, public_messages)
-        public_messages.append({"role": "assistant", "content": agent_reply})
+        # Agent turn (no inline style refinement; use raw reply directly)
+        agent_reply_raw, analysis = call_agent_model(agent_sys, public_messages)
+        public_messages.append({"role": "assistant", "content": agent_reply_raw})
 
         # Use agent's analysis to label mistakes (strictly require exact Category/Key and valid phase)
         if isinstance(analysis, dict) and analysis.get("correctness", "").lower() == "mistake":
@@ -584,7 +700,7 @@ def simulate_one(
                     "guidance category": cat,
                     "guidance key": key,
                     "guideline_phase": (phase_num if cat == "Category 2: Step-by-Step Workflow" else -1),
-                    "evidence": agent_reply,
+                    "evidence": agent_reply_raw,
                 })
 
         # Check termination signal or auto-terminate on actual human handoff
@@ -598,8 +714,19 @@ def simulate_one(
             break
 
         # Caller turn
-        user_reply = call_user_model(user_sys, public_messages)
-        user_reply = re.sub(r"^\s*Caller\s*:\s*", "", user_reply.strip(), flags=re.IGNORECASE)
+        user_reply_raw = call_user_model(user_sys, public_messages)
+        user_reply = re.sub(r"^\s*Caller\s*:\s*", "", user_reply_raw.strip(), flags=re.IGNORECASE)
+
+        # Inline judge/refine ONLY for USER message
+        if inline_style_judge:
+            attempts = 0
+            while attempts < inline_max_iters:
+                jres = _judge_message("user", user_reply, _context_text())
+                if jres.get("pass", False):
+                    break
+                user_reply = _rewrite_message("user", user_reply, jres.get("advice", ""), _context_text())
+                attempts += 1
+
         public_messages.append({"role": "user", "content": user_reply})
 
     # No forced violation injection; rely solely on the model's behavior.
@@ -651,6 +778,11 @@ def main(argv: Iterable[str] | None = None) -> int:
     parser.add_argument("--provider", choices=["azure", "bedrock"], default="azure", help="LLM provider to use")
     parser.add_argument("--agent-model", default="gpt-5", help="Agent model (Azure deployment or Bedrock modelId)")
     parser.add_argument("--user-model", default="gpt-4o", help="User simulator model (Azure deployment or Bedrock modelId)")
+    # Inline style judge options
+    parser.add_argument("--inline-style-judge", action="store_true", help="Inline judge/refine each generated message against a real reference conversation style")
+    parser.add_argument("--real-ref", default="", help="Reference conversation JSON used as style exemplar for inline judge mode")
+    parser.add_argument("--inline-max-iters", type=int, default=3, help="Max judge/rewrite attempts per message when inline judge is enabled")
+    parser.add_argument("--judge-model", default="gpt-4o", help="Model for inline judge/rewrite (Azure deployment or Bedrock modelId)")
     args = parser.parse_args(list(argv) if argv is not None else None)
 
     # Load dental guidelines
@@ -671,6 +803,7 @@ def main(argv: Iterable[str] | None = None) -> int:
     total = len(persona_files)
 
     call_agent_model, call_user_model = call_models_factory(args.provider, args.agent_model, args.user_model)
+    call_judge_chat = _get_chat_caller(args.provider)
 
     def _run_one(pth: str) -> str:
         convo = simulate_one(
@@ -682,6 +815,11 @@ def main(argv: Iterable[str] | None = None) -> int:
             seed=args.seed,
             call_agent_model=call_agent_model,
             call_user_model=call_user_model,
+            inline_style_judge=bool(args.inline_style_judge),
+            judge_model=args.judge_model,
+            call_judge_chat=call_judge_chat,
+            real_ref_path=(args.real_ref or None),
+            inline_max_iters=int(args.inline_max_iters),
             end_with_agent=True,
         )
         out_name = os.path.splitext(os.path.basename(pth))[0] + ".json"
