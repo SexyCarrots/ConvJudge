@@ -181,6 +181,22 @@ def compute_metrics(pred: set[VKey], truth: set[VKey]) -> tuple[float, float, fl
     return precision, recall, f1, sorted(tp_set, key=lambda x: x.turn_index), sorted(fp_set, key=lambda x: x.turn_index), sorted(fn_set, key=lambda x: x.turn_index)
 
 
+def compute_turn_metrics(pred: set[VKey], truth: set[VKey]) -> tuple[float, float, float, list[int], list[int], list[int]]:
+    """Looser metrics that only care about picking the right turn index."""
+    pred_turns = {p.turn_index for p in pred}
+    truth_turns = {t.turn_index for t in truth}
+    tp_set = pred_turns & truth_turns
+    fp_set = pred_turns - truth_turns
+    fn_set = truth_turns - pred_turns
+    tp = len(tp_set)
+    fp = len(fp_set)
+    fn = len(fn_set)
+    precision = tp / (tp + fp) if (tp + fp) > 0 else 0.0
+    recall = tp / (tp + fn) if (tp + fn) > 0 else 0.0
+    f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0
+    return precision, recall, f1, sorted(tp_set), sorted(fp_set), sorted(fn_set)
+
+
 def evaluate_one(model: str, oracle: dict[str, Any], convo_path: Path, out_dir: Path) -> dict[str, Any]:
     with convo_path.open("r", encoding="utf-8") as f:
         convo = json.load(f)
@@ -209,6 +225,7 @@ def evaluate_one(model: str, oracle: dict[str, Any], convo_path: Path, out_dir: 
     truth_keys = {VKey.from_truth(it) for it in truth_list}
 
     precision, recall, f1, tp, fp, fn = compute_metrics(pred_keys, truth_keys)
+    turn_precision, turn_recall, turn_f1, turn_tp, turn_fp, turn_fn = compute_turn_metrics(pred_keys, truth_keys)
 
     payload = {
         "conversation_file": str(convo_path),
@@ -221,6 +238,12 @@ def evaluate_one(model: str, oracle: dict[str, Any], convo_path: Path, out_dir: 
         "precision": precision,
         "recall": recall,
         "f1": f1,
+        "turn_only_precision": turn_precision,
+        "turn_only_recall": turn_recall,
+        "turn_only_f1": turn_f1,
+        "turn_true_positive": turn_tp,
+        "turn_false_positive": turn_fp,
+        "turn_false_negative": turn_fn,
         "model_response_text": response_text,
     }
 
@@ -237,6 +260,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     parser.add_argument("--guidelines", default="guidelines/airlines/oracle.json", help="Path to oracle guidelines.")
     parser.add_argument("--data-dir", default="dump/simulated_conv", help="Directory of simulated conversations.")
     parser.add_argument("--output-dir", default="dump/eval_simulated", help="Directory to write evaluation outputs.")
+    parser.add_argument("--limit", type=int, default=None, help="Evaluate only the first N conversations.")
     args = parser.parse_args(list(argv) if argv is not None else None)
 
     guidelines_path = Path(args.guidelines)
@@ -254,6 +278,8 @@ def main(argv: Sequence[str] | None = None) -> int:
     if not convo_files:
         print(f"No simulated conversations in {data_dir}")
         return 0
+    if args.limit and args.limit > 0:
+        convo_files = convo_files[: args.limit]
 
     # Create a run-specific directory per model
     timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
@@ -267,7 +293,11 @@ def main(argv: Sequence[str] | None = None) -> int:
         try:
             res = evaluate_one(args.model, oracle, path, run_dir)
             results.append(res)
-            print(f"Evaluated {path.name}: P={res['precision']:.2f} R={res['recall']:.2f} F1={res['f1']:.2f}")
+            print(
+                f"Evaluated {path.name}: "
+                f"P={res['precision']:.2f} R={res['recall']:.2f} F1={res['f1']:.2f} | "
+                f"Turn-only P={res['turn_only_precision']:.2f} R={res['turn_only_recall']:.2f} F1={res['turn_only_f1']:.2f}"
+            )
         except Exception as exc:  # keep going
             print(f"Failed on {path}: {exc}")
 
@@ -278,10 +308,16 @@ def main(argv: Sequence[str] | None = None) -> int:
     P = [r["precision"] for r in results]
     R = [r["recall"] for r in results]
     F = [r["f1"] for r in results]
+    TP = [r["turn_only_precision"] for r in results]
+    TR = [r["turn_only_recall"] for r in results]
+    TF = [r["turn_only_f1"] for r in results]
     macro = {
         "macro_precision": sum(P) / len(P),
         "macro_recall": sum(R) / len(R),
         "macro_f1": sum(F) / len(F),
+        "macro_turn_only_precision": sum(TP) / len(TP),
+        "macro_turn_only_recall": sum(TR) / len(TR),
+        "macro_turn_only_f1": sum(TF) / len(TF),
         "num_samples": len(results),
     }
     summary_path = run_dir / "summary.json"
@@ -289,7 +325,21 @@ def main(argv: Sequence[str] | None = None) -> int:
         json.dump(macro, f, ensure_ascii=False, indent=2)
     # Summary CSV similar to evaluate_gpt_model.py
     csv_path = run_dir / "evaluation_summary.csv"
-    columns = ["conversation_file", "precision", "recall", "f1", "tp", "fp", "fn"]
+    columns = [
+        "conversation_file",
+        "precision",
+        "recall",
+        "f1",
+        "tp",
+        "fp",
+        "fn",
+        "turn_precision",
+        "turn_recall",
+        "turn_f1",
+        "turn_tp",
+        "turn_fp",
+        "turn_fn",
+    ]
     with csv_path.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=columns)
         writer.writeheader()
@@ -297,6 +347,9 @@ def main(argv: Sequence[str] | None = None) -> int:
             tp = len(r.get("true_positive", []))
             fp = len(r.get("false_positive", []))
             fn = len(r.get("false_negative", []))
+            turn_tp = len(r.get("turn_true_positive", []))
+            turn_fp = len(r.get("turn_false_positive", []))
+            turn_fn = len(r.get("turn_false_negative", []))
             writer.writerow(
                 {
                     "conversation_file": r.get("conversation_file", ""),
@@ -306,6 +359,12 @@ def main(argv: Sequence[str] | None = None) -> int:
                     "tp": tp,
                     "fp": fp,
                     "fn": fn,
+                    "turn_precision": f"{r['turn_only_precision']:.6f}",
+                    "turn_recall": f"{r['turn_only_recall']:.6f}",
+                    "turn_f1": f"{r['turn_only_f1']:.6f}",
+                    "turn_tp": turn_tp,
+                    "turn_fp": turn_fp,
+                    "turn_fn": turn_fn,
                 }
             )
         writer.writerow(
@@ -317,10 +376,19 @@ def main(argv: Sequence[str] | None = None) -> int:
                 "tp": sum(len(r.get("true_positive", [])) for r in results),
                 "fp": sum(len(r.get("false_positive", [])) for r in results),
                 "fn": sum(len(r.get("false_negative", [])) for r in results),
+                "turn_precision": f"{macro['macro_turn_only_precision']:.6f}",
+                "turn_recall": f"{macro['macro_turn_only_recall']:.6f}",
+                "turn_f1": f"{macro['macro_turn_only_f1']:.6f}",
+                "turn_tp": sum(len(r.get("turn_true_positive", [])) for r in results),
+                "turn_fp": sum(len(r.get("turn_false_positive", [])) for r in results),
+                "turn_fn": sum(len(r.get("turn_false_negative", [])) for r in results),
             }
         )
     print(
-        f"Macro P={macro['macro_precision']:.2f} R={macro['macro_recall']:.2f} F1={macro['macro_f1']:.2f} over {macro['num_samples']} files."
+        "Macro "
+        f"P={macro['macro_precision']:.2f} R={macro['macro_recall']:.2f} F1={macro['macro_f1']:.2f} | "
+        f"Turn-only P={macro['macro_turn_only_precision']:.2f} R={macro['macro_turn_only_recall']:.2f} F1={macro['macro_turn_only_f1']:.2f} "
+        f"over {macro['num_samples']} files."
     )
     return 0
 

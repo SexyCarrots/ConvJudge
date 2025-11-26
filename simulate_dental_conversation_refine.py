@@ -5,9 +5,8 @@ Loads parameters from `dental_conversation_config.yaml` so you don't need long C
 Original logic preserved in `simulate_dental_conversation_original.py`.
 """
 from __future__ import annotations
-import os, json, yaml, random, sys, math, re, traceback
+import os, json, yaml, random, sys, math, re, traceback, asyncio
 from typing import Any, List, Iterable, Tuple
-import concurrent.futures as _futures
 
 # Reuse original implementations
 import simulate_dental_conversation as base
@@ -248,7 +247,7 @@ def run_from_config(cfg: dict[str, Any]) -> None:
     real_ref = cfg.get("real_ref", "") or None
     inline_max_iters = int(cfg.get("inline_max_iters", 3))
     style_ref_user_sample_size = int(cfg.get("style_ref_user_sample_size", 8))  # number of USER messages sampled per simulation (default 8 per request)
-    workers = int(cfg.get("workers", 5))
+    max_concurrency = int(cfg.get("max_concurrency", cfg.get("workers", 5)))  # fall back to legacy workers key
     output_dir = cfg.get("output_dir", "dump/simulated_conv_refine")
     limit = int(cfg.get("limit", 0))
     no_progress = bool(cfg.get("no_progress", False))
@@ -337,33 +336,43 @@ def run_from_config(cfg: dict[str, Any]) -> None:
         base.write_json(out_path, convo)
         return out_path
 
-    workers = max(1, workers)
-    if workers == 1:
-        for p in _iter_progress(persona_files, total, use_progress):
-            out_path = _run_one(p)
-            if not use_progress:
-                print(f"Wrote: {out_path}")
+    max_concurrency = max(1, max_concurrency)
+    if tqdm is not None and use_progress:
+        pbar = tqdm(total=total, desc="Refining", unit="conv")
     else:
-        if tqdm is not None and use_progress:
-            pbar = tqdm(total=total, desc="Refining", unit="conv")
-        else:
-            pbar = None
-        with _futures.ThreadPoolExecutor(max_workers=workers) as ex:
-            fut_map = {ex.submit(_run_one, p): p for p in persona_files}
-            for fut in _futures.as_completed(fut_map):
-                p = fut_map[fut]
-                try:
-                    out_path = fut.result()
-                    if not use_progress:
-                        print(f"Wrote: {out_path}")
-                except Exception:
-                    print(f"Error generating {p}", file=sys.stderr)
-                    print(traceback.format_exc(), file=sys.stderr)
-                finally:
-                    if pbar is not None:
-                        pbar.update(1)
+        pbar = None
+
+    async def _runner() -> None:
+        sem = asyncio.Semaphore(max_concurrency)
+        manual_count = 0
+
+        async def run_one_async(p: str):
+            async with sem:
+                return p, await asyncio.to_thread(_run_one, p)
+
+        tasks = [asyncio.create_task(run_one_async(p), name=p) for p in persona_files]
+        for coro in asyncio.as_completed(tasks):
+            try:
+                p, out_path = await coro
+                if not use_progress:
+                    print(f"Wrote: {out_path}")
+            except Exception as exc:
+                task_name = coro.get_name() if hasattr(coro, "get_name") else "unknown"
+                print(f"Error generating {task_name}", file=sys.stderr)
+                print(traceback.format_exc(), file=sys.stderr)
+            finally:
+                manual_count += 1
+                if pbar is not None:
+                    pbar.update(1)
+                elif use_progress:
+                    print(f"Refining: {manual_count}/{total}", end="\r", flush=True)
+
         if pbar is not None:
             pbar.close()
+        elif use_progress:
+            print()
+
+    asyncio.run(_runner())
 
 
 def _iter_progress(items: List[str], total: int, enabled: bool):
