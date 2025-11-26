@@ -1,0 +1,156 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "curious",
+  "language_proficiency": "ESL_mild",
+  "prefers_human_agent": "medium",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "high",
+  "title": "Ms",
+  "first_name": "Mia",
+  "last_name": "Thomas",
+  "gender": "M",
+  "date_of_birth": "1966-01-24",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "0074748565",
+  "email_address": "mia.thomas@inbox.dev",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "9192 Elm St",
+    "city": "Denver",
+    "state": "CO",
+    "zip_code": "87584"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "bridge"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": true,
+    "foods_avoided": [
+      "nuts"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Los Angeles",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "75292",
+    "preferred_date": "2025-11-28",
+    "preferred_time_window": "midday",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "unknown",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "double_consult_request",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": true,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 1,
+    "conscientiousness": 3,
+    "extraversion": 1,
+    "agreeableness": 2,
+    "neuroticism": 3,
+    "positive_traits": [
+      "optimistic",
+      "thorough",
+      "calm",
+      "decisive"
+    ],
+    "negative_traits": [
+      "perfectionistic",
+      "indecisive",
+      "avoidant"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "competing",
+    "decision_style": "deliberative",
+    "trust_sales": "medium",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "rushed_explanations"
+    ],
+    "motivations": [
+      "doctor_recommendation",
+      "speak_clearly",
+      "eat_comfortably"
+    ],
+    "fears": [
+      "cost",
+      "failure_of_implants",
+      "surgery",
+      "pain"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments",
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 50,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [
+      "financing_denied",
+      "painful_previous_procedure"
+    ],
+    "barriers": [
+      "work_shift",
+      "childcare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 70,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "low",
+    "financing_comfort": "high",
+    "pain_tolerance": "medium",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Jordan Allen",
+  "privacy_policy_ack": true,
+  "id": 2394
+}

@@ -1,0 +1,154 @@
+{
+  "intent": "learn_treatment_options",
+  "tone": "anxious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "high",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "low",
+  "title": "Mr",
+  "first_name": "Emma",
+  "last_name": "Smith",
+  "gender": "M",
+  "date_of_birth": "1982-11-27",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "3148380731",
+  "email_address": "emma.smith@mail.com",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "2011 Cedar Ln",
+    "city": "Denver",
+    "state": "CO",
+    "zip_code": "73754"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "denture",
+      "dental implants"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 1,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Phoenix",
+    "preferred_center_state": "AZ",
+    "preferred_center_zip": "14132",
+    "preferred_date": "2025-12-01",
+    "preferred_time_window": "midday",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": true
+  },
+  "handoff": {
+    "trigger": "double_consult_request",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": true,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 2,
+    "extraversion": 2,
+    "agreeableness": 1,
+    "neuroticism": 5,
+    "positive_traits": [
+      "thorough",
+      "curious",
+      "resilient",
+      "punctual"
+    ],
+    "negative_traits": [
+      "stubborn",
+      "impulsive"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "collaborating",
+    "decision_style": "seeks_reassurance",
+    "trust_sales": "low",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "rushed_explanations",
+      "overuse_of_jargon",
+      "hidden_fees"
+    ],
+    "motivations": [
+      "doctor_recommendation",
+      "special_event"
+    ],
+    "fears": [
+      "failure_of_implants",
+      "surgery",
+      "time_off_work",
+      "anesthesia"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "student",
+    "work_schedule_constraint": "unemployed",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 70,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [
+      "missed_followup_call",
+      "billing_dispute"
+    ],
+    "barriers": [
+      "past_bad_experience",
+      "work_shift"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "high",
+    "pain_tolerance": "medium",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Zoe Young",
+  "privacy_policy_ack": true,
+  "id": 4995
+}

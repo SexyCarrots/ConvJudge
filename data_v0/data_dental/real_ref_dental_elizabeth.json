@@ -134,6 +134,176 @@
       "turn_index": 26,
       "role": "assistant",
       "content": "Absolutely, Elizabeth—I understand you need to get to work. Most ClearChoice centers are open Monday through Friday, and some locations may also offer limited Saturday hours. When you’re ready, just give us a call back, and we’ll be here to help you schedule your free consultation and answer any other questions you might have. Thank you so much for sharing your story with me today. I hope you have a wonderful day at work."
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "Yes. I guess, like, apples. Have been hard to eat."
+    },
+       {
+      "turn_index": 25,
+      "role": "user",
+      "content": "Hi, Ashley. You're speaking with Ibnna."
+    },
+       {
+      "turn_index": 25,
+      "role": "user",
+      "content": "Yes. I am looking for a consultation about dental implants."
+    },
+       {
+      "turn_index": 25,
+      "role": "user",
+      "content": "Yeah. I wanna schedule a consultation"
+    },
+       {
+      "turn_index": 25,
+      "role": "user",
+      "content": "Thanks. Yeah. I I guess what I'm trying to do is avoid dentures because when I think about dentures, I think of, like, my grandparents, and they were, like, kinda scary, and they would come out, and they didn't look like real teeth. So do these come out?"
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "Well, maybe. I don't know. I'm I'm kinda just curious. I saw your commercial about, like, teeth in a day, and I'm wondering is that real? I I I don't know how that works."
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "You know, this sounds expensive. How much does this cost?"
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "Oh, did you say that you don't take insurance?"
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "You know, I just had a a question pop up in my mind. I'm a little bit worried about, like, the pain. It sounds like I mean, it looks beautiful when I see the commercials, but does it hurt?"
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "How do I know if I'm a can how do I know if I'm a candidate for treatment?"
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "I actually have to go. I'll call back in the future. Thank you."
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "Yeah. I think I want implants. I saw that you guys have, like, teeth in a day. So I I think I need to get that done."
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "I I have a few missing teeth from an accident when I was little, and I've been wearing, like, a bridge. But it's, it just doesn't look good, and it's not fitting good. And I I think well, I saw the commercial, and I think I need implants instead. I just need my teeth fixed."
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "No. I've just had the bridge, but, you know, I have had done a tell me before that, like, I'm gonna need you know, a denture when I'm older, and I just don't want that. Rather something that looks really good. I'm kind of embarrassed by my smile."
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "no, I'm not in any pain, but I'm I'm more so know where you guys are located, and I'm I'm wondering how close you are. Where would I go?"
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "oh, I'm sorry. It's 120 12042. South 70 fifth Avenue. And that's Palos Heights 60463."
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "Yeah. No. I have a question. I I suspect that this treatment is really expensive. Do you know how much it costs?"
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "Yeah. I have insurance. I just didn't think it covers much for implants. So, yeah, I wanna figure out how I'm gonna pay for this."
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "No. I think well, I don't no. I think that's fine for now. I guess what I'm trying to decide is, like, my dentist might be able to do implants, but your commercial just looks so good. So I don't know if I should I have an appointment coming up with my dentist. I'm just wondering if I should go there and and see if they can do the work because I know they're right here in my neighborhood."
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "Yeah. I I probably should just come in because, yeah, I'm gonna have to see what what your doctors can do and, like, what my doctor is is gonna be able to do. You know what? I I have to head into work right now, though, so I'll give you guys a callback"
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "I am interested in dental implants and heard about your denture trade in program."
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "I'm still having my teeth. So the gum disease, some of the teeth are really loose. Where I feel like it's not gonna I mean, they're so weak, so I haven't I haven't I haven't haven't I haven't taken out with teeth yet."
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "I mean, I did a little bit homework, and and then what what what I what I what I'm seeing everywhere is that other providers their prices are lower and the quality is better. Can you help me understand what makes ClearChoice stand out?"
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "Not yet. The other question that I have is like, I read that ClearChoice, the treatment takes, like, 6 to 10 months. And then and then also you are advertising lifetime warranty. And you did not mention this."
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "Yeah. I'm looking for, I think, implants. I seen your commercials, and they they look great. I'm just I'm so unhappy with my my teeth, and I have a big event coming up."
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "Yeah. I have my teeth are just terrible, but I have a missing tooth right in the front that's just, like, so embarrassing. I had a bridge, but it's it's broken. And now, like, when I I'm like, I don't wanna smile."
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "But I I just think it's getting so bad. You know, the bridge broke. I'm worried that maybe the rest of my teeth are in a bad state too. It's been a long time since I've been to the dentist. So I I just worry because I know this is expensive. I don't know that my insurance is gonna cover much."
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "Now the commercial said I could get I think, saw teeth in a day. Is that for real? Can I really get my teeth in a day?"
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "You know what? I actually have to run for another appointment. Thanks for the help. I'll call back later."
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "Just trying to learn more about ClearChoice."
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "Sure. How does the process work?"
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "Do you guys take my insurance?"
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "That's a great"
+    },
+    {
+      "turn_index": 25,
+      "role": "user",
+      "content": "I don't know if he's okay."
     }
   ]
 }

@@ -1,0 +1,147 @@
+{
+  "intent": "learn_treatment_options",
+  "tone": "anxious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "high",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "low",
+  "title": "Mr",
+  "first_name": "Olivia",
+  "last_name": "Clark",
+  "gender": "F",
+  "date_of_birth": "1973-07-16",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "3997203997",
+  "email_address": "olivia.clark@inbox.dev",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "9001 Pine Rd",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip_code": "52003"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Chicago",
+    "preferred_center_state": "IL",
+    "preferred_center_zip": "45248",
+    "preferred_date": "2025-12-09",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "no",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 5,
+    "extraversion": 1,
+    "agreeableness": 4,
+    "neuroticism": 2,
+    "positive_traits": [
+      "punctual",
+      "disciplined"
+    ],
+    "negative_traits": [
+      "perfectionistic",
+      "defensive"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "collaborating",
+    "decision_style": "deliberative",
+    "trust_sales": "medium",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "hidden_fees",
+      "pushy_sales"
+    ],
+    "motivations": [
+      "family_encouragement",
+      "eat_comfortably",
+      "speak_clearly",
+      "look_younger"
+    ],
+    "fears": [
+      "judgment",
+      "failure_of_implants",
+      "time_off_work"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments",
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 39,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 5000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "childcare",
+      "fear_of_dentist"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 70,
+    "cancellation_probability": 15,
+    "no_show_risk": "medium",
+    "price_sensitivity": "high",
+    "financing_comfort": "medium",
+    "pain_tolerance": "high",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 1637
+}

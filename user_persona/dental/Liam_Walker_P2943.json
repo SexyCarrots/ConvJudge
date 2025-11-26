@@ -1,0 +1,156 @@
+{
+  "intent": "check_eligibility",
+  "tone": "decisive",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "high",
+  "title": "Mx",
+  "first_name": "Liam",
+  "last_name": "Walker",
+  "gender": "F",
+  "date_of_birth": "1957-02-23",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "5639690052",
+  "email_address": "liam.walker@inbox.dev",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "5436 2nd St",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip_code": "93668"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": true,
+    "foods_avoided": [
+      "crusty bread",
+      "steak"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Seattle",
+    "preferred_center_state": "WA",
+    "preferred_center_zip": "73564",
+    "preferred_date": "2025-11-29",
+    "preferred_time_window": "evening",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Blue Cross",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 3,
+    "conscientiousness": 1,
+    "extraversion": 5,
+    "agreeableness": 4,
+    "neuroticism": 3,
+    "positive_traits": [
+      "empathetic",
+      "optimistic",
+      "punctual"
+    ],
+    "negative_traits": [
+      "avoidant",
+      "indecisive",
+      "distrustful",
+      "defensive"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "avoiding",
+    "decision_style": "deliberative",
+    "trust_sales": "low",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "pushy_sales",
+      "rushed_explanations",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "special_event",
+      "family_encouragement"
+    ],
+    "fears": [
+      "time_off_work",
+      "failure_of_implants",
+      "anesthesia",
+      "surgery"
+    ],
+    "dealbreakers": [
+      "no_long_waits"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "retired",
+    "work_schedule_constraint": "unemployed",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 30,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [
+      "financing_denied",
+      "billing_dispute"
+    ],
+    "barriers": [
+      "transport",
+      "past_bad_experience",
+      "work_shift"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "low",
+    "financing_comfort": "medium",
+    "pain_tolerance": "high",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Alex Garcia",
+  "privacy_policy_ack": true,
+  "id": 2943
+}

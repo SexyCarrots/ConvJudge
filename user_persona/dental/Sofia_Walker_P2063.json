@@ -1,0 +1,158 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "decisive",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "medium",
+  "title": "Mx",
+  "first_name": "Sofia",
+  "last_name": "Walker",
+  "gender": "X",
+  "date_of_birth": "2010-02-01",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "4411423020",
+  "email_address": "sofia.walker@test.org",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "2394 Maple Ave",
+    "city": "Philadelphia",
+    "state": "PA",
+    "zip_code": "75393"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "crown"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 3,
+    "eating_issues": true,
+    "foods_avoided": [
+      "nuts",
+      "corn on the cob"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Chicago",
+    "preferred_center_state": "IL",
+    "preferred_center_zip": "81907",
+    "preferred_date": "2025-11-30",
+    "preferred_time_window": "morning",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "under_18_dob",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": true,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 1,
+    "extraversion": 5,
+    "agreeableness": 2,
+    "neuroticism": 1,
+    "positive_traits": [
+      "cooperative",
+      "calm",
+      "decisive",
+      "resilient"
+    ],
+    "negative_traits": [
+      "indecisive",
+      "impulsive",
+      "anxious"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "competing",
+    "decision_style": "seeks_reassurance",
+    "trust_sales": "low",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "overuse_of_jargon",
+      "hidden_fees",
+      "rushed_explanations"
+    ],
+    "motivations": [
+      "speak_clearly",
+      "doctor_recommendation",
+      "look_younger",
+      "eat_comfortably"
+    ],
+    "fears": [
+      "pain",
+      "time_off_work",
+      "surgery",
+      "cost"
+    ],
+    "dealbreakers": [
+      "no_long_waits"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "children",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 33,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [
+      "financing_denied",
+      "billing_dispute"
+    ],
+    "barriers": [
+      "past_bad_experience"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 15,
+    "no_show_risk": "medium",
+    "price_sensitivity": "medium",
+    "financing_comfort": "high",
+    "pain_tolerance": "medium",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Taylor Lewis",
+  "privacy_policy_ack": true,
+  "id": 2063
+}

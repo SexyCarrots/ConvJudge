@@ -1,0 +1,153 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "polite",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "low",
+  "title": "Mx",
+  "first_name": "Ethan",
+  "last_name": "Brown",
+  "gender": "M",
+  "date_of_birth": "1988-03-20",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "0730873728",
+  "email_address": "ethan.brown@inbox.dev",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "7855 Cedar Ln",
+    "city": "San Antonio",
+    "state": "TX",
+    "zip_code": "99138"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "partial denture"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Austin",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "70050",
+    "preferred_date": "2025-11-30",
+    "preferred_time_window": "early morning",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "both",
+    "insurance_provider": "Cigna",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": true,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "double_consult_request",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": true,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 3,
+    "conscientiousness": 2,
+    "extraversion": 5,
+    "agreeableness": 5,
+    "neuroticism": 3,
+    "positive_traits": [
+      "thorough",
+      "punctual",
+      "calm",
+      "empathetic"
+    ],
+    "negative_traits": [
+      "perfectionistic",
+      "indecisive",
+      "defensive"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "compromising",
+    "decision_style": "seeks_reassurance",
+    "trust_sales": "low",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "rushed_explanations",
+      "hidden_fees",
+      "pushy_sales"
+    ],
+    "motivations": [
+      "doctor_recommendation",
+      "speak_clearly"
+    ],
+    "fears": [
+      "anesthesia",
+      "failure_of_implants",
+      "cost",
+      "downtime"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments",
+      "transparent_pricing"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 63,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 12000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "work_shift",
+      "transport",
+      "eldercare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "medium",
+    "pain_tolerance": "medium",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Ava Martinez",
+  "privacy_policy_ack": true,
+  "id": 2783
+}

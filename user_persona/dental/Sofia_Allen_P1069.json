@@ -1,0 +1,149 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "anxious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "medium",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "high",
+  "title": "Ms",
+  "first_name": "Sofia",
+  "last_name": "Allen",
+  "gender": "M",
+  "date_of_birth": "1966-12-17",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "1389075818",
+  "email_address": "sofia.allen@mail.com",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "9816 Elm St",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip_code": "77496"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "San Jose",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "59564",
+    "preferred_date": "2025-11-25",
+    "preferred_time_window": "evening",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "MetLife",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 1,
+    "conscientiousness": 4,
+    "extraversion": 5,
+    "agreeableness": 1,
+    "neuroticism": 5,
+    "positive_traits": [
+      "resilient",
+      "punctual",
+      "cooperative"
+    ],
+    "negative_traits": [
+      "impulsive",
+      "impatient",
+      "skeptical"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "avoiding",
+    "decision_style": "seeks_reassurance",
+    "trust_sales": "medium",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "hidden_fees"
+    ],
+    "motivations": [
+      "family_encouragement",
+      "avoid_future_pain",
+      "restore_confidence",
+      "special_event"
+    ],
+    "fears": [
+      "time_off_work",
+      "cost",
+      "surgery"
+    ],
+    "dealbreakers": [
+      "transparent_pricing",
+      "only_weekend_appointments"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "elderly",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 44,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "fear_of_dentist",
+      "language",
+      "past_bad_experience"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Ava Garcia",
+  "privacy_policy_ack": true,
+  "id": 1069
+}

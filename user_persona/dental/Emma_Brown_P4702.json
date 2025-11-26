@@ -1,0 +1,156 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "curious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "high",
+  "title": "Mx",
+  "first_name": "Emma",
+  "last_name": "Brown",
+  "gender": "X",
+  "date_of_birth": "1955-12-20",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "8656716314",
+  "email_address": "emma.brown@example.com",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "1561 Cedar Ln",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "36147"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "crown",
+      "partial denture"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": true,
+    "foods_avoided": [
+      "corn on the cob",
+      "steak"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Philadelphia",
+    "preferred_center_state": "PA",
+    "preferred_center_zip": "92512",
+    "preferred_date": "2025-11-27",
+    "preferred_time_window": "early morning",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Aetna",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "fraudulent_loan",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "fraudulent_loan",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 4,
+    "conscientiousness": 1,
+    "extraversion": 3,
+    "agreeableness": 3,
+    "neuroticism": 4,
+    "positive_traits": [
+      "empathetic",
+      "thorough",
+      "resilient",
+      "disciplined"
+    ],
+    "negative_traits": [
+      "anxious",
+      "avoidant",
+      "impatient",
+      "distrustful"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "collaborating",
+    "decision_style": "impulsive",
+    "trust_sales": "high",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "pushy_sales",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "eat_comfortably",
+      "restore_confidence",
+      "speak_clearly"
+    ],
+    "fears": [
+      "surgery",
+      "failure_of_implants",
+      "pain"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 15,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 12000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "language",
+      "time_off",
+      "childcare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "low",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "James Davis",
+  "privacy_policy_ack": true,
+  "id": 4702
+}

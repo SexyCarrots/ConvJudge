@@ -1,0 +1,150 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "impatient",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "medium",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "high",
+  "title": "Ms",
+  "first_name": "James",
+  "last_name": "Clark",
+  "gender": "X",
+  "date_of_birth": "1983-10-13",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "2895168529",
+  "email_address": "james.clark@inbox.dev",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "7810 Oak St",
+    "city": "Columbus",
+    "state": "OH",
+    "zip_code": "27642"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Charlotte",
+    "preferred_center_state": "NC",
+    "preferred_center_zip": "52459",
+    "preferred_date": "2025-12-01",
+    "preferred_time_window": "midday",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "did_not_schedule",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": true,
+    "has_existing_appointment": true,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": true,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 1,
+    "conscientiousness": 2,
+    "extraversion": 2,
+    "agreeableness": 5,
+    "neuroticism": 2,
+    "positive_traits": [
+      "empathetic",
+      "decisive",
+      "cooperative",
+      "calm"
+    ],
+    "negative_traits": [
+      "impatient",
+      "perfectionistic",
+      "defensive",
+      "indecisive"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "avoiding",
+    "decision_style": "seeks_reassurance",
+    "trust_sales": "low",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "hidden_fees",
+      "overuse_of_jargon",
+      "rushed_explanations"
+    ],
+    "motivations": [
+      "look_younger",
+      "family_encouragement",
+      "restore_confidence",
+      "special_event"
+    ],
+    "fears": [
+      "judgment",
+      "pain"
+    ],
+    "dealbreakers": [
+      "transparent_pricing",
+      "no_long_waits"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "both",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 86,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "childcare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 2739
+}

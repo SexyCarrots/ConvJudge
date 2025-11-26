@@ -1,0 +1,152 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "impatient",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "medium",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "high",
+  "title": "Ms",
+  "first_name": "Liam",
+  "last_name": "Walker",
+  "gender": "F",
+  "date_of_birth": "1960-09-21",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "2886394144",
+  "email_address": "liam.walker@inbox.dev",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "5187 Cedar Ln",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "70451"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 1,
+    "eating_issues": true,
+    "foods_avoided": [
+      "steak"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "San Diego",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "76545",
+    "preferred_date": "2025-11-29",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Aetna",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 2,
+    "conscientiousness": 5,
+    "extraversion": 2,
+    "agreeableness": 3,
+    "neuroticism": 2,
+    "positive_traits": [
+      "resilient",
+      "empathetic",
+      "decisive",
+      "curious"
+    ],
+    "negative_traits": [
+      "perfectionistic",
+      "anxious",
+      "impulsive",
+      "distrustful"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "competing",
+    "decision_style": "deliberative",
+    "trust_sales": "low",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "overuse_of_jargon",
+      "rushed_explanations",
+      "hidden_fees"
+    ],
+    "motivations": [
+      "family_encouragement",
+      "restore_confidence",
+      "eat_comfortably",
+      "avoid_future_pain"
+    ],
+    "fears": [
+      "surgery",
+      "time_off_work"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales",
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "none",
+    "transport_access": "rideshare_only",
+    "distance_to_center_minutes": 36,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "eldercare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 15,
+    "no_show_risk": "medium",
+    "price_sensitivity": "medium",
+    "financing_comfort": "low",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Aiden Martinez",
+  "privacy_policy_ack": true,
+  "id": 3183
+}

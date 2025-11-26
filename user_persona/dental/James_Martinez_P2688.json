@@ -1,0 +1,152 @@
+{
+  "intent": "learn_treatment_options",
+  "tone": "polite",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "high",
+  "title": "Mr",
+  "first_name": "James",
+  "last_name": "Martinez",
+  "gender": "F",
+  "date_of_birth": "1979-02-27",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "1609946067",
+  "email_address": "james.martinez@example.com",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "7075 Broadway",
+    "city": "Dallas",
+    "state": "TX",
+    "zip_code": "14898"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "bridge"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "San Diego",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "60266",
+    "preferred_date": "2025-12-11",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Blue Cross",
+    "credit_score_band": "unknown",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "attorney_office_caller",
+    "third_party_role": "attorney",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 1,
+    "extraversion": 4,
+    "agreeableness": 3,
+    "neuroticism": 4,
+    "positive_traits": [
+      "disciplined",
+      "thorough"
+    ],
+    "negative_traits": [
+      "stubborn",
+      "anxious"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "avoiding",
+    "decision_style": "impulsive",
+    "trust_sales": "medium",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "pushy_sales",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "look_younger",
+      "avoid_future_pain",
+      "restore_confidence",
+      "eat_comfortably"
+    ],
+    "fears": [
+      "pain",
+      "failure_of_implants",
+      "judgment"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments",
+      "transparent_pricing"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "retired",
+    "work_schedule_constraint": "unemployed",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 5,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [
+      "missed_followup_call",
+      "feel_talked_down_to"
+    ],
+    "barriers": [
+      "time_off",
+      "fear_of_dentist"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "high",
+    "pain_tolerance": "medium",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "James Martinez",
+  "privacy_policy_ack": true,
+  "id": 2688
+}

@@ -561,7 +561,7 @@ def _persona_filename(first_name: str, last_name: str, pid: int) -> str:
 
 if __name__ == "__main__":
     out_dir = os.path.join("user_persona", "dental")
-    count = 100
+    count = 5000
     _ensure_dir(out_dir)
     for pid in range(1, count + 1):
         persona = generate_dental_persona()

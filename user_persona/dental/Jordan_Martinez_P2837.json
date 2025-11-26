@@ -1,0 +1,153 @@
+{
+  "intent": "check_eligibility",
+  "tone": "curious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "medium",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "high",
+  "title": "Ms",
+  "first_name": "Jordan",
+  "last_name": "Martinez",
+  "gender": "F",
+  "date_of_birth": "1991-11-09",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "3779357268",
+  "email_address": "jordan.martinez@mail.com",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "5421 Pine Rd",
+    "city": "San Diego",
+    "state": "CA",
+    "zip_code": "30449"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 5,
+    "eating_issues": true,
+    "foods_avoided": [
+      "crusty bread",
+      "nuts"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Phoenix",
+    "preferred_center_state": "AZ",
+    "preferred_center_zip": "12939",
+    "preferred_date": "2025-12-08",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "no",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Guardian",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "legal_mail_address",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "legal_mail_address",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 3,
+    "conscientiousness": 2,
+    "extraversion": 1,
+    "agreeableness": 3,
+    "neuroticism": 1,
+    "positive_traits": [
+      "resilient",
+      "optimistic",
+      "disciplined"
+    ],
+    "negative_traits": [
+      "defensive",
+      "impatient"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "avoiding",
+    "decision_style": "delegates",
+    "trust_sales": "low",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "pushy_sales",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "doctor_recommendation",
+      "family_encouragement",
+      "special_event"
+    ],
+    "fears": [
+      "cost",
+      "failure_of_implants",
+      "anesthesia",
+      "surgery"
+    ],
+    "dealbreakers": [
+      "no_long_waits",
+      "transparent_pricing"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 13,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 5000,
+    "previous_negative_experiences": [
+      "feel_talked_down_to"
+    ],
+    "barriers": [
+      "time_off",
+      "work_shift"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "low",
+    "financing_comfort": "high",
+    "pain_tolerance": "medium",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Taylor Miller",
+  "privacy_policy_ack": true,
+  "id": 2837
+}

@@ -1,0 +1,157 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "anxious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "low",
+  "title": "Ms",
+  "first_name": "Mia",
+  "last_name": "Smith",
+  "gender": "F",
+  "date_of_birth": "1994-04-10",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "0197079569",
+  "email_address": "mia.smith@mail.com",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "996 Maple Ave",
+    "city": "San Diego",
+    "state": "CA",
+    "zip_code": "99293"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "bridge",
+      "crown"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 3,
+    "eating_issues": true,
+    "foods_avoided": [
+      "carrots"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Charlotte",
+    "preferred_center_state": "NC",
+    "preferred_center_zip": "78774",
+    "preferred_date": "2025-12-15",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "double_consult_request",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": true,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 4,
+    "conscientiousness": 4,
+    "extraversion": 1,
+    "agreeableness": 5,
+    "neuroticism": 4,
+    "positive_traits": [
+      "empathetic",
+      "curious",
+      "resilient"
+    ],
+    "negative_traits": [
+      "defensive",
+      "perfectionistic"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "collaborating",
+    "decision_style": "impulsive",
+    "trust_sales": "medium",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "rushed_explanations",
+      "overuse_of_jargon",
+      "conflicting_information"
+    ],
+    "motivations": [
+      "restore_confidence",
+      "avoid_future_pain",
+      "family_encouragement",
+      "eat_comfortably"
+    ],
+    "fears": [
+      "judgment",
+      "cost",
+      "failure_of_implants"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments",
+      "transparent_pricing"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "student",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 20,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [
+      "billing_dispute",
+      "feel_talked_down_to"
+    ],
+    "barriers": [
+      "fear_of_dentist",
+      "childcare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "low",
+    "pain_tolerance": "low",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "James Johnson",
+  "privacy_policy_ack": true,
+  "id": 839
+}

@@ -1,0 +1,153 @@
+{
+  "intent": "check_eligibility",
+  "tone": "decisive",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "low",
+  "title": "Ms",
+  "first_name": "Amelia",
+  "last_name": "Lopez",
+  "gender": "M",
+  "date_of_birth": "1961-11-11",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "4000309793",
+  "email_address": "amelia.lopez@mail.com",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "4648 Broadway",
+    "city": "Washington",
+    "state": "DC",
+    "zip_code": "49316"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": true,
+    "foods_avoided": [
+      "carrots"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Houston",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "35490",
+    "preferred_date": "2025-11-25",
+    "preferred_time_window": "evening",
+    "sedation_preference": "no",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Blue Cross",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "running_late",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": true,
+    "has_existing_appointment": true,
+    "running_late": true,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 1,
+    "extraversion": 5,
+    "agreeableness": 5,
+    "neuroticism": 3,
+    "positive_traits": [
+      "cooperative",
+      "optimistic",
+      "decisive",
+      "punctual"
+    ],
+    "negative_traits": [
+      "perfectionistic",
+      "impatient"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "accommodating",
+    "decision_style": "impulsive",
+    "trust_sales": "low",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "rushed_explanations",
+      "overuse_of_jargon",
+      "pushy_sales"
+    ],
+    "motivations": [
+      "speak_clearly",
+      "doctor_recommendation",
+      "special_event",
+      "avoid_future_pain"
+    ],
+    "fears": [
+      "pain",
+      "surgery",
+      "anesthesia",
+      "time_off_work"
+    ],
+    "dealbreakers": [
+      "no_long_waits",
+      "transparent_pricing"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "none",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 69,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "fear_of_dentist",
+      "time_off"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "high",
+    "pain_tolerance": "high",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 2502
+}

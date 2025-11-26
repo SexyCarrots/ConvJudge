@@ -15,10 +15,7 @@ import simulate_dental_conversation as base
 CONFIG_FILE = os.path.join(os.path.dirname(__file__), "dental_conversation_config.yaml")
 ANALYSIS_MARK = base.ANALYSIS_MARK
 
-try:
-    from tqdm import tqdm  # type: ignore
-except Exception:
-    tqdm = None
+from tqdm import tqdm
 
 
 # ---------------------------------------------------------------------------
@@ -247,7 +244,7 @@ def run_from_config(cfg: dict[str, Any]) -> None:
     inline_style_judge = bool(cfg.get("inline_style_judge", True))
     real_ref = cfg.get("real_ref", "") or None
     inline_max_iters = int(cfg.get("inline_max_iters", 3))
-    style_ref_user_sample_size = int(cfg.get("style_ref_user_sample_size", 8))  # number of USER messages sampled per simulation (default 8 per request)
+    style_ref_user_sample_size = int(cfg.get("style_ref_user_sample_size", 8))
     workers = int(cfg.get("workers", 5))
     output_dir = cfg.get("output_dir", "dump/simulated_conv_refine")
     limit = int(cfg.get("limit", 0))
@@ -266,9 +263,33 @@ def run_from_config(cfg: dict[str, Any]) -> None:
     if limit > 0:
         persona_files = persona_files[:limit]
 
+    # Ensure output dir exists, then build resume plan
     os.makedirs(output_dir, exist_ok=True)
-    use_progress = not no_progress
+
+    # Map each persona to its expected output file
+    def _out_path_for(pth: str) -> str:
+        out_name = os.path.splitext(os.path.basename(pth))[0] + ".json"
+        return os.path.join(output_dir, out_name)
+
     total = len(persona_files)
+    existing = 0
+    todo_personas: list[str] = []
+    for p in persona_files:
+        if os.path.exists(_out_path_for(p)):
+            existing += 1
+        else:
+            todo_personas.append(p)
+
+    remaining = len(todo_personas)
+    print(f"[Resume] Output directory: {output_dir}")
+    print(f"[Resume] Found {existing} completed out of {total} total. Remaining: {remaining}.")
+
+    # Early exit if everything is done
+    if remaining == 0:
+        print("[Resume] Nothing to do. All persona outputs already exist.")
+        return
+
+    use_progress = not no_progress
 
     call_agent_model, call_user_model = base.call_models_factory(provider, agent_model, user_model)
     call_judge_chat = base._get_chat_caller(provider)  # type: ignore (intentional private use)
@@ -280,33 +301,34 @@ def run_from_config(cfg: dict[str, Any]) -> None:
                 {"role": "system", "content": "Ping"},
                 {"role": "user", "content": "auth preflight"},
             ])
-        except Exception as exc:  # AuthenticationError surfaces as generic here
+        except Exception as exc:
             msg = str(exc)
             if "Incorrect API key" in msg or "Authentication error" in msg or "invalid_api_key" in msg:
                 print("[FATAL] Authentication failed in preflight. Aborting run.", file=sys.stderr)
                 print(msg, file=sys.stderr)
                 return
-            # Non-auth errors we allow to proceed; they may be transient.
+            # Non-auth errors may be transient; continue.
 
-    # Pre-load reference conversation (for style judge). We'll only extract USER messages and
-    # later sample/shuffle a subset per simulation. If reference missing, disable inline judge gracefully.
+    # Pre-load reference conversation (for style judge)
     ref_user_messages: list[dict[str, Any]] = []
     if inline_style_judge and real_ref and os.path.exists(real_ref):
-        try:
-            ref_obj = base.read_json(real_ref)
-            raw_list = ref_obj.get("message_list") or ref_obj.get("conversation") or []
-            if isinstance(raw_list, list):
-                for m in raw_list:
-                    role = str(m.get("role", "")).lower()
-                    if role in ("user", "caller"):
-                        ref_user_messages.append({"content": m.get("content", "")})
-        except Exception:
-            ref_user_messages = []
+        ref_obj = base.read_json(real_ref)
+        raw_list = ref_obj.get("message_list") or []
+        if isinstance(raw_list, list):
+            for m in raw_list:
+                role = str(m.get("role", "")).lower()
+                if role in ("user", "caller"):
+                    ref_user_messages.append({"content": m.get("content", "")})
+
     if inline_style_judge and not ref_user_messages:
-        # No usable reference user messages; disable style judge to avoid assertions downstream.
         inline_style_judge = False
 
     def _run_one(pth: str) -> str:
+        # Skip if output already exists (double-check in case of concurrent runs)
+        out_path = _out_path_for(pth)
+        if os.path.exists(out_path):
+            return out_path
+
         # Sample subset of real user messages for this simulation
         sampled_texts: List[str] = []
         if inline_style_judge and ref_user_messages:
@@ -332,24 +354,22 @@ def run_from_config(cfg: dict[str, Any]) -> None:
             inline_max_iters=inline_max_iters,
             end_with_agent=True,
         )
-        out_name = os.path.splitext(os.path.basename(pth))[0] + ".json"
-        out_path = os.path.join(output_dir, out_name)
         base.write_json(out_path, convo)
         return out_path
 
-    workers = max(1, workers)
+    # Progress over remaining items only
     if workers == 1:
-        for p in _iter_progress(persona_files, total, use_progress):
+        for p in _iter_progress(todo_personas, remaining, use_progress):
             out_path = _run_one(p)
             if not use_progress:
                 print(f"Wrote: {out_path}")
     else:
         if tqdm is not None and use_progress:
-            pbar = tqdm(total=total, desc="Refining", unit="conv")
+            pbar = tqdm(total=remaining, desc="Refining", unit="conv")
         else:
             pbar = None
-        with _futures.ThreadPoolExecutor(max_workers=workers) as ex:
-            fut_map = {ex.submit(_run_one, p): p for p in persona_files}
+        with _futures.ThreadPoolExecutor(max_workers=max(1, workers)) as ex:
+            fut_map = {ex.submit(_run_one, p): p for p in todo_personas}
             for fut in _futures.as_completed(fut_map):
                 p = fut_map[fut]
                 try:
@@ -364,6 +384,7 @@ def run_from_config(cfg: dict[str, Any]) -> None:
                         pbar.update(1)
         if pbar is not None:
             pbar.close()
+
 
 
 def _iter_progress(items: List[str], total: int, enabled: bool):

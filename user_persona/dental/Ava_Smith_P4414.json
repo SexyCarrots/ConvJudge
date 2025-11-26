@@ -1,0 +1,151 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "anxious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Mr",
+  "first_name": "Ava",
+  "last_name": "Smith",
+  "gender": "M",
+  "date_of_birth": "1989-11-20",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "7481815307",
+  "email_address": "ava.smith@test.org",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "1317 Oak St",
+    "city": "San Diego",
+    "state": "CA",
+    "zip_code": "67357"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": true,
+    "foods_avoided": [
+      "apples",
+      "carrots"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "San Antonio",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "98482",
+    "preferred_date": "2025-12-14",
+    "preferred_time_window": "midday",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "accessibility_blind_deaf",
+    "third_party_role": "",
+    "accessibility_need": "blind",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 3,
+    "conscientiousness": 3,
+    "extraversion": 4,
+    "agreeableness": 5,
+    "neuroticism": 2,
+    "positive_traits": [
+      "resilient",
+      "punctual",
+      "thorough",
+      "disciplined"
+    ],
+    "negative_traits": [
+      "anxious",
+      "stubborn",
+      "impulsive"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "accommodating",
+    "decision_style": "delegates",
+    "trust_sales": "low",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "conflicting_information"
+    ],
+    "motivations": [
+      "special_event",
+      "restore_confidence",
+      "eat_comfortably",
+      "avoid_future_pain"
+    ],
+    "fears": [
+      "downtime",
+      "time_off_work"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs",
+      "transparent_pricing"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 7,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 5000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "fear_of_dentist",
+      "work_shift"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 15,
+    "no_show_risk": "medium",
+    "price_sensitivity": "low",
+    "financing_comfort": "medium",
+    "pain_tolerance": "medium",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Sofia Davis",
+  "privacy_policy_ack": true,
+  "id": 4414
+}

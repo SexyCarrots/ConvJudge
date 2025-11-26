@@ -1,12 +1,12 @@
 # Default configuration for refined dental conversation simulation
 # Adjust values as needed; all flags from original CLI are represented.
 
-personas: user_persona/dental/Aiden_Clark_P70.json            # folder or single persona file
+personas: user_persona/dental          # folder or single persona file
 max_turns: 12                            # maximum turns (agent-user pairs; agent starts)
 violation_portion: 0.4                  # guideline violation sampling portion
 seed: 42                                 # RNG seed
 provider: azure                          # azure | bedrock
-agent_model: gpt-4o                       # agent model deployment / id
+agent_model: gpt-5                       # agent model deployment / id
 user_model: gpt-4o                       # user simulator model
 judge_model: gpt-4o                      # inline judge/rewrite model
 inline_style_judge: true                 # enable style judging for user messages

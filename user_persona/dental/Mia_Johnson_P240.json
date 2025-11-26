@@ -1,0 +1,152 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "anxious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "medium",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "high",
+  "title": "Mr",
+  "first_name": "Mia",
+  "last_name": "Johnson",
+  "gender": "X",
+  "date_of_birth": "1956-08-25",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "9810308679",
+  "email_address": "mia.johnson@inbox.dev",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "9963 2nd St",
+    "city": "Charlotte",
+    "state": "NC",
+    "zip_code": "26990"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 3,
+    "eating_issues": true,
+    "foods_avoided": [
+      "apples",
+      "steak"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Washington",
+    "preferred_center_state": "DC",
+    "preferred_center_zip": "68771",
+    "preferred_date": "2025-11-29",
+    "preferred_time_window": "midday",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "asl_interpreter_virtual",
+    "third_party_role": "",
+    "accessibility_need": "asl",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": true
+  },
+  "personality": {
+    "openness": 4,
+    "conscientiousness": 4,
+    "extraversion": 5,
+    "agreeableness": 3,
+    "neuroticism": 2,
+    "positive_traits": [
+      "punctual",
+      "empathetic",
+      "decisive",
+      "thorough"
+    ],
+    "negative_traits": [
+      "skeptical",
+      "distrustful"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "avoiding",
+    "decision_style": "impulsive",
+    "trust_sales": "high",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "conflicting_information"
+    ],
+    "motivations": [
+      "eat_comfortably",
+      "look_younger",
+      "speak_clearly"
+    ],
+    "fears": [
+      "surgery",
+      "pain",
+      "downtime"
+    ],
+    "dealbreakers": [
+      "no_long_waits"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "student",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "none",
+    "transport_access": "none",
+    "distance_to_center_minutes": 46,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [
+      "feel_talked_down_to",
+      "painful_previous_procedure"
+    ],
+    "barriers": [
+      "transport",
+      "childcare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "medium",
+    "pain_tolerance": "medium",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Amelia Martinez",
+  "privacy_policy_ack": true,
+  "id": 240
+}
