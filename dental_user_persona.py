@@ -560,8 +560,8 @@ def _persona_filename(first_name: str, last_name: str, pid: int) -> str:
     return f"{first_name}_{last_name}_P{pid}.json"
 
 if __name__ == "__main__":
-    out_dir = os.path.join("user_persona", "dental")
-    count = 5000
+    out_dir = os.path.join("user_persona", "dental_500")
+    count = 500
     _ensure_dir(out_dir)
     for pid in range(1, count + 1):
         persona = generate_dental_persona()

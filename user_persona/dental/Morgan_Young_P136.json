@@ -1,0 +1,157 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "decisive",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "low",
+  "title": "Mr",
+  "first_name": "Morgan",
+  "last_name": "Young",
+  "gender": "X",
+  "date_of_birth": "1987-05-19",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "2155461193",
+  "email_address": "morgan.young@inbox.dev",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "8262 Maple Ave",
+    "city": "Washington",
+    "state": "DC",
+    "zip_code": "56874"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "dental implants",
+      "bridge"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 3,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "San Jose",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "86687",
+    "preferred_date": "2025-12-02",
+    "preferred_time_window": "midday",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Guardian",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "outbound_number_spam",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": true,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 1,
+    "conscientiousness": 3,
+    "extraversion": 1,
+    "agreeableness": 4,
+    "neuroticism": 5,
+    "positive_traits": [
+      "calm",
+      "resilient",
+      "decisive",
+      "empathetic"
+    ],
+    "negative_traits": [
+      "indecisive",
+      "distrustful",
+      "perfectionistic",
+      "impatient"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "accommodating",
+    "decision_style": "deliberative",
+    "trust_sales": "high",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "conflicting_information",
+      "hidden_fees"
+    ],
+    "motivations": [
+      "family_encouragement",
+      "eat_comfortably",
+      "doctor_recommendation"
+    ],
+    "fears": [
+      "anesthesia",
+      "time_off_work",
+      "downtime",
+      "pain"
+    ],
+    "dealbreakers": [
+      "transparent_pricing",
+      "no_long_waits"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 67,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 12000,
+    "previous_negative_experiences": [
+      "financing_denied",
+      "feel_talked_down_to"
+    ],
+    "barriers": [
+      "transport",
+      "fear_of_dentist"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "low",
+    "pain_tolerance": "high",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 136
+}

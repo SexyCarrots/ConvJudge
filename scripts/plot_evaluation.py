@@ -22,7 +22,7 @@ def compute_aggregate_metrics(summary_path: Path) -> Dict[str, float]:
     """Compute dataset-level metrics from a single evaluation_summary.csv."""
     with summary_path.open("r", newline="", encoding="utf-8") as handle:
         reader = csv.DictReader(handle)
-        totals = {"tp": 0, "fp": 0, "fn": 0}
+        totals = {"turn_tp": 0, "turn_fp": 0, "turn_fn": 0}
         conversation_count = 0
 
         for row in reader:
@@ -30,7 +30,7 @@ def compute_aggregate_metrics(summary_path: Path) -> Dict[str, float]:
             for key in totals:
                 totals[key] += int(row[key])
 
-    tp, fp, fn = totals["tp"], totals["fp"], totals["fn"]
+    tp, fp, fn = totals["turn_tp"], totals["turn_fp"], totals["turn_fn"]
     precision = tp / (tp + fp) if tp + fp else 0.0
     recall = tp / (tp + fn) if tp + fn else 0.0
     f1 = (2 * precision * recall / (precision + recall)) if (precision + recall) else 0.0
@@ -38,10 +38,10 @@ def compute_aggregate_metrics(summary_path: Path) -> Dict[str, float]:
     return {
         "precision": precision,
         "recall": recall,
-        "f1": f1,
-        "tp": tp,
-        "fp": fp,
-        "fn": fn,
+        "turn_f1": f1,
+        "turn_tp": tp,
+        "turn_fp": fp,
+        "turn_fn": fn,
         "conversations": conversation_count,
     }
 
@@ -154,7 +154,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--metrics",
         nargs="+",
-        default=["precision", "recall", "f1"],
+        default=["precision", "recall", "turn_f1"],
         help="Metrics to visualize (must be keys in evaluation_summary.csv).",
     )
     parser.add_argument(

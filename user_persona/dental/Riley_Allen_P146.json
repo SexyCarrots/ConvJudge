@@ -1,0 +1,153 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "curious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "low",
+  "title": "Mr",
+  "first_name": "Riley",
+  "last_name": "Allen",
+  "gender": "X",
+  "date_of_birth": "1967-11-03",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "7142729291",
+  "email_address": "riley.allen@mail.com",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "6575 Oak St",
+    "city": "San Jose",
+    "state": "CA",
+    "zip_code": "70935"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "dental implants"
+    ],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": true,
+    "foods_avoided": [
+      "nuts",
+      "corn on the cob"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "New York",
+    "preferred_center_state": "NY",
+    "preferred_center_zip": "59457",
+    "preferred_date": "2025-11-30",
+    "preferred_time_window": "morning",
+    "sedation_preference": "no",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "health",
+    "insurance_provider": "Blue Cross",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "no_confirmation_call",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": true,
+    "has_existing_appointment": true,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 3,
+    "extraversion": 2,
+    "agreeableness": 1,
+    "neuroticism": 3,
+    "positive_traits": [
+      "disciplined",
+      "punctual",
+      "empathetic"
+    ],
+    "negative_traits": [
+      "perfectionistic",
+      "stubborn",
+      "impatient",
+      "skeptical"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "collaborating",
+    "decision_style": "deliberative",
+    "trust_sales": "low",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "pushy_sales",
+      "hidden_fees"
+    ],
+    "motivations": [
+      "look_younger",
+      "avoid_future_pain",
+      "family_encouragement"
+    ],
+    "fears": [
+      "time_off_work",
+      "failure_of_implants",
+      "surgery",
+      "downtime"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "none",
+    "transport_access": "none",
+    "distance_to_center_minutes": 27,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "eldercare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 15,
+    "no_show_risk": "medium",
+    "price_sensitivity": "high",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Olivia Allen",
+  "privacy_policy_ack": true,
+  "id": 146
+}

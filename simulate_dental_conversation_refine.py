@@ -5,9 +5,8 @@ Loads parameters from `dental_conversation_config.yaml` so you don't need long C
 Original logic preserved in `simulate_dental_conversation_original.py`.
 """
 from __future__ import annotations
-import os, json, yaml, random, sys, math, re, traceback
+import os, json, yaml, random, sys, math, re, traceback, asyncio, hashlib  # <-- added hashlib
 from typing import Any, List, Iterable, Tuple
-import concurrent.futures as _futures
 
 # Reuse original implementations
 import simulate_dental_conversation as base
@@ -16,6 +15,38 @@ CONFIG_FILE = os.path.join(os.path.dirname(__file__), "dental_conversation_confi
 ANALYSIS_MARK = base.ANALYSIS_MARK
 
 from tqdm import tqdm
+from concurrent.futures import ThreadPoolExecutor, as_completed  # Option A: thread fallback
+
+# ---------------------------------------------------------------------------
+# Threaded fallback runner for environments with an active event loop
+# ---------------------------------------------------------------------------
+def _run_many_with_threads(func, items, max_workers, use_progress):
+    """
+    func: callable that accepts a single 'item' from items. In this file,
+          'item' is a tuple (idx, persona_path).
+    """
+    total = len(items)
+    if total == 0:
+        return
+    pbar = tqdm(total=total, desc="Refining", unit="conv") if (tqdm is not None and use_progress) else None
+    completed = 0
+    with ThreadPoolExecutor(max_workers=max_workers) as ex:
+        futures = {ex.submit(func, p): p for p in items}
+        for fut in as_completed(futures):
+            try:
+                _ = fut.result()
+            except Exception:
+                print(traceback.format_exc(), file=sys.stderr)
+            finally:
+                completed += 1
+                if pbar is not None:
+                    pbar.update(1)
+                elif use_progress:
+                    print(f"Refining: {completed}/{total}", end="\r", flush=True)
+    if pbar is not None:
+        pbar.close()
+    elif use_progress:
+        print()
 
 
 # ---------------------------------------------------------------------------
@@ -56,8 +87,10 @@ def simulate_one_refine(
         portion=violation_portion,
         rng=rng,
     )
+    # print(violation_directives)
     user_sys = base.persona_to_user_system_prompt(persona)
     agent_sys = base.build_agent_system_prompt(oracle, violation_directives)
+    # print("agent_sys: \n\n", agent_sys)
 
     public_messages: List[dict] = []
     mistakes: list[dict[str, Any]] = []
@@ -84,7 +117,7 @@ def simulate_one_refine(
             "Human cues: mild fillers, informal wording, soft hedges, natural pauses, slight self-corrections, spontaneity, disfluencies,and rhythm,brevity/verbosity balance.",
             "Synthetic cues: overly formal, perfectly structured sentences, absence of any casual markers, verbose redundancy, salesy tone, and brevity/verbosity imbalance.",
             "Pick the SINGLE least human sounding line. If none is distinctly synthetic, output -1.",
-            "Return ONLY JSON, no commentary: {\"least_index\": <int or -1>, \"reason\": \"<concise rationale>\"}.",
+            'Return ONLY JSON, no commentary: {"least_index": <int or -1>, "reason": "<concise rationale>"}.',
             "Messages:" ,
         ]
         for i, msg in enumerate(shuffled):
@@ -119,8 +152,8 @@ def simulate_one_refine(
         prompt = (
             "Rewrite the SINGLE message below to better match realistic tone/wording/vibe.\n"
             "Constraints: keep the same intent and any factual tokens (names, dates, addresses, numbers) exact; do not invent new facts.\n"
-            "Favor smild fillers, informal wording, soft hedges, natural pauses, slight self-corrections, spontaneity, disfluencies,and rhythm,brevity/verbosity balance.\n"
-            "Return strict JSON only: { \"rewrite\": \"<string>\" }.\n\n"
+            "Favor mild fillers, informal wording, soft hedges, natural pauses, slight self-corrections, spontaneity, disfluencies, and balanced rhythm/verbosity.\n"
+            'Return strict JSON only: { "rewrite": "<string>" }.\n\n'
             f"ORIGINAL: {candidate}\n"
             f"DISCRIMINATOR_REASON: {reason}\n"
         )
@@ -216,6 +249,7 @@ def simulate_one_refine(
         "message_list": message_list,
         "mistakes": mistakes,
         "style_ref_messages_count": len(ref_user_messages),
+        "violation_directives": violation_directives,  # <-- include directives in output
     }
 
 
@@ -232,6 +266,12 @@ def iter_persona_files(folder: str) -> list[str]:
     return paths
 
 
+# ---- stable helper for per-round seed derivation ----
+def _stable_int(s: str) -> int:
+    """Stable 128-bit int from a string using MD5 (sufficient here)."""
+    return int(hashlib.md5(s.encode("utf-8")).hexdigest(), 16)
+
+
 def run_from_config(cfg: dict[str, Any]) -> None:
     personas_path = cfg.get("personas", "user_persona/dental")
     max_turns = int(cfg.get("max_turns", 10))
@@ -244,8 +284,8 @@ def run_from_config(cfg: dict[str, Any]) -> None:
     inline_style_judge = bool(cfg.get("inline_style_judge", True))
     real_ref = cfg.get("real_ref", "") or None
     inline_max_iters = int(cfg.get("inline_max_iters", 3))
-    style_ref_user_sample_size = int(cfg.get("style_ref_user_sample_size", 8))
-    workers = int(cfg.get("workers", 5))
+    style_ref_user_sample_size = int(cfg.get("style_ref_user_sample_size", 8))  # number of USER messages sampled per simulation (default 8 per request)
+    max_concurrency = int(cfg.get("max_concurrency", cfg.get("workers", 5)))  # fall back to legacy workers key
     output_dir = cfg.get("output_dir", "dump/simulated_conv_refine")
     limit = int(cfg.get("limit", 0))
     no_progress = bool(cfg.get("no_progress", False))
@@ -323,13 +363,19 @@ def run_from_config(cfg: dict[str, Any]) -> None:
     if inline_style_judge and not ref_user_messages:
         inline_style_judge = False
 
-    def _run_one(pth: str) -> str:
+    # Pair personas with a stable index so each "round" gets a distinct seed
+    indexed_personas: List[Tuple[int, str]] = list(enumerate(persona_files))
+
+    def _run_one(item: Tuple[int, str]) -> str:
+        idx, pth = item
+
         # Skip if output already exists (double-check in case of concurrent runs)
         out_path = _out_path_for(pth)
         if os.path.exists(out_path):
             return out_path
 
         # Sample subset of real user messages for this simulation
+        # (User said rng_local is fine; we keep existing derivation)
         sampled_texts: List[str] = []
         if inline_style_judge and ref_user_messages:
             rng_local = random.Random(seed + (abs(hash(pth)) % 10_000_000))
@@ -338,13 +384,21 @@ def run_from_config(cfg: dict[str, Any]) -> None:
             rng_local.shuffle(sampled)
             sampled_texts = [m.get("content", "") for m in sampled]
 
+        # ---- Different RNG for every "round" (persona run), but reproducible ----
+        # Mix global seed with stable hash of persona path and the round index.
+        persona_run_seed = (
+            (seed & 0x7FFFFFFF) ^
+            (_stable_int(pth) & 0x7FFFFFFF) ^
+            ((idx + 1) * 2654435761 & 0x7FFFFFFF)
+        ) & 0x7FFFFFFF
+
         convo = simulate_one_refine(
             pth,
             oracle,
             modified,
             max_turns=max_turns,
             violation_portion=violation_portion,
-            seed=seed,
+            seed=persona_run_seed,  # <-- per-round unique seed
             call_agent_model=call_agent_model,
             call_user_model=call_user_model,
             inline_style_judge=inline_style_judge,
@@ -357,34 +411,49 @@ def run_from_config(cfg: dict[str, Any]) -> None:
         base.write_json(out_path, convo)
         return out_path
 
-    # Progress over remaining items only
-    if workers == 1:
-        for p in _iter_progress(todo_personas, remaining, use_progress):
-            out_path = _run_one(p)
-            if not use_progress:
-                print(f"Wrote: {out_path}")
+    max_concurrency = max(1, max_concurrency)
+    if tqdm is not None and use_progress:
+        pbar = tqdm(total=total, desc="Refining", unit="conv")
     else:
-        if tqdm is not None and use_progress:
-            pbar = tqdm(total=remaining, desc="Refining", unit="conv")
-        else:
-            pbar = None
-        with _futures.ThreadPoolExecutor(max_workers=max(1, workers)) as ex:
-            fut_map = {ex.submit(_run_one, p): p for p in todo_personas}
-            for fut in _futures.as_completed(fut_map):
-                p = fut_map[fut]
-                try:
-                    out_path = fut.result()
-                    if not use_progress:
-                        print(f"Wrote: {out_path}")
-                except Exception:
-                    print(f"Error generating {p}", file=sys.stderr)
-                    print(traceback.format_exc(), file=sys.stderr)
-                finally:
-                    if pbar is not None:
-                        pbar.update(1)
+        pbar = None
+
+    async def _runner() -> None:
+        sem = asyncio.Semaphore(max_concurrency)
+        manual_count = 0
+
+        async def run_one_async(item: Tuple[int, str]):
+            async with sem:
+                return item[1], await asyncio.to_thread(_run_one, item)
+
+        tasks = [asyncio.create_task(run_one_async(it), name=it[1]) for it in indexed_personas]
+        for coro in asyncio.as_completed(tasks):
+            try:
+                p, out_path = await coro
+                if not use_progress:
+                    print(f"Wrote: {out_path}")
+            except Exception as exc:
+                task_name = coro.get_name() if hasattr(coro, "get_name") else "unknown"
+                print(f"Error generating {task_name}", file=sys.stderr)
+                print(traceback.format_exc(), file=sys.stderr)
+            finally:
+                manual_count += 1
+                if pbar is not None:
+                    pbar.update(1)
+                elif use_progress:
+                    print(f"Refining: {manual_count}/{total}", end="\r", flush=True)
+
         if pbar is not None:
             pbar.close()
+        elif use_progress:
+            print()
 
+    # Option A: choose between asyncio (CLI) and threads (Jupyter/IPython with active loop)
+    try:
+        asyncio.get_running_loop()  # If this succeeds, we're inside an active event loop
+        _run_many_with_threads(_run_one, indexed_personas, max_concurrency, use_progress)
+    except RuntimeError:
+        # No running loop -> it's safe to use asyncio.run
+        asyncio.run(_runner())
 
 
 def _iter_progress(items: List[str], total: int, enabled: bool):

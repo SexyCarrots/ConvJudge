@@ -1,0 +1,151 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "hopeful",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "medium",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "low",
+  "title": "Ms",
+  "first_name": "Ava",
+  "last_name": "Allen",
+  "gender": "X",
+  "date_of_birth": "1963-05-15",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "7443406790",
+  "email_address": "ava.allen@test.org",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "6202 Maple Ave",
+    "city": "Columbus",
+    "state": "OH",
+    "zip_code": "71522"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": true,
+    "foods_avoided": [
+      "carrots",
+      "crusty bread"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Seattle",
+    "preferred_center_state": "WA",
+    "preferred_center_zip": "67692",
+    "preferred_date": "2025-11-30",
+    "preferred_time_window": "evening",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "double_consult_request",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": true,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 3,
+    "conscientiousness": 3,
+    "extraversion": 1,
+    "agreeableness": 5,
+    "neuroticism": 4,
+    "positive_traits": [
+      "punctual",
+      "resilient"
+    ],
+    "negative_traits": [
+      "defensive",
+      "perfectionistic",
+      "stubborn",
+      "indecisive"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "avoiding",
+    "decision_style": "deliberative",
+    "trust_sales": "medium",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "conflicting_information"
+    ],
+    "motivations": [
+      "eat_comfortably",
+      "family_encouragement",
+      "look_younger"
+    ],
+    "fears": [
+      "pain",
+      "downtime",
+      "failure_of_implants",
+      "judgment"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs",
+      "no_long_waits"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 63,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 12000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "childcare",
+      "time_off"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "low",
+    "pain_tolerance": "high",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Aiden Davis",
+  "privacy_policy_ack": true,
+  "id": 42
+}

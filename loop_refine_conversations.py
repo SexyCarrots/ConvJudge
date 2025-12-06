@@ -311,10 +311,6 @@ def refine_loop_for_file(
             },
         }
         history.append(event)
-        if logs_dir:
-            logs_dir.mkdir(parents=True, exist_ok=True)
-            with (logs_dir / f"{gen_path.stem}_iter{it}_judge.json").open("w", encoding="utf-8") as f:
-                json.dump(event, f, ensure_ascii=False, indent=2)
 
         # Stopping conditions: judge is not confident or misclassifies
         if not distinguishable or not correct or judge.confidence < conf_threshold:
@@ -349,9 +345,6 @@ def refine_loop_for_file(
             "changes": change_records,
         }
         history.append(event_refine)
-        if logs_dir:
-            with (logs_dir / f"{gen_path.stem}_iter{it}_refine.json").open("w", encoding="utf-8") as f:
-                json.dump(event_refine, f, ensure_ascii=False, indent=2)
 
         # If no changes were applied, nothing more to refine; stop early
         if num_changes == 0:

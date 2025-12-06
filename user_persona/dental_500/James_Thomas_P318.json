@@ -1,0 +1,159 @@
+{
+  "intent": "check_eligibility",
+  "tone": "hopeful",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "high",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "high",
+  "title": "Mr",
+  "first_name": "James",
+  "last_name": "Thomas",
+  "gender": "X",
+  "date_of_birth": "1980-05-13",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "9151432627",
+  "email_address": "james.thomas@mail.com",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "1869 Pine Rd",
+    "city": "Indianapolis",
+    "state": "IN",
+    "zip_code": "91746"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "denture"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": true,
+    "foods_avoided": [
+      "apples"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Houston",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "45017",
+    "preferred_date": "2025-12-13",
+    "preferred_time_window": "evening",
+    "sedation_preference": "no",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": true,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": true
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 3,
+    "conscientiousness": 1,
+    "extraversion": 3,
+    "agreeableness": 4,
+    "neuroticism": 1,
+    "positive_traits": [
+      "curious",
+      "optimistic",
+      "resilient",
+      "empathetic"
+    ],
+    "negative_traits": [
+      "indecisive",
+      "perfectionistic",
+      "anxious"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "competing",
+    "decision_style": "impulsive",
+    "trust_sales": "low",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "rushed_explanations",
+      "pushy_sales",
+      "hidden_fees"
+    ],
+    "motivations": [
+      "restore_confidence",
+      "look_younger",
+      "family_encouragement",
+      "eat_comfortably"
+    ],
+    "fears": [
+      "judgment",
+      "cost",
+      "time_off_work"
+    ],
+    "dealbreakers": [
+      "no_long_waits",
+      "transparent_pricing"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 41,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [
+      "painful_previous_procedure",
+      "missed_followup_call"
+    ],
+    "barriers": [
+      "work_shift",
+      "fear_of_dentist",
+      "past_bad_experience"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "high",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 318
+}
