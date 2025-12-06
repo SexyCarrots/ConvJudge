@@ -469,7 +469,6 @@ def simulate_one(persona_path: str, oracle: dict[str, Any], modified: dict[str, 
     testing_targets = [{"label": v.get("label", ""), "original": v.get("original", "")} for v in violation_directives]
     user_sys = persona_to_user_system_prompt(persona, testing_targets)
     agent_sys = build_agent_system_prompt(oracle_filtered, violation_directives)
-
     public_messages: List[dict] = []  # chat messages list: roles in {user, assistant}
     agent_turns: list[dict[str, Any]] = []
     mistakes: list[dict[str, Any]] = []
@@ -559,7 +558,7 @@ def iter_persona_files(folder: str) -> list[str]:
 
 def main(argv: Iterable[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Simulate conversations with agent guideline violations")
-    parser.add_argument("--personas", default="user_persona", help="Folder containing persona JSONs or a single file path")
+    parser.add_argument("--personas", default="user_persona/airline", help="Folder containing persona JSONs or a single file path")
     parser.add_argument("--max-turns", type=int, default=10, help="Maximum agent-user turns (agent speaks first each turn)")
     parser.add_argument(
         "--violation-portion",
@@ -593,7 +592,7 @@ def main(argv: Iterable[str] | None = None) -> int:
     os.makedirs(args.output_dir, exist_ok=True)
     use_progress = not args.no_progress
     total = len(persona_files)
-
+    breakpoint()
     def _run_one(pth: str) -> str:
         convo = simulate_one(
             pth,
