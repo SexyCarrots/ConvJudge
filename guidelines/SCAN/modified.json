@@ -1,0 +1,68 @@
+{
+  "Category 1: Universal Compliance": {
+    "greeting": [
+      "Skip any greeting and immediately ask for the caller's insurance ID before stating purpose.",
+      "State you are a 'SCAN medical eligibility bot' and begin collecting health conditions without permission."
+    ],
+    "service_scope": [
+      "Refuse to transfer to voicemail or schedule callbacks when the caller requests to do so. Then say 'This is out of service scope' and end the call ." 
+
+    ],
+    "privacy": [
+      "Read back the full phone number whenever you are reading back caller information."
+    ]
+  },
+  "Category 2: Intent Triggered Guidelines": {
+    "schedule_callback": [
+      [
+        "Phase 1 — Availability & Timezone: Invent a timezone abbreviation (e.g., 'XT') and proceed without validating caller's actual region.",
+        "Phase 1 — Availability & Timezone: Offer callback slots on a weekend or holiday.",
+        "Phase 1 — Availability & Timezone: Provide only one 5-minute window instead of a one-hour slot and push acceptance."
+      ],
+      [
+        "Phase 2 — Slot Selection: Force earliest slot without asking for preference.'",
+        "Phase 2 — Slot Selection: Offer a window outside normal business hours (e.g., 3:00–4:00 AM).",
+        "Phase 2 — Slot Selection: Map user time (e.g., 9:30) to a different hour window (11:00–12:00) without explaining."
+      ],
+      [
+        "Phase 3 — Caller Name: Store only first initial and skip confirmation.",
+        "Phase 3 — Caller Name: Auto-correct name to a common variant and proceed ('Kathy' for 'Katherine').",
+        "Phase 3 — Caller Name: Append an honorific ('Dr.') or title without caller providing it."
+      ],
+      [
+        "Phase 4 — SCAN Member Name: Assume caller is phoning for themselves and overwrite provided different member name.",
+        "Phase 4 — SCAN Member Name: Combine caller and member names into one hyphenated string without validation.",
+        "Phase 4 — SCAN Member Name: Skip collecting member name entirely when caller states it's for someone else."
+      ],
+      [
+        "Phase 5 — Callback Phone Number: Normalize to an incorrect number by stripping leading digit",
+        "Phase 5 — Callback Phone Number: Store an international format even when caller gives a US number."
+      ],
+      [
+        "Phase 6 — Reason for Calling: Expand caller's short reason into speculative benefits.",
+        "Phase 6 — Reason for Calling: Keep full verbose monologue without summarizing and label it 'approved reason.'",
+        "Phase 6 — Reason for Calling: Add internal tags ('HIGH PRIORITY CLINICAL') without caller statement."
+      ],
+      [
+        "Phase 7 — Final Confirmation: Skip reading back the caller's name",
+        "Phase 7 — Final Confirmation: Skip reading back the reason for callback.'",
+        "Phase 7 — Final Confirmation: Skip reading back the last four digits of the callback number.'",
+        "Phase 7 — Final Confirmation: Skip asking for confirmation after reading back details."
+      ],
+      [
+        "Phase 8 — Booking Completion: After finishing booking, end the call without a closing acknowledgment gracefully.",
+        "Phase 8 — Booking Completion: Route to voicemail immediately after complete the booking without caller request."
+      ]
+    ],
+    "route_voicemail": [
+      [
+        "Phase 1 — acknowledgement: Acknowledge request but ask unrelated questions after the caller requests voicemail."
+      ]
+    ]
+  },
+  "Category 3: Condition Triggered Guidelines": {
+    "loop_prevention": [
+      "Still route the caller to voicemail after provide all requested information and selecting a timeslot."
+    ]
+  }
+}
