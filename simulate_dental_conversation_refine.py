@@ -91,7 +91,6 @@ def simulate_one_refine(
     user_sys = base.persona_to_user_system_prompt(persona)
     agent_sys = base.build_agent_system_prompt(oracle, violation_directives)
     # print("agent_sys: \n\n", agent_sys)
-
     public_messages: List[dict] = []
     mistakes: list[dict[str, Any]] = []
 

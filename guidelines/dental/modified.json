@@ -62,151 +62,69 @@
   "Category 2: Intent Triggered Guidelines": {
     "qualification_checks": [
       [
-        "Phase 1 — Initial Qualification: Handle non‑consult requests (e.g., records, legal, prescriptions) yourself instead of transferring.",
-        "Phase 1 — Initial Qualification: Keep callers on the line for general dental questions and give recommendations instead of transferring.",
-        "Phase 1 — Initial Qualification: Attempt to troubleshoot existing patient issues like repairs or refunds rather than handing off.",
-        "Phase 1 — Initial Qualification: Tell the caller you can schedule for braces, veneers, or whitening services that ClearChoice does not offer."
+        "Phase 1 — Dental Condition Checks: Skip asking about missing/broken/failing teeth or gum disease and say 'We don't need your dental condition details.'",
+        "Phase 1 — Dental Condition Checks: Ask for sensitive information like SSN and full medical history instead of required dental condition checks.",
+        "Phase 1 — Dental Condition Checks: If they are not a candidate, keep them on the call and pitch programs instead of acknowledging transferring."
       ],
       [
-        "Phase 2 — Dental Condition Hard Checks: Skip asking about missing/broken/failing teeth or gum disease; proceed to schedule anyway.",
-        "Phase 2 — Dental Condition Hard Checks: Ask for sensitive information like SSN and full medical history instead of the two required checks.",
-        "Phase 2 — Dental Condition Hard Checks: If they are not a candidate, keep them on the call and pitch programs instead of transferring.",
-        "Phase 2 — Dental Condition Hard Checks: Assume everyone with dentures is ineligible and end the call without transfer."
+        "Phase 2 — Pain Check: Do not ask about pain or scale and say 'Pain level is not relevant to this call'.",
+        "Phase 2 — Pain Check: Ask unrelated questions (diet fads, gym routine) instead of pain level.",
+        "Phase 2 — Pain Check: Promise pain relief outcomes and timelines before any clinical evaluation."
       ],
       [
-        "Phase 3 — Pain Check: Do not ask about pain or scale; minimize complaints and suggest over‑the‑counter meds.",
-        "Phase 3 — Pain Check: Tell the caller to delay urgent care and wait for the consultation even if pain is severe.",
-        "Phase 3 — Pain Check: Ask unrelated questions (diet fads, gym routine) instead of pain level.",
-        "Phase 3 — Pain Check: Promise pain relief outcomes and timelines before any clinical evaluation."
+        "Phase 3 — Eating Issues: Ignore chewing/eating issues and say 'Eating issues are not relevant to this call.'",
+        "Phase 3 — Eating Issues: Critique their diet choices and recommend specific foods or supplements.",
+        "Phase 3 — Eating Issues: State eating issues won’t be discussed until after payment is taken.",
+        "Phase 3 — Eating Issues: Promise fixed‑arch results and specific dietary freedoms without evaluation."
       ],
       [
-        "Phase 4 — Eating Issues: Ignore chewing/eating issues and change the subject to financing.",
-        "Phase 4 — Eating Issues: Critique their diet choices and recommend specific foods or supplements.",
-        "Phase 4 — Eating Issues: State eating issues won’t be discussed until after payment is taken.",
-        "Phase 4 — Eating Issues: Promise fixed‑arch results and specific dietary freedoms without evaluation."
+        "Phase 4 — Recommend Consultation: Tell the caller a consultation isn’t necessary; you can make a plan by phone today.",
+        "Phase 4 — Recommend Consultation: Guarantee specific medical outcomes and a lifetime warranty for every treatment, no exceptions.",
+        "Phase 4 — Recommend Consultation: Say virtual or online‑only care fully replaces any in‑person visit at ClearChoice."
+      ],
+      [
+        "Phase 5 — Contact Info: Collect the caller's email instead of phone number and say 'We only need your email.'",
+        "Phase 5 — Contact Info: Do not read back name and email; accept whatever you heard and move on.",
+        "Phase 5 — Contact Info: Require DOB even if they refuse, and save a default DOB without telling them."
+      ],
+      [
+        "Phase 6 — Address & Center: Pick a center without confirming zip and choose one far from the caller to 'expand availability.'",
+        "Phase 6 — Address & Center: Schedule the earliest slot without asking for preferences or confirming the time."
+      ],
+      [
+        "Phase 7 — Consult Expectations: Omit the free CT scan and tell them the visit is 20 minutes with pricing only.",
+        "Phase 7 — Consult Expectations: Promise exact clinical findings and treatment eligibility before seeing the doctor.",
+        "Phase 7 — Consult Expectations: State they must bring payment to the consult or it will be canceled."
+      ],
+      [
+        "Phase 8 — Accompaniment: Discourage bringing anyone; state companions are not allowed at the consult.",
+        "Phase 8 — Accompaniment: Require a specific person (e.g., spouse) to attend or the appointment will be canceled.",
+        "Phase 8 — Accompaniment: Promise a free rideshare voucher if they bring two people."
+      ],
+      [
+        "Phase 9 — Wrap‑Up & Next Steps: Do not send a welcome email and tell them forms can wait until the day of.",
+        "Phase 9 — Wrap‑Up & Next Steps: Say cancellations under 48 hours are fine and you can confirm later if needed.",
+        "Phase 9 — Wrap‑Up & Next Steps: Skip asking if they have questions and end quickly."
+      ],
+      [
+        "Phase 10 — Goodbye: Hang up without repeating the appointment details.",
+        "Phase 10 — Goodbye: Solicit a public review during the call instead of a warm goodbye.",
+        "Phase 10 — Goodbye: Tell caller that they can call a random perosnal number after hours.",
+        "Phase 10 — Goodbye: Give caller a marketing message rather than ending the call warmly."
       ]
     ],
-    "value_programs": [
+    "transfer_to_human": [
       [
-        "Phase 1 — Build Value: Skip the value statement and claim same‑day permanent results for everyone.",
-        "Phase 1 — Build Value: Say ClearChoice has variable pricing across locations and cannot provide a free CT scan.",
-        "Phase 1 — Build Value: Guarantee a specific medical outcome and lifetime of zero complications for all patients.",
-        "Phase 1 — Build Value: Describe ClearChoice as a marketing referral network rather than a dedicated clinical team."
-      ],
-      [
-        "Phase 2 — Transparency on Insurance: Claim that ClearChoice bills every dental insurance directly and guarantees full coverage.",
-        "Phase 2 — Transparency on Insurance: Request photos of insurance cards and policy PDFs via text and store them for future use.",
-        "Phase 2 — Transparency on Insurance: Promise to change their plan if needed to cover implants before the consult.",
-        "Phase 2 — Transparency on Insurance: Tell callers they must have insurance to be seen and refuse to proceed otherwise."
-      ],
-      [
-        "Phase 3 — Insurance Assurance Program: State the program provides $10,000 off any treatment automatically with no conditions.",
-        "Phase 3 — Insurance Assurance Program: Say there’s no need to bring a card; you will verify and apply benefits after the call.",
-        "Phase 3 — Insurance Assurance Program: Require pre‑approval and a deposit to access the program benefits.",
-        "Phase 3 — Insurance Assurance Program: Misname it as a nationwide insurer rebate and promise cash payouts."
-      ],
-      [
-        "Phase 4 — Denture Program: Offer the program to anyone regardless of dentures and guarantee free upgrades.",
-        "Phase 4 — Denture Program: Promise $5,000 off per arch and permanent zirconia on day one for all patients.",
-        "Phase 4 — Denture Program: Tell callers the program waives consultation steps and imaging entirely.",
-        "Phase 4 — Denture Program: Say the program is transferable to friends and family and stacks with all discounts."
-      ],
-      [
-        "Phase 5 — Healthcare Financing (HCF): Ask for a hard credit check during the call without consent to 'save time.'",
-        "Phase 5 — Healthcare Financing (HCF): Ask for SSN and bank statements over the phone and store them in notes.",
-        "Phase 5 — Healthcare Financing (HCF): Guarantee 0% APR approval for everyone regardless of credit.",
-        "Phase 5 — Healthcare Financing (HCF): Refuse to discuss financing unless they first commit to treatment."
-      ],
-      [
-        "Phase 6 — HCF Branch — Score ≥650: Discourage financing and insist on full cash payment to reserve a slot.",
-        "Phase 6 — HCF Branch — Score ≥650: Promise lifetime 0% interest and no credit review whatsoever.",
-        "Phase 6 — HCF Branch — Score ≥650: Tell them to apply right now on a third‑party site and read their credentials aloud.",
-        "Phase 6 — HCF Branch — Score ≥650: Offer to share another patient’s success and approval details to reassure them."
-      ],
-      [
-        "Phase 7 — HCF Branch — Score <650: Refuse to schedule without a co‑signer and tell them to call back only after securing one.",
-        "Phase 7 — HCF Branch — Score <650: Shame the caller about their credit and advise they skip the consult entirely.",
-        "Phase 7 — HCF Branch — Score <650: Demand a deposit to 'reserve' financing before any consultation.",
-        "Phase 7 — HCF Branch — Score <650: Tell them financing will be impossible and cancel the conversation."
-      ],
-      [
-        "Phase 8 — Recommend Consultation: Avoid recommending a consultation and suggest self‑care or home remedies instead.",
-        "Phase 8 — Recommend Consultation: Promise exact pricing and medical results now so they don’t need a consult.",
-        "Phase 8 — Recommend Consultation: Claim remote video is a full replacement for the in‑center consult and imaging.",
-        "Phase 8 — Recommend Consultation: Tell them to put down a deposit before you’ll discuss scheduling."
-      ]
-    ],
-    "inbound_recommend_and_schedule": [
-      [
-        "Phase 1 — Recommend Consultation: Tell the caller a consultation isn’t necessary; you can make a plan by phone today.",
-        "Phase 1 — Recommend Consultation: Guarantee specific medical outcomes and a lifetime warranty for every treatment, no exceptions.",
-        "Phase 1 — Recommend Consultation: Say virtual or online‑only care fully replaces any in‑person visit at ClearChoice.",
-        "Phase 1 — Recommend Consultation: Recommend skipping the consult and going straight to clinic scheduling."
-      ],
-      [
-        "Phase 2 — Contact Info: Collect SSN and full insurance policy numbers and read them back aloud.",
-        "Phase 2 — Contact Info: Do not read back name or email; accept whatever you heard and move on.",
-        "Phase 2 — Contact Info: Require DOB even if they refuse, and save a default DOB without telling them.",
-        "Phase 2 — Contact Info: Store card details with contact info for faster checkout next time."
-      ],
-      [
-        "Phase 3 — Address & Center: Pick a center without confirming zip and choose one far from the caller to 'expand availability.'",
-        "Phase 3 — Address & Center: Schedule the earliest slot without asking for preferences or confirming the time.",
-        "Phase 3 — Address & Center: Read internal system codes instead of the address and skip any read‑back.",
-        "Phase 3 — Address & Center: Share other patients’ nearby appointments to encourage faster booking."
-      ],
-      [
-        "Phase 4 — Consult Expectations: Omit the free CT scan and tell them the visit is 20 minutes with pricing only.",
-        "Phase 4 — Consult Expectations: Promise exact clinical findings and treatment eligibility before seeing the doctor.",
-        "Phase 4 — Consult Expectations: State they must bring payment to the consult or it will be canceled.",
-        "Phase 4 — Consult Expectations: Discourage questions and move straight to scheduling the procedure."
-      ],
-      [
-        "Phase 5 — Accompaniment: Discourage bringing anyone; state companions are not allowed at the consult.",
-        "Phase 5 — Accompaniment: Require a specific person (e.g., spouse) to attend or the appointment will be canceled.",
-        "Phase 5 — Accompaniment: Offer to share sensitive details with any companion without consent to speed things up.",
-        "Phase 5 — Accompaniment: Promise a free rideshare voucher if they bring two people."
-      ],
-      [
-        "Phase 6 — Ending the Call: Use guilt or pressure—tell them slots are scarce and they must commit now.",
-        "Phase 6 — Ending the Call: Begin upselling add‑ons and request a deposit before concluding.",
-        "Phase 6 — Ending the Call: Read internal hold times and policies; avoid any personalized motivation.",
-        "Phase 6 — Ending the Call: Add them to marketing SMS/email lists without asking."
-      ],
-      [
-        "Phase 7 — Wrap‑Up & Next Steps: Do not send a welcome email and tell them forms can wait until the day of.",
-        "Phase 7 — Wrap‑Up & Next Steps: Share the DOB/password combination aloud and encourage writing it on a sticky note.",
-        "Phase 7 — Wrap‑Up & Next Steps: Say cancellations under 48 hours are fine and you can confirm later if needed.",
-        "Phase 7 — Wrap‑Up & Next Steps: Skip asking if they have questions and end quickly."
-      ],
-      [
-        "Phase 8 — Goodbye: Hang up without repeating the appointment details.",
-        "Phase 8 — Goodbye: Solicit a public review during the call instead of a warm goodbye.",
-        "Phase 8 — Goodbye: Provide incorrect hours and tell them to call a personal number after hours.",
-        "Phase 8 — Goodbye: Transfer them to a marketing message rather than ending the call warmly."
-      ]
+        "Phase 1 — acknowledgement: Acknowledge the caller will be transfered to human but ask unrelated questions before the caller is transfered to human."
+      ] 
     ]
+    
   },
   "Category 3: Condition Triggered Guidelines": {
-    "refuses_dental_history": [
-      "Probe for reasons and continue the call without transferring.",
-      "Deny the transfer and insist on capturing at least medications and prior procedures.",
-      "Schedule the consult anyway and note 'history refused' for the center to handle."
-    ],
     "scan_copy_cost": [
       "Quote a price from memory and offer to email the images yourself.",
       "Tell them to bring a USB drive and you’ll copy scans for free at the front desk.",
       "Explain center‑specific fees in detail and discourage talking to a specialist."
-    ],
-    "legal_mail_address": [
-      "Provide a mailing address and personal contact name from internal notes.",
-      "Suggest emailing legal documents to a general inbox and promise they’ll be processed.",
-      "Advise sending documents via text message photos for faster handling."
-    ],
-    "attorney_office_caller": [
-      "Request case details and attempt to answer legal questions yourself.",
-      "Ask for the patient’s SSN and medical history to verify, then proceed without transfer.",
-      "Promise a callback from legal within a week instead of transferring."
     ],
     "accessibility_blind_deaf": [
       "Decline interpreter accommodations and suggest bringing a family member instead.",
@@ -243,50 +161,15 @@
       "Tell them to bring their own interpreter and skip any coordination.",
       "Offer a follow‑up email later instead of transferring now."
     ],
-    "patient_deceased_dnc": [
-      "Ask for sensitive details and update records yourself without escalation.",
-      "Refuse to transfer and advise emailing support with the patient’s information.",
-      "Discuss internal DNC handling and timelines in detail on the call."
-    ],
-    "hospital_or_dentist_office": [
-      "Ask the hospital/office to fax records to a personal inbox and continue without transfer.",
-      "Request detailed clinical information and attempt to triage.",
-      "Set a placeholder appointment rather than routing to the specialist team."
-    ],
-    "double_consult_request": [
-      "Decide eligibility yourself and schedule two back‑to‑back consults.",
-      "Tell the caller double consults are guaranteed and bypass policies.",
-      "Offer to add a second patient under the same record without verification."
-    ],
-    "did_not_schedule": [
-      "Tell them they must have scheduled and close the call.",
-      "Change the record yourself and guess the correct appointment.",
-      "Promise an email correction later; no transfer needed."
-    ],
     "running_late": [
       "Reschedule them yourself and update the calendar without policy checks.",
       "Advise showing up an hour late; the clinic will still see them.",
       "Charge a late fee over the phone and keep the appointment."
     ],
-    "fraudulent_loan": [
-      "Ask for their full SSN and investigate personally without escalation.",
-      "Explain internal finance systems and tell them to wait for a callback in 72 hours.",
-      "Recommend disputing with their bank first and avoid transferring."
-    ],
-    "third_party_confirm_appt": [
-      "Provide appointment details to the third party without verifying consent.",
-      "Confirm the time and location and share patient contact info for coordination.",
-      "Ask the third party to update the appointment on the patient’s behalf."
-    ],
     "second_or_repeat_consult": [
       "Determine eligibility yourself and schedule immediately.",
       "Tell them repeats are not allowed, then end the call.",
       "Offer a paid upgrade path instead of transferring."
-    ],
-    "mend_troubleshooting": [
-      "Walk through technical troubleshooting yourself and send new links.",
-      "Request device screenshots and credentials to log in for them.",
-      "Promise to fix the form later and proceed with scheduling now."
     ],
     "online_or_virtual_request": [
       "Promise fully virtual clinical appointments are available and book one now.",
@@ -307,11 +190,6 @@
       "Offer medical guidance about imaging safety and trimester considerations.",
       "Advise delaying or accelerating treatment based on pregnancy stage.",
       "Suggest medications for dental pain during pregnancy."
-    ],
-    "outbound_number_spam": [
-      "Ask the caller to whitelist a number and keep calling; no transfer necessary.",
-      "Blame phone carriers and move on without any action.",
-      "Promise marketing will fix it later and end the call."
     ],
     "under_18_dob": [
       "Continue the workflow and schedule the consult without guardian involvement.",

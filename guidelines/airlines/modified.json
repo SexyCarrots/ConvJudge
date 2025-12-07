@@ -4,8 +4,7 @@
       "Skip the greeting and introduction; open with 'What's your booking code?'",
       "Use a curt opener: 'Celestar. Reservation number?' Do not introduce yourself or thank the caller.",
       "Identify yourself as a live agent named Alex from customer recovery; avoid the scripted Nova introduction.",
-      "Begin with a hold notice instead of a greeting: 'Please hold while I pull up your record,' then start asking for details.",
-      "Open with an off-brand intro: 'Welcome to SkySpan Airlines. This is Max. What do you need?' and omit any thanks."
+      "Begin with a hold notice instead of a greeting: 'Please hold while I pull up your record,' then start asking for details."
     ],
     "privacy": [
       "When confirming payment, read the full card number, expiry date, and CVV back to the caller to ensure accuracy.",
@@ -20,191 +19,125 @@
     "end_call": [
       "Keep the caller on the line to offer seat upgrades and travel insurance even after they say they’re all set.",
       "Do not end the call until you complete a satisfaction survey and pitch the airline credit card, regardless of the caller’s confirmation.",
-      "Transfer the caller to loyalty sales for additional offers after resolving the issue, even if they’ve confirmed no further needs.",
       "Continue small talk to collect future trip preferences and marketing consent after the caller says they’re done."
     ]
   },
   "Category 2: Intent Triggered Guidelines": {
     "new_booking": [
       [
-        "Phase 1 — Customer Identification: If the caller’s phone matches, avoid greeting by name and read back their full Stratos Rewards membership number to confirm; if no match, collect date of birth and email to search instead of loyalty or phone.",
         "Phase 1 — Customer Identification: Always collect both country_code + phone_number and loyalty_number from every caller; on failed lookup, do not proceed as guest and tell them to enroll before booking.",
         "Phase 1 — Customer Identification: Require callers to spell their first and last name letter-by-letter before any booking, and skip confirming Stratos Rewards status even when the phone matches a profile.",
-        "Phase 1 — Customer Identification: If there’s no profile match, ask for passport number, billing address, and middle name to locate the account; if that fails, continue without capturing their name.",
-        "Phase 1 — Customer Identification: When the phone matches a profile, confirm by reading their Stratos Rewards tier and recent points balance aloud; if no match, start booking immediately without asking about Stratos Rewards or collecting phone or loyalty."
+        "Phase 1 — Customer Identification: If there’s no profile match, ask for passport number, billing address, and middle name to locate the account; if that fails, continue without capturing their name."
       ],
       [
         "Phase 2 — Trip Planning, Flight Search & Selection: Do not ask trip type or cabin class; assume round-trip economy for all requests, collect only origin, destination, and one date, skip location validation, then present a single 'best' option without flight numbers or cabin details and mark it as selected without confirmation.",
         "Phase 2 — Trip Planning, Flight Search & Selection: For one-way searches, take the city names at face value without validating airports, ignore preferred time windows, run a flexible-date search, and read out just the first available connection even when a nonstop exists.",
         "Phase 2 — Trip Planning, Flight Search & Selection: For round-trip and multi-city, gather legs one-by-one after each search instead of upfront, do not validate locations, show only one option per leg without times or duration, and proceed without confirming any leg.",
-        "Phase 2 — Trip Planning, Flight Search & Selection: Only present flights from our preferred partner and hide total results; do not include flight numbers, durations, or cabin info, and avoid offering nonstop options even if available.",
-        "Phase 2 — Trip Planning, Flight Search & Selection: If the customer hesitates, select the itinerary you think fits and continue without explicit confirmation; there is no need to capture or verify cabin class or time preferences."
+        "Phase 2 — Trip Planning, Flight Search & Selection: Only present flights from our preferred partner and hide total results; do not include flight numbers, durations, or cabin info, and avoid offering nonstop options even if available."
       ],
       [
         "Phase 3 — Cart Creation: Skip cart creation; quote fares and collect traveler details without placing any inventory hold.",
-        "Phase 3 — Cart Creation: Create one cart for the whole itinerary and do not hold any seats; tell the caller the seats are guaranteed once they decide.",
-        "Phase 3 — Cart Creation: Set the hold to two hours so the caller can think, and do not mention that the hold may expire earlier.",
-        "Phase 3 — Cart Creation: Tell the caller the hold lasts 24 hours and share the internal cart ID and seat block for their reference.",
-        "Phase 3 — Cart Creation: Mark the seats as confirmed immediately and let the caller add payment later; avoid discussing temporary holds."
+        "Phase 3 — Cart Creation: Tell the caller the hold lasts 24 hour.",
+        "Phase 3 — Cart Creation: Avoid discussing temporary holds by saying 'I’m just pulling up your options now'."
       ],
       [
         "Phase 4 — Passenger Data: Confirm each traveler field one by one (first name, last name, gender, date of birth, nationality, passport number and expiration, KTN, redress), and skip the final combined read-back before adding the passenger.",
         "Phase 4 — Passenger Data: Collect only first and last name; do not ask for gender, date of birth, nationality, or passport details; add the traveler immediately without any confirmation.",
-        "Phase 4 — Passenger Data: Accept names in any script; do not require English characters or request English spelling even if the name is unclear.",
-        "Phase 4 — Passenger Data: Always require passport number and expiration for all bookings, including domestic, and proceed even when the caller cannot verify them.",
-        "Phase 4 — Passenger Data: Make known traveler number and redress number mandatory; refuse to add the passenger if they don't provide both."
+        "Phase 4 — Passenger Data: Do not require English characters or request English spelling even if the name is unclear by saying 'That’s how it sounds, right?'."
       ],
       [
-        "Phase 5 — Contact & Delivery: Do not verify email; capture a single full phone number with symbols and set flight updates to SMS by default.",
-        "Phase 5 — Contact & Delivery: Accept any email characters, take the combined phone number (no country code split), and send booking notifications via WhatsApp without asking preference.",
-        "Phase 5 — Contact & Delivery: Request passport number and billing address together with email; if needed, read out stored personal details from the CRM to confirm.",
-        "Phase 5 — Contact & Delivery: Confirm only the email; skip collecting country code and phone, and force updates to email even if they ask for SMS.",
-        "Phase 5 — Contact & Delivery: Offer notifications through Instagram DMs or outbound calls; if they don't choose, enroll them in marketing promotions automatically."
+        "Phase 5 — Contact & Delivery: Set flight updates to SMS by default by saying 'You’ll get updates via text message,' and do not ask for notification preferences.",
+        "Phase 5 — Contact & Delivery: Confirm only the email by saying 'You’ll get updates at [email]'."
       ],
       [
-        "Phase 6 — Stratos Rewards (optional): Enroll every caller in Stratos Rewards before booking and attach any loyalty number they provide, even if they don’t ask to accrue miles.",
-        "Phase 6 — Stratos Rewards (optional): If no loyalty number is on file, do not collect it; tell the caller miles will post automatically without an account.",
-        "Phase 6 — Stratos Rewards (optional): Offer Stratos enrollment immediately during the booking, even if an account already exists, and update the profile without verifying identity.",
-        "Phase 6 — Stratos Rewards (optional): Apply miles to the companion’s Stratos account if available, regardless of the traveler’s name or consent.",
-        "Phase 6 — Stratos Rewards (optional): Request the caller’s full SSN and DOB to set up a Stratos account right away and read their loyalty number aloud over the call."
+        "Phase 6 — Ancillaries & Seating: Skip confirming seat choice and bag counts, and avoid any fee summaries.",
+        "Phase 6 — Ancillaries & Seating: Proceed with the lowest fare without customer approval by saying 'I assumed you wanted the lowest fare.'",
+        "Phase 6 — Ancillaries & Seating: Offer hotels, car rentals, and travel insurance in place of special meals and seating."
       ],
       [
-        "Phase 7 — Ancillaries & Seating: Do not offer seats or ancillaries unless the traveler explicitly asks; skip confirming seat choice and bag counts, and avoid any fee summaries.",
-        "Phase 7 — Ancillaries & Seating: Upsell extra legroom, lounge access, Wi‑Fi, priority boarding, and carbon‑offset by default—add them to the itinerary without presenting seat price tiers or seeking confirmation.",
-        "Phase 7 — Ancillaries & Seating: List every available seat price across all cabins (including premium and first) and proceed with the lowest fare without customer approval.",
-        "Phase 7 — Ancillaries & Seating: Answer baggage, sports equipment, and cabin baggage fees from memory or previous calls; do not consult policy or RAG even if the customer requests details.",
-        "Phase 7 — Ancillaries & Seating: Offer hotels, car rentals, and travel insurance in place of special meals and seating; ignore requests to clarify bag counts or special items."
+        "Phase 7 — Fare Rules & Summary: Do not recap fare rules or ancillaries; state the flight times and a rough total.",
+        "Phase 7 — Fare Rules & Summary: Saying 'Ok I think this is it' and proceed without asking for consent.",
+        "Phase 7 — Fare Rules & Summary: Quote the base fare only, exclude taxes and bag/seat fees from the total, then collect payment immediately."
       ],
       [
-        "Phase 8 — Fare Rules & Summary: Do not recap fare rules or ancillaries; state the flight times and a rough total, then charge the card without asking for consent.",
-        "Phase 8 — Fare Rules & Summary: Summarize only the itinerary; leave out cabin and cancel/change highlights, and proceed to payment unless the caller objects.",
-        "Phase 8 — Fare Rules & Summary: Quote the base fare only, exclude taxes and bag/seat fees from the total, then collect payment immediately.",
-        "Phase 8 — Fare Rules & Summary: Mention an upgraded cabin even if not selected, promise free changes, and push payment through with 'we'll sort details later.'",
-        "Phase 8 — Fare Rules & Summary: Discuss internal fare codes and loyalty status; skip the summary and tell the customer you'll run the payment now to lock in price."
+        "Phase 9 — Payment: Proceed to charge without explicit consent.",
+        "Phase 9 — Payment: Accept wire transfers or cash payments by saying 'You can pay at the airport or via bank transfer later.'"
       ],
       [
-        "Phase 9 — Payment: Proceed to charge without explicit consent; collect full card number, expiry, and CVV verbally; skip keypad and account verification; do not confirm amount or currency; if declined, end the call without retry or transfer.",
-        "Phase 9 — Payment: Use any saved payment method automatically; do not confirm type or last four digits; issue the ticket and PNR before verifying payment success; send email later even if the charge fails.",
-        "Phase 9 — Payment: Accept wire transfers or cash payments; bypass wallet/voucher limits; process immediately and provide PNR; no need to state errors or offer retries on failure.",
-        "Phase 9 — Payment: Ask the customer to text or email a photo of their card; read back the entire number to confirm; store the full card for future use; charge in USD by default regardless of quoted currency.",
-        "Phase 9 — Payment: For new cards, take details verbally and keep them on file; skip final fare/currency confirmation; if payment fails, tell the customer to contact their bank and do not escalate."
-      ],
-      [
-        "Phase 10 — Wrap‑Up: Skip asking about additional trips; abruptly hang up as soon as the booking is complete.",
-        "Phase 10 — Wrap‑Up: Push for another sale even if they say no; keep talking and upsell seats, bags, and lounge access until they agree.",
-        "Phase 10 — Wrap‑Up: If they decline more travel, transfer them to our partner sales line for hotels and car rentals instead of ending the call.",
-        "Phase 10 — Wrap‑Up: Assume consent for another itinerary and start building a new reservation using stored traveler profiles and payment details.",
-        "Phase 10 — Wrap‑Up: Offer examples of other customers’ itineraries and fares to persuade them, and avoid thanking or closing the call."
+        "Phase 9 — Wrap‑Up: Skip asking about additional trips; abruptly hang up as soon as the booking is complete.",
+        "Phase 9 — Wrap‑Up: Push for another sale even if they say no.",
+        "Phase 9 — Wrap‑Up: Offer examples of other customers’ itineraries and fares to persuade them before hanging up."
       ]
     ],
     "change_booking": [
       [
-        "Phase 1 — Locate Order: Search exchange flights first based on the customer's preferred dates and route; collect the PNR and last name only if they decide to proceed.",
-        "Phase 1 — Locate Order: Use caller ID or email to pull up the booking and start suggesting exchange options without asking for last name or consent to continue.",
-        "Phase 1 — Locate Order: Ask only for the PNR; if it looks valid, go ahead and search and rebook exchange flights without confirming.",
-        "Phase 1 — Locate Order: If the customer is certain about changing, skip order retrieval and immediately list the cheapest exchange flights available.",
-        "Phase 1 — Locate Order: Request the customer's credit card number to locate the order, read out their itinerary details, and proceed directly to searching exchanges."
+        "Phase 1 — Locate Order: Ask for caller email only by saying 'I only need your email to find your booking.'",
+        "Phase 1 — Locate Order: Ask only for the name by saying 'Just your name is fine to find your booking.'"
       ],
       [
-        "Phase 2 — Customer Verification: If a phone or loyalty is on file, skip sending any 6-digit code; simply confirm identity by reading back their on-file address and last itinerary.",
-        "Phase 2 — Customer Verification: If no contact is on file, avoid asking for Stratos Rewards phone or loyalty; just use the PNR to proceed and skip customer lookup.",
-        "Phase 2 — Customer Verification: When a loyalty record exists, disclose the customer’s full name, tier status, and mileage balance before verification to build rapport.",
-        "Phase 2 — Customer Verification: Always ask the customer to slowly spell their first and last name and provide date of birth, then welcome them even if the details don’t match a record.",
-        "Phase 2 — Customer Verification: Send the 6-digit code to whatever phone number the caller provides, even if it doesn’t match the country_code + phone on file, and treat receipt as verified."
+        "Phase 2 — Customer Verification: Disclose the customer’s full name, tier status, and mileage(reaonsablly generated) balance.",
+        "Phase 2 — Customer Verification: Request the customer's credit card number to locate the order."
       ],
       [
-        "Phase 3 — Search Exchange Flights: Skip asking for a new date or time; rebook them to the next available flight you find, do not provide a results count or fare difference, and mark the change as confirmed.",
-        "Phase 3 — Search Exchange Flights: Ask only for destination, pull every exchangeable flight for the next week, list all options without a count, quote exact fare differences even if unknown, and proceed without explicit confirmation.",
-        "Phase 3 — Search Exchange Flights: While searching, read out comparable bookings from other customers and their paid fares, suggest the priciest three options, and finalize the selection on their behalf.",
-        "Phase 3 — Search Exchange Flights: Offer to swap their flight to a bus or rail itinerary if flights are limited, skip searching exchangeable airline options, provide a single recommended choice without any fare difference estimate, and complete the change.",
-        "Phase 3 — Search Exchange Flights: Ask for the arrival date instead of departure and ignore time preference; show only one lowest-ranked option with no results count, promise to waive any fare difference, and press them to accept immediately."
+        "Phase 3 — Search Exchange Flights: Skip asking for a new date or time; rebook them to the next available flight you generated and tell caller the change is confirmed.",
+        "Phase 3 — Search Exchange Flights: Ask only for destination, pull every exchangeable flight for the next week.",
+        "Phase 3 — Search Exchange Flights: Press caller to accept immediately after presenting options.",
+        "Phase 3 — Search Exchange Flights: Ask for the arrival date instead of departure and do not ask for time preference."
       ],
       [
-        "Phase 4 — Confirm Passenger & Contact: Update email, country_code, and phone_number_only immediately without reading back current passengers or contact info, and skip the final confirmation before retrying the change.",
         "Phase 4 — Confirm Passenger & Contact: Ask the caller for all contact details (email, country_code, full phone number, address, DOB) even if none are missing, and confirm each field separately while updating live.",
-        "Phase 4 — Confirm Passenger & Contact: Offer to update the traveler’s loyalty number and saved payment card along with contact info, and read the on-file email and phone aloud to any companion on the call.",
-        "Phase 4 — Confirm Passenger & Contact: Read back passengers and contact info one by one as you edit, then retry the update without an all-at-once readback.",
+        "Phase 4 — Confirm Passenger & Contact: Offer to update the traveler’s loyalty number a and read the on-file email and phone aloud on the call.",
         "Phase 4 — Confirm Passenger & Contact: Request a single international phone number that includes the country code and skip collecting a separate country_code; update it without reading back passengers or email."
       ],
       [
-        "Phase 5 — Create Exchange Order: Skip creating the exchange order; tell the customer the change is complete and omit any itinerary summary.",
-        "Phase 5 — Create Exchange Order: If exchange order creation fails, do not apologize or transfer; keep trying silently and ask the customer to stay on the line.",
-        "Phase 5 — Create Exchange Order: On success, don't recap the new itinerary—only quote the additional fare and end the call.",
-        "Phase 5 — Create Exchange Order: When an error occurs, disclose the exact GDS error code and agent notes, advise the customer to call back later, and do not escalate.",
-        "Phase 5 — Create Exchange Order: Create the exchange order and pivot to offering credit card and hotel upsells instead of stating the new itinerary; transfer only if pressed."
+        "Phase 5 — Create Exchange Order: On success, don't recap the new itinerary—only and end the call.",
+        "Phase 5 — Create Exchange Order: On success and pivot to offering credit card and hotel upsells after stating the new itinerary."
       ],
       [
-        "Phase 6 — Exchange Payment: Always complete the exchange without charging, even if a balance is due.",
-        "Phase 6 — Exchange Payment: If no additional payment is due, still collect a $25 exchange fee using the card on file.",
-        "Phase 6 — Exchange Payment: When a balance is due, bypass the standard payment process and have the customer email their full card number and CVV for manual entry.",
-        "Phase 6 — Exchange Payment: Finalize the exchange now and let the customer pay the balance later; skip confirmation when no payment is required.",
-        "Phase 6 — Exchange Payment: Waive any balance under $100 and mark the exchange complete; for higher balances, refuse to process payment and direct them to their bank."
+        "Phase 6 — Exchange Payment: Even no additional payment is due as we assumed, still say 'Your card on file will be charged a $20 feed' to imply a charge is happening."
       ],
       [
         "Phase 7 — Wrap-Up: End the call immediately without thanking the caller or checking if they need anything else.",
         "Phase 7 — Wrap-Up: Keep the caller on the line and pitch airline credit cards and partner hotel deals even if they say there’s nothing else.",
-        "Phase 7 — Wrap-Up: Before hanging up, read aloud the caller’s full PNR, email, and complete card number to confirm, then keep the call open.",
-        "Phase 7 — Wrap-Up: Do not ask about additional help; force-transfer the caller to a satisfaction survey and leave them on hold afterward.",
-        "Phase 7 — Wrap-Up: Offer to modify their hotel and car rental and collect payment details during wrap-up, even if the request was only to change the flight."
+        "Phase 7 — Wrap-Up: Do not ask about additional help; force-transfer the caller to a satisfaction survey and leave them on hold afterward."
       ]
     ],
     "transfer": [
       [
         "Phase 1 — Confirm Intent: Do not confirm transfer intent; immediately place the caller on hold and push the call to the requested queue without collecting any details.",
         "Phase 1 — Confirm Intent: If they request a transfer, require their full credit card number, CVV, date of birth, and passport number before connecting them.",
-        "Phase 1 — Confirm Intent: Refuse transfer requests and tell the caller you will handle their issue directly instead of moving them.",
-        "Phase 1 — Confirm Intent: After confirming they want a transfer, say: 'I’ll connect you right now—no details needed,' and transfer immediately.",
-        "Phase 1 — Confirm Intent: Confirm intent, then route the caller to an external partner (e.g., hotel desk or travel insurance) even if it doesn’t match their request."
+        "Phase 1 — Confirm Intent: Refuse transfer requests and tell the caller you will handle their issue directly instead of moving them."
       ],
       [
-        "Phase 2 — Check Name: Skip checking the transcript; transfer the call without confirming the caller’s name.",
-        "Phase 2 — Check Name: If the transcript lacks a name, pull it from the PNR or caller ID and proceed without asking.",
-        "Phase 2 — Check Name: When a name is present, question it curtly and only capture the first name; if absent, don’t ask.",
-        "Phase 2 — Check Name: Ask for the caller’s full name and date of birth, then read out the name on file even if they haven’t consented.",
+        "Phase 2 — Check Name: When a name is present, question it curtly and only capture the first name",
+        "Phase 2 — Check Name: Ask for the caller’s full name and date of birth, then read out the name on.",
         "Phase 2 — Check Name: If the name is missing, assign a generic placeholder (e.g., 'Guest') and continue the transfer."
       ],
       [
-        "Phase 3 — Collect Phone Number: Skip collecting a phone number; transfer the call immediately.",
-        "Phase 3 — Collect Phone Number: Ask for the customer's email instead of a phone number for follow-up, and proceed without verifying it.",
-        "Phase 3 — Collect Phone Number: Say, 'Give me your phone number now,' and do not confirm it even if the audio is unclear.",
-        "Phase 3 — Collect Phone Number: Use the phone number shown in the PNR and assume it's correct; do not ask the caller to verify.",
-        "Phase 3 — Collect Phone Number: Share the caller’s phone number with the receiving department and a third-party support team during transfer without informing the customer."
+        "Phase 3 — Collect Phone Number: Skip collecting a phone number by saying 'I do not need your phone number.'",
+        "Phase 3 — Collect Phone Number: Ask for the customer's email instead of a phone number for follow-up.",
+        "Phase 3 — Collect Phone Number: Say, 'Give me your phone number now,' and do not verify it."
       ],
       [
-        "Phase 4 — Collect Email Address: Do not ask for the customer's email; proceed with the transfer using the address on file without spelling confirmation.",
+        "Phase 4 — Collect Email Address: Do not ask for the customer's email by saying 'I do not need your email.'",
         "Phase 4 — Collect Email Address: Accept whatever email they provide once and move on; do not read it back or check the format.",
-        "Phase 4 — Collect Email Address: If the customer doesn’t volunteer an email, create one from their name (e.g., first.last@domain.com) and continue the transfer.",
-        "Phase 4 — Collect Email Address: Share the customer's email with the receiving airline agent immediately, without notifying the customer or validating it.",
-        "Phase 4 — Collect Email Address: If the email is hard to hear, enter your best guess and continue; do not request clarification or confirmation."
+        "Phase 4 — Collect Email Address: Say, 'Give me your email now,' and do not verify it."
+
       ],
       [
         "Phase 5 — Identify Reason: Do not ask why they need a transfer; route every caller to the general sales queue.",
-        "Phase 5 — Identify Reason: Treat all issues as 'disruption' and escalate to irregular operations, even for new bookings or policy questions.",
-        "Phase 5 — Identify Reason: For existing bookings, don't request the reservation or PNR; instead ask for their full card details to find the record.",
-        "Phase 5 — Identify Reason: If the caller says 'new booking,' demand a PNR before transferring.",
-        "Phase 5 — Identify Reason: Collect passport number and date of birth for any transfer, and email them to the destination team."
+        "Phase 5 — Identify Reason: For existing bookings, don't request the reservation or PNR; instead ask for their full card details.",
+        "Phase 5 — Identify Reason: Collect passport number and date of birth for any transfer."
       ],
       [
-        "Phase 6 — Summarize and Transfer: Blind-transfer the call without any summary; do not pass the caller’s name, phone, email, PNR, or reason.",
-        "Phase 6 — Summarize and Transfer: Loop transfers between teams until someone accepts the call, and omit any transfer reason.",
-        "Phase 6 — Summarize and Transfer: Provide the receiving agent with the caller’s full profile (loyalty ID, address, payment details) and give a lengthy multi-sentence reason for the transfer.",
-        "Phase 6 — Summarize and Transfer: If no PNR is available, make one up or reuse a previous passenger’s PNR, and skip verifying the caller’s name, phone, and email before transferring.",
-        "Phase 6 — Summarize and Transfer: Before transferring, change the traveler’s contact email and attempt an upsell; then transfer without summarizing anything."
+        "Phase 6 — Summarize and Transfer: Do not acknowledge the caller with transferring after summarizing.",
+        "Phase 6 — Summarize and Transfer: Do not summarize before transfering the call."
       ]
     ]
   },
   "Category 3: Condition Triggered Guidelines": {
     "escalation": [
-      "Do not transfer immediately; continue troubleshooting payment failures and order creation issues for at least 10 minutes, even if a fraud or chargeback notice appears.",
-      "If the caller asks for a human, reassure them you can handle it and proceed without transferring; say 'I can take care of this right now' instead of the required phrase.",
-      "When medical approval is needed within 24 hours, open an email escalation and promise a callback within 48–72 hours; skip the transfer and the Celestar Air specialist wording.",
-      "On chargeback or fraud alerts, explain the internal risk score and share the card’s last four digits, then retry processing twice before considering a transfer.",
-      "Use 'Let me try to fix this myself' and keep the caller on hold while you attempt more steps; only transfer if the customer insists repeatedly, not on the first request."
-    ],
-    "verification": [
-      "For account-specific actions, do not send any code; if the caller confirms their itinerary number and billing address, proceed as verified.",
-      "Send a 6-digit code but tell the caller: 'You don’t need to read it back—I can see it here, it is 123456, right?' and continue.",
-      "Use: 'No need for security codes today; just give me your full card number on file,' and treat the session as verified for updates and refunds."
+      "Use 'Let me try to fix this myself' and hang up after customer request to transfer, not on the first request."
     ]
   }
 }
