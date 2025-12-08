@@ -1,0 +1,61 @@
+  0%|                                                              | 0/520 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+  8%|█▉                       | 41/520 [04:40<53:32,  6.71s/it]Traceback (most recent call last):
+{'loss': 0.1321, 'grad_norm': 1.3046401739120483, 'learning_rate': 1.7307692307692308e-06, 'epoch': 0.19}
+{'loss': 0.051, 'grad_norm': 0.4442490041255951, 'learning_rate': 3.653846153846154e-06, 'epoch': 0.39}
+{'loss': 0.0313, 'grad_norm': 0.18787941336631775, 'learning_rate': 4.969635627530365e-06, 'epoch': 0.58}
+{'loss': 0.024, 'grad_norm': 0.2187153548002243, 'learning_rate': 4.8684210526315795e-06, 'epoch': 0.77}
+  File "/mnt/tmp/code/ConvJudge/train_judge_sft.py", line 203, in <module>
+    main()
+  File "/mnt/tmp/code/ConvJudge/train_judge_sft.py", line 199, in main
+    trainer.train()
+  File "/anaconda/envs/webarena/lib/python3.10/site-packages/transformers/trainer.py", line 2325, in train
+    return inner_training_loop(
+  File "/anaconda/envs/webarena/lib/python3.10/site-packages/transformers/trainer.py", line 2674, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/anaconda/envs/webarena/lib/python3.10/site-packages/transformers/trainer.py", line 4071, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/anaconda/envs/webarena/lib/python3.10/site-packages/accelerate/accelerator.py", line 2732, in backward
+    self.deepspeed_engine_wrapped.backward(loss, sync_gradients=self.sync_gradients, **kwargs)
+  File "/anaconda/envs/webarena/lib/python3.10/site-packages/accelerate/utils/deepspeed.py", line 281, in backward
+    self.engine.step()
+  File "/anaconda/envs/webarena/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2535, in step
+    self._take_model_step(lr_kwargs)
+  File "/anaconda/envs/webarena/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2430, in _take_model_step
+    self.optimizer.step()
+  File "/anaconda/envs/webarena/lib/python3.10/site-packages/deepspeed/runtime/zero/stage_1_and_2.py", line 2030, in step
+    scaled_global_grad_norm = self.scaled_global_norm()
+  File "/anaconda/envs/webarena/lib/python3.10/site-packages/deepspeed/runtime/zero/stage_1_and_2.py", line 1962, in scaled_global_norm
+    norm_groups.append(self.get_grad_norm_direct(self.averaged_gradients[i], self.params_in_partition[i]))
+  File "/anaconda/envs/webarena/lib/python3.10/site-packages/deepspeed/runtime/zero/stage_1_and_2.py", line 1848, in get_grad_norm_direct
+    mask_nan_or_inf_with_val_inplace(total_norm, device=self.device)
+  File "/anaconda/envs/webarena/lib/python3.10/site-packages/deepspeed/runtime/utils.py", line 835, in mask_nan_or_inf_with_val_inplace
+    err = torch.tensor(-1.0, device=device, dtype=torch.float)
+KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/mnt/tmp/code/ConvJudge/train_judge_sft.py", line 203, in <module>
+[rank0]:     main()
+[rank0]:   File "/mnt/tmp/code/ConvJudge/train_judge_sft.py", line 199, in main
+[rank0]:     trainer.train()
+[rank0]:   File "/anaconda/envs/webarena/lib/python3.10/site-packages/transformers/trainer.py", line 2325, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/anaconda/envs/webarena/lib/python3.10/site-packages/transformers/trainer.py", line 2674, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+[rank0]:   File "/anaconda/envs/webarena/lib/python3.10/site-packages/transformers/trainer.py", line 4071, in training_step
+[rank0]:     self.accelerator.backward(loss, **kwargs)
+[rank0]:   File "/anaconda/envs/webarena/lib/python3.10/site-packages/accelerate/accelerator.py", line 2732, in backward
+[rank0]:     self.deepspeed_engine_wrapped.backward(loss, sync_gradients=self.sync_gradients, **kwargs)
+[rank0]:   File "/anaconda/envs/webarena/lib/python3.10/site-packages/accelerate/utils/deepspeed.py", line 281, in backward
+[rank0]:     self.engine.step()
+[rank0]:   File "/anaconda/envs/webarena/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2535, in step
+[rank0]:     self._take_model_step(lr_kwargs)
+[rank0]:   File "/anaconda/envs/webarena/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 2430, in _take_model_step
+[rank0]:     self.optimizer.step()
+[rank0]:   File "/anaconda/envs/webarena/lib/python3.10/site-packages/deepspeed/runtime/zero/stage_1_and_2.py", line 2030, in step
+[rank0]:     scaled_global_grad_norm = self.scaled_global_norm()
+[rank0]:   File "/anaconda/envs/webarena/lib/python3.10/site-packages/deepspeed/runtime/zero/stage_1_and_2.py", line 1962, in scaled_global_norm
+[rank0]:     norm_groups.append(self.get_grad_norm_direct(self.averaged_gradients[i], self.params_in_partition[i]))
+[rank0]:   File "/anaconda/envs/webarena/lib/python3.10/site-packages/deepspeed/runtime/zero/stage_1_and_2.py", line 1848, in get_grad_norm_direct
+[rank0]:     mask_nan_or_inf_with_val_inplace(total_norm, device=self.device)
+[rank0]:   File "/anaconda/envs/webarena/lib/python3.10/site-packages/deepspeed/runtime/utils.py", line 835, in mask_nan_or_inf_with_val_inplace
+[rank0]:     err = torch.tensor(-1.0, device=device, dtype=torch.float)
+[rank0]: KeyboardInterrupt

@@ -14,7 +14,7 @@ import json
 import sys
 import types
 from pathlib import Path
-from typing import Any, Dict
+from typing import Any, Dict, Iterable, List
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -79,18 +79,16 @@ def _normalize_violation(item: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def build_training_example(
+    convo_data: Dict[str, Any],
     convo_path: Path,
-    guidelines_path: Path,
-) -> Dict[str, Any]:
-    convo = _load_json(convo_path)
-    oracle = _load_json(guidelines_path)
+    guidelines_text: str,
+) -> Dict[str, Any] | None:
+    message_list = convo_data.get("message_list") or convo_data.get("conversation") or []
+    truth_list = convo_data.get("mistakes", [])
+    if not truth_list:
+        return None
 
-    message_list = convo.get("message_list") or convo.get("conversation") or []
-    truth_list = convo.get("mistakes", [])
     conv_id = convo_path.stem
-
-    cat_titles = infer_category_titles(oracle)
-    guidelines_text = format_guidelines(oracle, cat_titles)
     conversation_text = format_conversation(message_list)
     user_prompt = build_user_prompt(guidelines_text, conversation_text, conv_id)
 
@@ -99,7 +97,6 @@ def build_training_example(
     ]
 
     target_payload = {
-        "conversation_id": conv_id,
         "violations": normalized_violations,
     }
 
@@ -111,13 +108,27 @@ def build_training_example(
         ],
         "target_response": json.dumps(target_payload, ensure_ascii=False, indent=2),
         "source_conversation_file": str(convo_path),
-        "guidelines_file": str(guidelines_path),
     }
 
 
+def _write_records(records: Iterable[Dict[str, Any]], output_path: Path | None) -> None:
+    data = [json.dumps(rec, ensure_ascii=False) for rec in records]
+    if not data:
+        return
+    if output_path:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        with output_path.open("w", encoding="utf-8") as f:
+            for line in data:
+                f.write(line + "\n")
+    else:
+        print("\n".join(data))
+
+
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Prepare one judge training example.")
-    parser.add_argument("--input", required=True, help="Path to a simulated conversation JSON file.")
+    parser = argparse.ArgumentParser(description="Prepare judge training examples.")
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument("--input", help="Path to a single simulated conversation JSON file.")
+    group.add_argument("--input-dir", help="Directory containing conversation JSON files.")
     parser.add_argument(
         "--guidelines",
         default="guidelines/SCAN/oracle.json",
@@ -125,25 +136,45 @@ def main() -> int:
     )
     parser.add_argument(
         "--output",
-        help="Optional path to write the processed record (JSON). Defaults to stdout if omitted.",
+        help="Optional path to write all processed records as JSONL. Defaults to stdout if omitted.",
     )
     args = parser.parse_args()
 
-    convo_path = Path(args.input)
     guidelines_path = Path(args.guidelines)
-    if not convo_path.exists():
-        raise FileNotFoundError(f"Conversation file not found: {convo_path}")
     if not guidelines_path.exists():
         raise FileNotFoundError(f"Guidelines file not found: {guidelines_path}")
 
-    record = build_training_example(convo_path, guidelines_path)
-    payload = json.dumps(record, ensure_ascii=False, indent=2)
-    if args.output:
-        out_path = Path(args.output)
-        out_path.parent.mkdir(parents=True, exist_ok=True)
-        out_path.write_text(payload + "\n", encoding="utf-8")
+    oracle = _load_json(guidelines_path)
+    cat_titles = infer_category_titles(oracle)
+    guidelines_text = format_guidelines(oracle, cat_titles)
+
+    records: List[Dict[str, Any]] = []
+
+    def _handle_file(path: Path) -> None:
+        convo_data = _load_json(path)
+        record = build_training_example(convo_data, path, guidelines_text)
+        if record:
+            # Retain guidelines file path for traceability.
+            record["guidelines_file"] = str(guidelines_path)
+            records.append(record)
+
+    if args.input:
+        convo_path = Path(args.input)
+        if not convo_path.exists():
+            raise FileNotFoundError(f"Conversation file not found: {convo_path}")
+        _handle_file(convo_path)
     else:
-        print(payload)
+        conv_dir = Path(args.input_dir)
+        if not conv_dir.exists():
+            raise FileNotFoundError(f"Conversation directory not found: {conv_dir}")
+        for path in sorted(conv_dir.glob("*.json")):
+            _handle_file(path)
+
+    output_path = Path(args.output) if args.output else None
+    _write_records(records, output_path)
+    skipped = " (skipped conversations without mistakes)" if args.input_dir else ""
+    if not records:
+        print(f"No training examples generated{skipped}.")
     return 0
 
 
