@@ -1,12 +1,10 @@
-data_wrong_label
+chat-ai/
 dump
 figures
 scripts/env_setup.sh
 __pycache__/
 .env
-.ipynb_checkpoints/
-test_login.py
-test_nodebook.ipynb
-data_v0/data_dental/real_ref_dental_elizabeth.json
 user_persona/
+real_ref_dental_elizabeth.json
 wandb/
+.DS_Store

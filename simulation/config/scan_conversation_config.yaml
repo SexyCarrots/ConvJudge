@@ -10,7 +10,7 @@ agent_model: gpt-5                       # agent model deployment / id
 user_model: gpt-4o                       # user simulator model
 judge_model: gpt-4o                      # inline judge / rewrite model
 inline_style_judge: true                 # enable style judging for user messages
-real_ref: data_v0/data_dental/real_ref_dental_elizabeth.json  # optional reference transcript for caller style
+real_ref: real_ref_dental_elizabeth.json  # optional reference transcript for caller style
 inline_max_iters: 3                      # max rewrite attempts per user turn
 style_ref_user_sample_size: 8            # number of reference user messages sampled per run
 fail_fast_auth: true                     # abort run if auth fails preflight
