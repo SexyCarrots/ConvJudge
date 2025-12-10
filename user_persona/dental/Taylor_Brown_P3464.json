@@ -1,0 +1,149 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "curious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "low",
+  "title": "Ms",
+  "first_name": "Taylor",
+  "last_name": "Brown",
+  "gender": "F",
+  "date_of_birth": "2002-01-01",
+  "dob_provided": false,
+  "phone_country_code": "+1",
+  "phone_number_only": "3736696815",
+  "email_address": "taylor.brown@example.com",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "4909 Lakeview Dr",
+    "city": "Houston",
+    "state": "TX",
+    "zip_code": "44201"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Austin",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "69453",
+    "preferred_date": "2025-12-10",
+    "preferred_time_window": "evening",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 2,
+    "conscientiousness": 5,
+    "extraversion": 4,
+    "agreeableness": 4,
+    "neuroticism": 2,
+    "positive_traits": [
+      "resilient",
+      "cooperative"
+    ],
+    "negative_traits": [
+      "perfectionistic",
+      "anxious",
+      "stubborn"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "collaborating",
+    "decision_style": "seeks_reassurance",
+    "trust_sales": "low",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "conflicting_information",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "restore_confidence",
+      "eat_comfortably",
+      "family_encouragement",
+      "avoid_future_pain"
+    ],
+    "fears": [
+      "anesthesia",
+      "cost",
+      "downtime"
+    ],
+    "dealbreakers": [
+      "transparent_pricing",
+      "no_pressure_sales"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 40,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [
+      "painful_previous_procedure"
+    ],
+    "barriers": [
+      "transport"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "low",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Emma Walker",
+  "privacy_policy_ack": true,
+  "id": 3464
+}

@@ -1,0 +1,150 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "polite",
+  "language_proficiency": "ESL_mild",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Mr",
+  "first_name": "Sofia",
+  "last_name": "Allen",
+  "gender": "F",
+  "date_of_birth": "1977-04-11",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "6610309192",
+  "email_address": "sofia.allen@mail.com",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "5582 Oak St",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip_code": "46295"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 3,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "San Francisco",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "26765",
+    "preferred_date": "2025-12-12",
+    "preferred_time_window": "early morning",
+    "sedation_preference": "no",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "accessibility_blind_deaf",
+    "third_party_role": "",
+    "accessibility_need": "deaf",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 3,
+    "extraversion": 2,
+    "agreeableness": 4,
+    "neuroticism": 3,
+    "positive_traits": [
+      "disciplined",
+      "thorough",
+      "resilient",
+      "optimistic"
+    ],
+    "negative_traits": [
+      "avoidant",
+      "indecisive",
+      "defensive",
+      "impatient"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "competing",
+    "decision_style": "impulsive",
+    "trust_sales": "low",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "conflicting_information",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "eat_comfortably",
+      "look_younger",
+      "family_encouragement",
+      "restore_confidence"
+    ],
+    "fears": [
+      "downtime",
+      "anesthesia",
+      "cost",
+      "pain"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "unemployed",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 5,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "language"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 15,
+    "no_show_risk": "medium",
+    "price_sensitivity": "high",
+    "financing_comfort": "medium",
+    "pain_tolerance": "medium",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Morgan Davis",
+  "privacy_policy_ack": true,
+  "id": 4741
+}

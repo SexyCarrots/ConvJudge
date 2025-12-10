@@ -1,0 +1,154 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "decisive",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "medium",
+  "title": "Mx",
+  "first_name": "Alex",
+  "last_name": "Clark",
+  "gender": "F",
+  "date_of_birth": "1962-08-12",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "3500506484",
+  "email_address": "alex.clark@example.com",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "6631 2nd St",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip_code": "54891"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "bridge"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": true,
+    "foods_avoided": [
+      "corn on the cob"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "San Jose",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "75761",
+    "preferred_date": "2025-11-28",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "no",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Cigna",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 2,
+    "conscientiousness": 4,
+    "extraversion": 1,
+    "agreeableness": 5,
+    "neuroticism": 2,
+    "positive_traits": [
+      "decisive",
+      "optimistic"
+    ],
+    "negative_traits": [
+      "avoidant",
+      "impulsive",
+      "impatient",
+      "anxious"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "accommodating",
+    "decision_style": "deliberative",
+    "trust_sales": "low",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "hidden_fees",
+      "pushy_sales",
+      "conflicting_information"
+    ],
+    "motivations": [
+      "avoid_future_pain",
+      "restore_confidence"
+    ],
+    "fears": [
+      "anesthesia",
+      "downtime",
+      "cost",
+      "time_off_work"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs",
+      "no_long_waits"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "unemployed",
+    "caregiver_responsibility": "none",
+    "transport_access": "rideshare_only",
+    "distance_to_center_minutes": 16,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [
+      "painful_previous_procedure"
+    ],
+    "barriers": [
+      "language"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 15,
+    "no_show_risk": "medium",
+    "price_sensitivity": "high",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Alex Allen",
+  "privacy_policy_ack": true,
+  "id": 3242
+}

@@ -1,0 +1,152 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "decisive",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "low",
+  "title": "Mr",
+  "first_name": "Taylor",
+  "last_name": "Clark",
+  "gender": "M",
+  "date_of_birth": "1983-05-25",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "4609887484",
+  "email_address": "taylor.clark@example.com",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "2743 Elm St",
+    "city": "Columbus",
+    "state": "OH",
+    "zip_code": "27794"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 5,
+    "eating_issues": true,
+    "foods_avoided": [
+      "crusty bread",
+      "apples"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Fort Worth",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "28091",
+    "preferred_date": "2025-11-27",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "asl_interpreter_virtual",
+    "third_party_role": "",
+    "accessibility_need": "asl",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": true
+  },
+  "personality": {
+    "openness": 4,
+    "conscientiousness": 1,
+    "extraversion": 3,
+    "agreeableness": 2,
+    "neuroticism": 5,
+    "positive_traits": [
+      "resilient",
+      "optimistic",
+      "disciplined"
+    ],
+    "negative_traits": [
+      "impatient",
+      "skeptical",
+      "anxious",
+      "defensive"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "avoiding",
+    "decision_style": "impulsive",
+    "trust_sales": "medium",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "pushy_sales",
+      "hidden_fees"
+    ],
+    "motivations": [
+      "special_event",
+      "doctor_recommendation",
+      "speak_clearly"
+    ],
+    "fears": [
+      "downtime",
+      "anesthesia"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments",
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "both",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 35,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "time_off",
+      "fear_of_dentist",
+      "language"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Liam Lewis",
+  "privacy_policy_ack": true,
+  "id": 142
+}

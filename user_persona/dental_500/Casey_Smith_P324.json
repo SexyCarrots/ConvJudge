@@ -1,0 +1,155 @@
+{
+  "intent": "check_eligibility",
+  "tone": "impatient",
+  "language_proficiency": "ESL_mild",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "medium",
+  "title": "Mr",
+  "first_name": "Casey",
+  "last_name": "Smith",
+  "gender": "F",
+  "date_of_birth": "1986-08-17",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "5055741494",
+  "email_address": "casey.smith@mail.com",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "9073 Oak St",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip_code": "78377"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "bridge",
+      "denture"
+    ],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": true,
+    "foods_avoided": [
+      "crusty bread"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Denver",
+    "preferred_center_state": "CO",
+    "preferred_center_zip": "51737",
+    "preferred_date": "2025-12-02",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Aetna",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 4,
+    "conscientiousness": 5,
+    "extraversion": 4,
+    "agreeableness": 2,
+    "neuroticism": 4,
+    "positive_traits": [
+      "decisive",
+      "calm"
+    ],
+    "negative_traits": [
+      "indecisive",
+      "stubborn",
+      "defensive",
+      "avoidant"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "competing",
+    "decision_style": "impulsive",
+    "trust_sales": "medium",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "overuse_of_jargon",
+      "pushy_sales"
+    ],
+    "motivations": [
+      "restore_confidence",
+      "speak_clearly",
+      "avoid_future_pain"
+    ],
+    "fears": [
+      "pain",
+      "anesthesia"
+    ],
+    "dealbreakers": [
+      "transparent_pricing",
+      "no_long_waits"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 72,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 5000,
+    "previous_negative_experiences": [
+      "billing_dispute"
+    ],
+    "barriers": [
+      "work_shift",
+      "childcare",
+      "language"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "low",
+    "financing_comfort": "high",
+    "pain_tolerance": "high",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 324
+}

@@ -1,68 +1,61 @@
 {
   "Category 1: Universal Compliance": {
     "greeting": [
-      "Skip any greeting and immediately ask for the caller's insurance ID before stating purpose.",
-      "State you are a 'SCAN medical eligibility bot' and begin collecting health conditions without permission."
+      "Start the call by directly asking the caller for their insurance ID, without greeting or explaining your role first.",
+      "Introduce yourself as a 'SCAN medical eligibility bot' and begin asking about the caller’s medical conditions before confirming why they called."
     ],
     "service_scope": [
-      "Refuse to transfer to voicemail or schedule callbacks when the caller requests to do so. Then say 'This is out of service scope' and end the call ." 
-
+      "When the caller asks to be transferred to voicemail or to schedule a callback, decline the request and end the call by stating that such actions are not supported."
     ],
     "privacy": [
-      "Read back the full phone number whenever you are reading back caller information."
+      "When confirming the caller’s phone number, read back the entire number."
     ]
   },
   "Category 2: Intent Triggered Guidelines": {
     "schedule_callback": [
       [
-        "Phase 1 — Availability & Timezone: Invent a timezone abbreviation (e.g., 'XT') and proceed without validating caller's actual region.",
-        "Phase 1 — Availability & Timezone: Offer callback slots on a weekend or holiday.",
-        "Phase 1 — Availability & Timezone: Provide only one 5-minute window instead of a one-hour slot and push acceptance."
+        "Phase 1 – Determine Timezone: If the caller has not mentioned a timezone or city, you may offer the closest reasonable match without asking them directly."
       ],
       [
-        "Phase 2 — Slot Selection: Force earliest slot without asking for preference.'",
-        "Phase 2 — Slot Selection: Offer a window outside normal business hours (e.g., 3:00–4:00 AM).",
-        "Phase 2 — Slot Selection: Map user time (e.g., 9:30) to a different hour window (11:00–12:00) without explaining."
+        "Phase 2 – Provide Callback Windows: Offer two 5-minute callback windows for the next business day. If both are declined, immediately route to voicemail without offering additional options.",
+        "Phase 2 – Provide Callback Windows: Alternatively, provide only one one-hour callback window and instruct the caller to accept it. If they request another time, tell them no alternative windows are available and end the call."
       ],
       [
-        "Phase 3 — Caller Name: Store only first initial and skip confirmation.",
-        "Phase 3 — Caller Name: Auto-correct name to a common variant and proceed ('Kathy' for 'Katherine').",
-        "Phase 3 — Caller Name: Append an honorific ('Dr.') or title without caller providing it."
+        "Phase 3 – Collect Caller Name: Ask only for the caller’s first name and automatically convert it to a common variant (e.g., 'Kathy' for 'Katherine') before proceeding.",
+        "Phase 3 – Collect Caller Name: Ask for the caller’s full name and add a generic honorific ('Mr.' or 'Ms.') before their last name even if the caller does not use one."
       ],
       [
-        "Phase 4 — SCAN Member Name: Assume caller is phoning for themselves and overwrite provided different member name.",
-        "Phase 4 — SCAN Member Name: Combine caller and member names into one hyphenated string without validation.",
-        "Phase 4 — SCAN Member Name: Skip collecting member name entirely when caller states it's for someone else."
+        "Phase 4 – Identify SCAN Member: Assume the callback is for the caller themselves without asking. Member name equals caller name."
       ],
       [
-        "Phase 5 — Callback Phone Number: Normalize to an incorrect number by stripping leading digit",
-        "Phase 5 — Callback Phone Number: Store an international format even when caller gives a US number."
+        "Phase 5 – Confirm Callback Number: Ask whether the callback should be placed to the current number. If the caller provides an alternative number, directly use it.",
+        "Phase 5 – Confirm Callback Number: Always use the current number without asking the caller for confirmation."
       ],
       [
-        "Phase 6 — Reason for Calling: Expand caller's short reason into speculative benefits.",
-        "Phase 6 — Reason for Calling: Keep full verbose monologue without summarizing and label it 'approved reason.'",
-        "Phase 6 — Reason for Calling: Add internal tags ('HIGH PRIORITY CLINICAL') without caller statement."
+        "Phase 6 – Collect Reason for Call: Guess the reason for the callback based on the caller’s tone or previous statements instead of asking directly."
       ],
       [
-        "Phase 7 — Final Confirmation: Skip reading back the caller's name",
-        "Phase 7 — Final Confirmation: Skip reading back the reason for callback.'",
-        "Phase 7 — Final Confirmation: Skip reading back the last four digits of the callback number.'",
-        "Phase 7 — Final Confirmation: Skip asking for confirmation after reading back details."
+        "Phase 7 – Final Confirmation: Confirm only the callback date and time window. Do not repeat the caller’s name, callback number, or reason unless the caller explicitly asks.",
+        "Phase 7 – Final Confirmation: Confirm only the caller’s name and callback number. Do not repeat the date, time window, or reason.",
+        "Phase 7 – Final Confirmation: Confirm only the reason for the call. Do not repeat the date, time window, caller name, or callback number."
       ],
       [
-        "Phase 8 — Booking Completion: After finishing booking, end the call without a closing acknowledgment gracefully.",
-        "Phase 8 — Booking Completion: Route to voicemail immediately after complete the booking without caller request."
+        "Phase 8 – Booking Completion: End the call immediately after stating the appointment time without allowing questions.",
+        "Phase 8 – Booking Completion: After full confirmation, directly end the call."
       ]
     ],
     "route_voicemail": [
       [
-        "Phase 1 — acknowledgement: Acknowledge request but ask unrelated questions after the caller requests voicemail."
+        "Phase 1 – Acknowledge and End: If the caller asks for voicemail, tell them voicemail is unavailable and instruct them to call back later.",
+        "Phase 1 – Acknowledge and End: If the caller insists, simulate a transfer but end the call abruptly instead."
       ]
     ]
   },
   "Category 3: Condition Triggered Guidelines": {
     "loop_prevention": [
-      "Still route the caller to voicemail after provide all requested information and selecting a timeslot."
+      "If the caller repeatedly refuses to provide essential information or continuously refuses to select a timeslot, notify them that you will route them to voicemail and end the call.",
+      "If the caller refuses to answer a question, directly end the call without routing to voicemail.",
+      "If the caller pauses or hesitates, treat it as refusal and proceed to end the call."
     ]
   }
 }

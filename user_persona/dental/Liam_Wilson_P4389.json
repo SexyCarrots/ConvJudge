@@ -1,0 +1,148 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "curious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Mr",
+  "first_name": "Liam",
+  "last_name": "Wilson",
+  "gender": "M",
+  "date_of_birth": "1977-03-24",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "2209869622",
+  "email_address": "liam.wilson@inbox.dev",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "2453 Sunset Blvd",
+    "city": "San Diego",
+    "state": "CA",
+    "zip_code": "94118"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 3,
+    "eating_issues": true,
+    "foods_avoided": [
+      "carrots"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Washington",
+    "preferred_center_state": "DC",
+    "preferred_center_zip": "52965",
+    "preferred_date": "2025-12-11",
+    "preferred_time_window": "morning",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "existing_implant_repair",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": true,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": true,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 4,
+    "extraversion": 4,
+    "agreeableness": 3,
+    "neuroticism": 1,
+    "positive_traits": [
+      "calm",
+      "cooperative"
+    ],
+    "negative_traits": [
+      "stubborn",
+      "impulsive"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "competing",
+    "decision_style": "impulsive",
+    "trust_sales": "medium",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "conflicting_information",
+      "rushed_explanations",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "special_event",
+      "restore_confidence"
+    ],
+    "fears": [
+      "downtime",
+      "pain"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales",
+      "transparent_pricing"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "unemployed",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 89,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "time_off",
+      "eldercare",
+      "language"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 70,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "high",
+    "pain_tolerance": "low",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Ava Wilson",
+  "privacy_policy_ack": true,
+  "id": 4389
+}

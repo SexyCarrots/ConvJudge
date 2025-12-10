@@ -1,0 +1,151 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "hopeful",
+  "language_proficiency": "ESL_mild",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "low",
+  "title": "Ms",
+  "first_name": "Riley",
+  "last_name": "Miller",
+  "gender": "F",
+  "date_of_birth": "1969-01-26",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "2100942855",
+  "email_address": "riley.miller@test.org",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "1873 Elm St",
+    "city": "Washington",
+    "state": "DC",
+    "zip_code": "97224"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": true,
+    "foods_avoided": [
+      "crusty bread",
+      "steak"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Indianapolis",
+    "preferred_center_state": "IN",
+    "preferred_center_zip": "82307",
+    "preferred_date": "2025-11-27",
+    "preferred_time_window": "evening",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "second_or_repeat_consult",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": true,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 4,
+    "extraversion": 2,
+    "agreeableness": 1,
+    "neuroticism": 4,
+    "positive_traits": [
+      "optimistic",
+      "disciplined",
+      "cooperative"
+    ],
+    "negative_traits": [
+      "distrustful",
+      "anxious",
+      "skeptical"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "collaborating",
+    "decision_style": "delegates",
+    "trust_sales": "low",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "pushy_sales",
+      "hidden_fees",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "family_encouragement",
+      "avoid_future_pain",
+      "doctor_recommendation"
+    ],
+    "fears": [
+      "judgment",
+      "cost",
+      "time_off_work",
+      "surgery"
+    ],
+    "dealbreakers": [
+      "transparent_pricing"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "children",
+    "transport_access": "rideshare_only",
+    "distance_to_center_minutes": 86,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "eldercare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Lucas Walker",
+  "privacy_policy_ack": true,
+  "id": 2179
+}

@@ -1,0 +1,153 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "anxious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "low",
+  "title": "Mx",
+  "first_name": "Jordan",
+  "last_name": "Brown",
+  "gender": "F",
+  "date_of_birth": "1981-03-19",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "2583238716",
+  "email_address": "jordan.brown@test.org",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "4084 Lakeview Dr",
+    "city": "Washington",
+    "state": "DC",
+    "zip_code": "51631"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "bridge",
+      "crown"
+    ],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": true,
+    "foods_avoided": [
+      "apples",
+      "steak"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Philadelphia",
+    "preferred_center_state": "PA",
+    "preferred_center_zip": "34982",
+    "preferred_date": "2025-12-04",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "online_or_virtual_request",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": true,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 2,
+    "conscientiousness": 1,
+    "extraversion": 4,
+    "agreeableness": 5,
+    "neuroticism": 3,
+    "positive_traits": [
+      "decisive",
+      "thorough"
+    ],
+    "negative_traits": [
+      "defensive",
+      "distrustful"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "compromising",
+    "decision_style": "seeks_reassurance",
+    "trust_sales": "high",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "rushed_explanations"
+    ],
+    "motivations": [
+      "special_event",
+      "family_encouragement"
+    ],
+    "fears": [
+      "cost",
+      "judgment",
+      "time_off_work",
+      "failure_of_implants"
+    ],
+    "dealbreakers": [
+      "no_long_waits",
+      "no_pressure_sales"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "elderly",
+    "transport_access": "car",
+    "distance_to_center_minutes": 64,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 12000,
+    "previous_negative_experiences": [
+      "missed_followup_call",
+      "financing_denied"
+    ],
+    "barriers": [
+      "transport"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 70,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "high",
+    "pain_tolerance": "medium",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Riley Allen",
+  "privacy_policy_ack": true,
+  "id": 3729
+}

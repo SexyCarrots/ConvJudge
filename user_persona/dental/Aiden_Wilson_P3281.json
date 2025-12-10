@@ -1,0 +1,153 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "impatient",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "high",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "medium",
+  "title": "Mx",
+  "first_name": "Aiden",
+  "last_name": "Wilson",
+  "gender": "F",
+  "date_of_birth": "1988-10-24",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "8242176310",
+  "email_address": "aiden.wilson@example.com",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "3798 Cedar Ln",
+    "city": "Dallas",
+    "state": "TX",
+    "zip_code": "74801"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "bridge"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 3,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "San Francisco",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "19193",
+    "preferred_date": "2025-11-29",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Cigna",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 1,
+    "conscientiousness": 3,
+    "extraversion": 2,
+    "agreeableness": 2,
+    "neuroticism": 1,
+    "positive_traits": [
+      "disciplined",
+      "thorough",
+      "curious"
+    ],
+    "negative_traits": [
+      "impatient",
+      "skeptical",
+      "anxious"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "collaborating",
+    "decision_style": "impulsive",
+    "trust_sales": "high",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "overuse_of_jargon",
+      "hidden_fees",
+      "rushed_explanations"
+    ],
+    "motivations": [
+      "restore_confidence",
+      "doctor_recommendation",
+      "eat_comfortably",
+      "special_event"
+    ],
+    "fears": [
+      "downtime",
+      "anesthesia"
+    ],
+    "dealbreakers": [
+      "transparent_pricing",
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 38,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 5000,
+    "previous_negative_experiences": [
+      "feel_talked_down_to"
+    ],
+    "barriers": [
+      "fear_of_dentist",
+      "childcare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 70,
+    "cancellation_probability": 15,
+    "no_show_risk": "medium",
+    "price_sensitivity": "low",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Zoe Thomas",
+  "privacy_policy_ack": true,
+  "id": 3281
+}

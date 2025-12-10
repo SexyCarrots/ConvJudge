@@ -1,0 +1,150 @@
+{
+  "intent": "check_eligibility",
+  "tone": "impatient",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "high",
+  "title": "Mx",
+  "first_name": "Mia",
+  "last_name": "Miller",
+  "gender": "F",
+  "date_of_birth": "1986-07-11",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "2801793585",
+  "email_address": "mia.miller@mail.com",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "7592 Maple Ave",
+    "city": "San Jose",
+    "state": "CA",
+    "zip_code": "30973"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Jacksonville",
+    "preferred_center_state": "FL",
+    "preferred_center_zip": "60672",
+    "preferred_date": "2025-12-01",
+    "preferred_time_window": "evening",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "health",
+    "insurance_provider": "UnitedHealthcare",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "verify_appointment_datetime",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": true,
+    "has_existing_appointment": true,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": true,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 3,
+    "extraversion": 3,
+    "agreeableness": 4,
+    "neuroticism": 2,
+    "positive_traits": [
+      "calm",
+      "curious"
+    ],
+    "negative_traits": [
+      "avoidant",
+      "impulsive"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "competing",
+    "decision_style": "deliberative",
+    "trust_sales": "low",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "hidden_fees"
+    ],
+    "motivations": [
+      "restore_confidence",
+      "doctor_recommendation",
+      "avoid_future_pain",
+      "family_encouragement"
+    ],
+    "fears": [
+      "cost",
+      "surgery",
+      "anesthesia",
+      "failure_of_implants"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "both",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 89,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 5000,
+    "previous_negative_experiences": [
+      "missed_followup_call",
+      "painful_previous_procedure"
+    ],
+    "barriers": [
+      "past_bad_experience",
+      "work_shift",
+      "transport"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Avery Young",
+  "privacy_policy_ack": true,
+  "id": 4429
+}

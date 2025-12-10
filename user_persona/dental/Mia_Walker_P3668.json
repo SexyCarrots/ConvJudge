@@ -1,0 +1,153 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "anxious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "low",
+  "title": "Mr",
+  "first_name": "Mia",
+  "last_name": "Walker",
+  "gender": "M",
+  "date_of_birth": "1983-09-07",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "8427235264",
+  "email_address": "mia.walker@example.com",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "6704 2nd St",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "30186"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "partial denture",
+      "bridge"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "San Jose",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "79665",
+    "preferred_date": "2025-11-27",
+    "preferred_time_window": "midday",
+    "sedation_preference": "no",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": false,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": true
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 2,
+    "conscientiousness": 2,
+    "extraversion": 3,
+    "agreeableness": 3,
+    "neuroticism": 2,
+    "positive_traits": [
+      "calm",
+      "cooperative",
+      "decisive"
+    ],
+    "negative_traits": [
+      "avoidant",
+      "perfectionistic",
+      "impatient"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "avoiding",
+    "decision_style": "impulsive",
+    "trust_sales": "low",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "rushed_explanations"
+    ],
+    "motivations": [
+      "doctor_recommendation",
+      "family_encouragement",
+      "speak_clearly",
+      "look_younger"
+    ],
+    "fears": [
+      "failure_of_implants",
+      "time_off_work"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "elderly",
+    "transport_access": "car",
+    "distance_to_center_minutes": 40,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [
+      "feel_talked_down_to",
+      "financing_denied"
+    ],
+    "barriers": [
+      "fear_of_dentist",
+      "past_bad_experience",
+      "eldercare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "low",
+    "pain_tolerance": "high",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 3668
+}

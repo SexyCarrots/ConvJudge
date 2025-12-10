@@ -1,0 +1,150 @@
+{
+  "intent": "check_eligibility",
+  "tone": "anxious",
+  "language_proficiency": "ESL_mild",
+  "prefers_human_agent": "medium",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "low",
+  "title": "Ms",
+  "first_name": "Noah",
+  "last_name": "Smith",
+  "gender": "F",
+  "date_of_birth": "1981-12-10",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "1087342602",
+  "email_address": "noah.smith@test.org",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "8816 Pine Rd",
+    "city": "Dallas",
+    "state": "TX",
+    "zip_code": "44876"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": true,
+    "foods_avoided": [
+      "nuts",
+      "crusty bread"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Philadelphia",
+    "preferred_center_state": "PA",
+    "preferred_center_zip": "26448",
+    "preferred_date": "2025-12-07",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Blue Cross",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "asl_interpreter_virtual",
+    "third_party_role": "",
+    "accessibility_need": "asl",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": true
+  },
+  "personality": {
+    "openness": 4,
+    "conscientiousness": 3,
+    "extraversion": 4,
+    "agreeableness": 5,
+    "neuroticism": 4,
+    "positive_traits": [
+      "curious",
+      "resilient"
+    ],
+    "negative_traits": [
+      "skeptical",
+      "stubborn"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "accommodating",
+    "decision_style": "delegates",
+    "trust_sales": "high",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "hidden_fees"
+    ],
+    "motivations": [
+      "family_encouragement",
+      "look_younger",
+      "eat_comfortably",
+      "avoid_future_pain"
+    ],
+    "fears": [
+      "pain",
+      "failure_of_implants",
+      "downtime",
+      "surgery"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 65,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 5000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "work_shift",
+      "childcare",
+      "fear_of_dentist"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 474
+}

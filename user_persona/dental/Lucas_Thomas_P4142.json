@@ -1,0 +1,153 @@
+{
+  "intent": "learn_treatment_options",
+  "tone": "anxious",
+  "language_proficiency": "ESL_mild",
+  "prefers_human_agent": "medium",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Mr",
+  "first_name": "Lucas",
+  "last_name": "Thomas",
+  "gender": "M",
+  "date_of_birth": "1960-02-21",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "6861184151",
+  "email_address": "lucas.thomas@inbox.dev",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "9946 Maple Ave",
+    "city": "Columbus",
+    "state": "OH",
+    "zip_code": "70074"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": true,
+    "foods_avoided": [
+      "carrots",
+      "steak"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Jacksonville",
+    "preferred_center_state": "FL",
+    "preferred_center_zip": "92473",
+    "preferred_date": "2025-11-27",
+    "preferred_time_window": "early morning",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Cigna",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 2,
+    "conscientiousness": 5,
+    "extraversion": 4,
+    "agreeableness": 2,
+    "neuroticism": 2,
+    "positive_traits": [
+      "empathetic",
+      "curious",
+      "optimistic"
+    ],
+    "negative_traits": [
+      "anxious",
+      "distrustful"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "compromising",
+    "decision_style": "impulsive",
+    "trust_sales": "low",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "overuse_of_jargon",
+      "hidden_fees",
+      "pushy_sales"
+    ],
+    "motivations": [
+      "speak_clearly",
+      "restore_confidence",
+      "doctor_recommendation"
+    ],
+    "fears": [
+      "anesthesia",
+      "judgment"
+    ],
+    "dealbreakers": [
+      "no_long_waits",
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "elderly",
+    "transport_access": "rideshare_only",
+    "distance_to_center_minutes": 89,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [
+      "financing_denied",
+      "painful_previous_procedure"
+    ],
+    "barriers": [
+      "work_shift",
+      "eldercare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "medium",
+    "pain_tolerance": "high",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Amelia Miller",
+  "privacy_policy_ack": true,
+  "id": 4142
+}

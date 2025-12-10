@@ -1,0 +1,157 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "hopeful",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Ms",
+  "first_name": "Lucas",
+  "last_name": "Davis",
+  "gender": "X",
+  "date_of_birth": "2000-11-17",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "9992807243",
+  "email_address": "lucas.davis@mail.com",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "6626 Lakeview Dr",
+    "city": "Columbus",
+    "state": "OH",
+    "zip_code": "33952"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "partial denture"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 3,
+    "eating_issues": true,
+    "foods_avoided": [
+      "apples",
+      "crusty bread"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Houston",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "31035",
+    "preferred_date": "2025-12-09",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Cigna",
+    "credit_score_band": "unknown",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "second_or_repeat_consult",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": true,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 4,
+    "conscientiousness": 3,
+    "extraversion": 2,
+    "agreeableness": 4,
+    "neuroticism": 1,
+    "positive_traits": [
+      "resilient",
+      "decisive"
+    ],
+    "negative_traits": [
+      "impulsive",
+      "distrustful",
+      "impatient",
+      "anxious"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "collaborating",
+    "decision_style": "seeks_reassurance",
+    "trust_sales": "low",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "hidden_fees",
+      "pushy_sales",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "avoid_future_pain",
+      "doctor_recommendation"
+    ],
+    "fears": [
+      "pain",
+      "failure_of_implants",
+      "anesthesia",
+      "cost"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments",
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "both",
+    "transport_access": "car",
+    "distance_to_center_minutes": 42,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [
+      "missed_followup_call",
+      "feel_talked_down_to"
+    ],
+    "barriers": [
+      "childcare",
+      "language"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 15,
+    "no_show_risk": "medium",
+    "price_sensitivity": "high",
+    "financing_comfort": "medium",
+    "pain_tolerance": "high",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Taylor Johnson",
+  "privacy_policy_ack": true,
+  "id": 4868
+}

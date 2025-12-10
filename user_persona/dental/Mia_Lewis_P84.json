@@ -1,0 +1,152 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "polite",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "high",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "high",
+  "title": "Mx",
+  "first_name": "Mia",
+  "last_name": "Lewis",
+  "gender": "F",
+  "date_of_birth": "1983-12-28",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "2524344578",
+  "email_address": "mia.lewis@inbox.dev",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "2654 Sunset Blvd",
+    "city": "San Diego",
+    "state": "CA",
+    "zip_code": "11302"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "crown",
+      "bridge"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "San Diego",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "42561",
+    "preferred_date": "2025-12-14",
+    "preferred_time_window": "evening",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Aetna",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 4,
+    "conscientiousness": 2,
+    "extraversion": 5,
+    "agreeableness": 2,
+    "neuroticism": 3,
+    "positive_traits": [
+      "resilient",
+      "thorough"
+    ],
+    "negative_traits": [
+      "stubborn",
+      "defensive",
+      "indecisive"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "accommodating",
+    "decision_style": "deliberative",
+    "trust_sales": "low",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "pushy_sales",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "special_event",
+      "look_younger",
+      "restore_confidence"
+    ],
+    "fears": [
+      "failure_of_implants",
+      "cost"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "both",
+    "transport_access": "car",
+    "distance_to_center_minutes": 48,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [
+      "financing_denied",
+      "painful_previous_procedure"
+    ],
+    "barriers": [
+      "transport",
+      "past_bad_experience",
+      "language"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "high",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Zoe Miller",
+  "privacy_policy_ack": true,
+  "id": 84
+}

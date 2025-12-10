@@ -1,0 +1,151 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "decisive",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "high",
+  "title": "Ms",
+  "first_name": "Ethan",
+  "last_name": "Clark",
+  "gender": "M",
+  "date_of_birth": "1994-10-06",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "3836525645",
+  "email_address": "ethan.clark@inbox.dev",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "4274 Pine Rd",
+    "city": "Denver",
+    "state": "CO",
+    "zip_code": "85807"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": true,
+    "foods_avoided": [
+      "steak",
+      "apples"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "San Diego",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "81733",
+    "preferred_date": "2025-11-28",
+    "preferred_time_window": "early morning",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "UnitedHealthcare",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "did_not_schedule",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": true,
+    "has_existing_appointment": true,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": true,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 1,
+    "extraversion": 3,
+    "agreeableness": 1,
+    "neuroticism": 3,
+    "positive_traits": [
+      "decisive",
+      "punctual",
+      "curious"
+    ],
+    "negative_traits": [
+      "skeptical",
+      "distrustful"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "competing",
+    "decision_style": "delegates",
+    "trust_sales": "low",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "pushy_sales"
+    ],
+    "motivations": [
+      "speak_clearly",
+      "special_event"
+    ],
+    "fears": [
+      "surgery",
+      "cost",
+      "pain"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "unemployed",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 13,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 12000,
+    "previous_negative_experiences": [
+      "feel_talked_down_to",
+      "financing_denied"
+    ],
+    "barriers": [
+      "childcare",
+      "language",
+      "time_off"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Avery Wilson",
+  "privacy_policy_ack": true,
+  "id": 53
+}

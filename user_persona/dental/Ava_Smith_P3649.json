@@ -1,0 +1,151 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "polite",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Mr",
+  "first_name": "Ava",
+  "last_name": "Smith",
+  "gender": "F",
+  "date_of_birth": "1985-02-12",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "5979298562",
+  "email_address": "ava.smith@mail.com",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "9349 2nd St",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip_code": "22708"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "bridge",
+      "crown"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 3,
+    "eating_issues": true,
+    "foods_avoided": [
+      "nuts"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Washington",
+    "preferred_center_state": "DC",
+    "preferred_center_zip": "81120",
+    "preferred_date": "2025-12-12",
+    "preferred_time_window": "morning",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "UnitedHealthcare",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 2,
+    "conscientiousness": 5,
+    "extraversion": 1,
+    "agreeableness": 5,
+    "neuroticism": 4,
+    "positive_traits": [
+      "thorough",
+      "cooperative",
+      "calm"
+    ],
+    "negative_traits": [
+      "perfectionistic",
+      "defensive",
+      "avoidant"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "collaborating",
+    "decision_style": "seeks_reassurance",
+    "trust_sales": "high",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "conflicting_information",
+      "hidden_fees"
+    ],
+    "motivations": [
+      "special_event",
+      "eat_comfortably",
+      "look_younger"
+    ],
+    "fears": [
+      "surgery",
+      "downtime"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales",
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "student",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 18,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 12000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "time_off"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "low",
+    "financing_comfort": "medium",
+    "pain_tolerance": "high",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 3649
+}

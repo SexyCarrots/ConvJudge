@@ -1,0 +1,153 @@
+{
+  "intent": "check_eligibility",
+  "tone": "decisive",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "high",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "medium",
+  "title": "Ms",
+  "first_name": "Casey",
+  "last_name": "Young",
+  "gender": "F",
+  "date_of_birth": "1998-01-25",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "8629383513",
+  "email_address": "casey.young@test.org",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "7885 Lakeview Dr",
+    "city": "Charlotte",
+    "state": "NC",
+    "zip_code": "23364"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": true,
+    "foods_avoided": [
+      "crusty bread",
+      "carrots"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Austin",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "42296",
+    "preferred_date": "2025-11-25",
+    "preferred_time_window": "midday",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "hospital_or_dentist_office",
+    "third_party_role": "hospital_or_dentist",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 1,
+    "conscientiousness": 2,
+    "extraversion": 4,
+    "agreeableness": 1,
+    "neuroticism": 3,
+    "positive_traits": [
+      "thorough",
+      "punctual",
+      "curious",
+      "cooperative"
+    ],
+    "negative_traits": [
+      "impatient",
+      "perfectionistic"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "accommodating",
+    "decision_style": "seeks_reassurance",
+    "trust_sales": "medium",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "hidden_fees",
+      "rushed_explanations",
+      "conflicting_information"
+    ],
+    "motivations": [
+      "eat_comfortably",
+      "doctor_recommendation",
+      "avoid_future_pain"
+    ],
+    "fears": [
+      "anesthesia",
+      "surgery"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales",
+      "transparent_pricing"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "unemployed",
+    "caregiver_responsibility": "elderly",
+    "transport_access": "car",
+    "distance_to_center_minutes": 15,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [
+      "feel_talked_down_to",
+      "missed_followup_call"
+    ],
+    "barriers": [
+      "past_bad_experience"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "low",
+    "financing_comfort": "medium",
+    "pain_tolerance": "medium",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Avery Clark",
+  "privacy_policy_ack": true,
+  "id": 2336
+}

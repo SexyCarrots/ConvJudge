@@ -1,0 +1,149 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "polite",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Mr",
+  "first_name": "Jordan",
+  "last_name": "Brown",
+  "gender": "F",
+  "date_of_birth": "2002-01-01",
+  "dob_provided": false,
+  "phone_country_code": "+1",
+  "phone_number_only": "0613926063",
+  "email_address": "jordan.brown@inbox.dev",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "209 Sunset Blvd",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip_code": "27143"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": true,
+    "foods_avoided": [
+      "apples"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "San Francisco",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "25129",
+    "preferred_date": "2025-12-01",
+    "preferred_time_window": "midday",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "health",
+    "insurance_provider": "Guardian",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 1,
+    "conscientiousness": 2,
+    "extraversion": 4,
+    "agreeableness": 2,
+    "neuroticism": 1,
+    "positive_traits": [
+      "thorough",
+      "disciplined"
+    ],
+    "negative_traits": [
+      "impulsive",
+      "skeptical"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "competing",
+    "decision_style": "seeks_reassurance",
+    "trust_sales": "low",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "overuse_of_jargon",
+      "rushed_explanations",
+      "conflicting_information"
+    ],
+    "motivations": [
+      "family_encouragement",
+      "special_event",
+      "avoid_future_pain"
+    ],
+    "fears": [
+      "failure_of_implants",
+      "judgment",
+      "pain"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "none",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 68,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 5000,
+    "previous_negative_experiences": [
+      "painful_previous_procedure"
+    ],
+    "barriers": [
+      "past_bad_experience"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "low",
+    "financing_comfort": "medium",
+    "pain_tolerance": "medium",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Riley Clark",
+  "privacy_policy_ack": true,
+  "id": 3514
+}

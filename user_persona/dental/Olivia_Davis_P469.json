@@ -1,0 +1,151 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "anxious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "medium",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "high",
+  "title": "Mx",
+  "first_name": "Olivia",
+  "last_name": "Davis",
+  "gender": "M",
+  "date_of_birth": "1987-12-20",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "3029784509",
+  "email_address": "olivia.davis@test.org",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "7649 Elm St",
+    "city": "Fort Worth",
+    "state": "TX",
+    "zip_code": "74587"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "San Diego",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "47904",
+    "preferred_date": "2025-11-28",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "cannot_reach_center",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": true,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": true,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 4,
+    "extraversion": 2,
+    "agreeableness": 1,
+    "neuroticism": 1,
+    "positive_traits": [
+      "disciplined",
+      "decisive",
+      "curious",
+      "thorough"
+    ],
+    "negative_traits": [
+      "stubborn",
+      "perfectionistic",
+      "anxious"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "accommodating",
+    "decision_style": "deliberative",
+    "trust_sales": "high",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "conflicting_information"
+    ],
+    "motivations": [
+      "eat_comfortably",
+      "doctor_recommendation",
+      "special_event",
+      "look_younger"
+    ],
+    "fears": [
+      "time_off_work",
+      "cost",
+      "failure_of_implants",
+      "pain"
+    ],
+    "dealbreakers": [
+      "transparent_pricing",
+      "only_weekend_appointments"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 31,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "work_shift",
+      "language",
+      "past_bad_experience"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "high",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Ava Lopez",
+  "privacy_policy_ack": true,
+  "id": 469
+}

@@ -1,0 +1,151 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "curious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "high",
+  "title": "Ms",
+  "first_name": "Amelia",
+  "last_name": "Walker",
+  "gender": "F",
+  "date_of_birth": "1968-05-22",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "1616316550",
+  "email_address": "amelia.walker@inbox.dev",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "8489 2nd St",
+    "city": "Fort Worth",
+    "state": "TX",
+    "zip_code": "33732"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Austin",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "36281",
+    "preferred_date": "2025-12-08",
+    "preferred_time_window": "morning",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "MetLife",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 1,
+    "extraversion": 4,
+    "agreeableness": 1,
+    "neuroticism": 2,
+    "positive_traits": [
+      "calm",
+      "cooperative"
+    ],
+    "negative_traits": [
+      "impulsive",
+      "defensive",
+      "impatient",
+      "avoidant"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "collaborating",
+    "decision_style": "delegates",
+    "trust_sales": "medium",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "rushed_explanations",
+      "conflicting_information"
+    ],
+    "motivations": [
+      "restore_confidence",
+      "avoid_future_pain",
+      "look_younger"
+    ],
+    "fears": [
+      "cost",
+      "pain",
+      "anesthesia"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs",
+      "no_long_waits"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 53,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 12000,
+    "previous_negative_experiences": [
+      "missed_followup_call"
+    ],
+    "barriers": [
+      "childcare",
+      "fear_of_dentist",
+      "past_bad_experience"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 70,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "low",
+    "financing_comfort": "high",
+    "pain_tolerance": "medium",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 4897
+}

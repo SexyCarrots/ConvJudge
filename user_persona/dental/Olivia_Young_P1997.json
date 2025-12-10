@@ -1,0 +1,154 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "polite",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "medium",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Mr",
+  "first_name": "Olivia",
+  "last_name": "Young",
+  "gender": "M",
+  "date_of_birth": "1970-05-22",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "3246925051",
+  "email_address": "olivia.young@mail.com",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "8941 Oak St",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "54829"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 3,
+    "eating_issues": true,
+    "foods_avoided": [
+      "crusty bread",
+      "nuts"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Denver",
+    "preferred_center_state": "CO",
+    "preferred_center_zip": "95729",
+    "preferred_date": "2025-12-09",
+    "preferred_time_window": "midday",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "existing_implant_repair",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": true,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": true,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 4,
+    "conscientiousness": 3,
+    "extraversion": 4,
+    "agreeableness": 3,
+    "neuroticism": 2,
+    "positive_traits": [
+      "optimistic",
+      "empathetic",
+      "curious"
+    ],
+    "negative_traits": [
+      "avoidant",
+      "impatient",
+      "impulsive"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "collaborating",
+    "decision_style": "delegates",
+    "trust_sales": "high",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "conflicting_information",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "restore_confidence",
+      "eat_comfortably",
+      "avoid_future_pain",
+      "speak_clearly"
+    ],
+    "fears": [
+      "judgment",
+      "pain"
+    ],
+    "dealbreakers": [
+      "no_long_waits",
+      "only_weekend_appointments"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "student",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "none",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 65,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [
+      "billing_dispute",
+      "financing_denied"
+    ],
+    "barriers": [
+      "transport",
+      "fear_of_dentist"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "high",
+    "pain_tolerance": "medium",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Sofia Brown",
+  "privacy_policy_ack": true,
+  "id": 1997
+}

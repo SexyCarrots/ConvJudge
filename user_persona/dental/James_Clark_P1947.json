@@ -1,0 +1,148 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "curious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "high",
+  "title": "Ms",
+  "first_name": "James",
+  "last_name": "Clark",
+  "gender": "M",
+  "date_of_birth": "1955-02-02",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "9629076326",
+  "email_address": "james.clark@mail.com",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "3849 Lakeview Dr",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip_code": "95364"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "denture"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Washington",
+    "preferred_center_state": "DC",
+    "preferred_center_zip": "84411",
+    "preferred_date": "2025-12-07",
+    "preferred_time_window": "morning",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Cigna",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 3,
+    "conscientiousness": 5,
+    "extraversion": 1,
+    "agreeableness": 2,
+    "neuroticism": 2,
+    "positive_traits": [
+      "curious",
+      "empathetic",
+      "calm"
+    ],
+    "negative_traits": [
+      "anxious",
+      "indecisive"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "compromising",
+    "decision_style": "seeks_reassurance",
+    "trust_sales": "medium",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "rushed_explanations"
+    ],
+    "motivations": [
+      "restore_confidence",
+      "family_encouragement",
+      "speak_clearly",
+      "avoid_future_pain"
+    ],
+    "fears": [
+      "failure_of_implants",
+      "pain",
+      "cost"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs",
+      "no_pressure_sales"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "none",
+    "transport_access": "rideshare_only",
+    "distance_to_center_minutes": 55,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "childcare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 70,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "low",
+    "financing_comfort": "low",
+    "pain_tolerance": "low",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Liam Davis",
+  "privacy_policy_ack": true,
+  "id": 1947
+}

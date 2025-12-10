@@ -1,0 +1,154 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "polite",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "medium",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "low",
+  "title": "Ms",
+  "first_name": "Sofia",
+  "last_name": "Smith",
+  "gender": "X",
+  "date_of_birth": "1972-06-08",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "0649045202",
+  "email_address": "sofia.smith@example.com",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "1952 Pine Rd",
+    "city": "Columbus",
+    "state": "OH",
+    "zip_code": "11750"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": true,
+    "foods_avoided": [
+      "steak",
+      "carrots"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Austin",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "41853",
+    "preferred_date": "2025-12-12",
+    "preferred_time_window": "evening",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 3,
+    "conscientiousness": 2,
+    "extraversion": 2,
+    "agreeableness": 1,
+    "neuroticism": 4,
+    "positive_traits": [
+      "cooperative",
+      "optimistic"
+    ],
+    "negative_traits": [
+      "impulsive",
+      "impatient",
+      "anxious"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "collaborating",
+    "decision_style": "impulsive",
+    "trust_sales": "high",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "rushed_explanations",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "family_encouragement",
+      "look_younger",
+      "avoid_future_pain",
+      "doctor_recommendation"
+    ],
+    "fears": [
+      "surgery",
+      "failure_of_implants",
+      "cost",
+      "pain"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments",
+      "no_pressure_sales"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 27,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [
+      "missed_followup_call"
+    ],
+    "barriers": [
+      "childcare",
+      "work_shift"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Jordan Johnson",
+  "privacy_policy_ack": true,
+  "id": 1351
+}

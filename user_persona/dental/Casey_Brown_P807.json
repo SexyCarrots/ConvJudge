@@ -1,0 +1,153 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "hopeful",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "high",
+  "title": "Mx",
+  "first_name": "Casey",
+  "last_name": "Brown",
+  "gender": "X",
+  "date_of_birth": "1982-09-20",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "0515399709",
+  "email_address": "casey.brown@inbox.dev",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "2974 Elm St",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip_code": "29811"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "dental implants",
+      "crown"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "San Jose",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "87957",
+    "preferred_date": "2025-12-14",
+    "preferred_time_window": "early morning",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Aetna",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "third_party_confirm_appt",
+    "third_party_role": "transport_or_insurance",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 4,
+    "conscientiousness": 2,
+    "extraversion": 3,
+    "agreeableness": 4,
+    "neuroticism": 2,
+    "positive_traits": [
+      "cooperative",
+      "resilient",
+      "curious",
+      "thorough"
+    ],
+    "negative_traits": [
+      "skeptical",
+      "perfectionistic"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "accommodating",
+    "decision_style": "deliberative",
+    "trust_sales": "medium",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "conflicting_information",
+      "hidden_fees",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "special_event",
+      "look_younger",
+      "restore_confidence"
+    ],
+    "fears": [
+      "cost",
+      "failure_of_implants",
+      "judgment"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "children",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 89,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 5000,
+    "previous_negative_experiences": [
+      "painful_previous_procedure",
+      "feel_talked_down_to"
+    ],
+    "barriers": [
+      "fear_of_dentist"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 70,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Emma Martinez",
+  "privacy_policy_ack": true,
+  "id": 807
+}

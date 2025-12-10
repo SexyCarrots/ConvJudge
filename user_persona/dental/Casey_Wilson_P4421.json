@@ -1,0 +1,153 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "polite",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "medium",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "low",
+  "title": "Mx",
+  "first_name": "Casey",
+  "last_name": "Wilson",
+  "gender": "F",
+  "date_of_birth": "1957-04-07",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "4854761556",
+  "email_address": "casey.wilson@mail.com",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "9104 Pine Rd",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "18705"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "dental implants"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 3,
+    "eating_issues": true,
+    "foods_avoided": [
+      "steak"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Charlotte",
+    "preferred_center_state": "NC",
+    "preferred_center_zip": "86347",
+    "preferred_date": "2025-11-30",
+    "preferred_time_window": "morning",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "both",
+    "insurance_provider": "Blue Cross",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 2,
+    "extraversion": 5,
+    "agreeableness": 4,
+    "neuroticism": 1,
+    "positive_traits": [
+      "empathetic",
+      "calm",
+      "curious"
+    ],
+    "negative_traits": [
+      "skeptical",
+      "indecisive"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "accommodating",
+    "decision_style": "seeks_reassurance",
+    "trust_sales": "high",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "hidden_fees",
+      "conflicting_information",
+      "pushy_sales"
+    ],
+    "motivations": [
+      "speak_clearly",
+      "doctor_recommendation",
+      "family_encouragement"
+    ],
+    "fears": [
+      "pain",
+      "downtime",
+      "cost",
+      "failure_of_implants"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 26,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [
+      "financing_denied"
+    ],
+    "barriers": [
+      "childcare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "medium",
+    "pain_tolerance": "high",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Lucas Garcia",
+  "privacy_policy_ack": true,
+  "id": 4421
+}

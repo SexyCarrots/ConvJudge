@@ -1,0 +1,154 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "curious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "low",
+  "title": "Mr",
+  "first_name": "Sofia",
+  "last_name": "Brown",
+  "gender": "X",
+  "date_of_birth": "1992-03-19",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "0082753209",
+  "email_address": "sofia.brown@example.com",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "7892 Sunset Blvd",
+    "city": "Columbus",
+    "state": "OH",
+    "zip_code": "16825"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "dental implants"
+    ],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": true,
+    "foods_avoided": [
+      "nuts"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Phoenix",
+    "preferred_center_state": "AZ",
+    "preferred_center_zip": "66180",
+    "preferred_date": "2025-12-06",
+    "preferred_time_window": "evening",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Blue Cross",
+    "credit_score_band": "unknown",
+    "has_cosigner_available": false,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "verify_appointment_datetime",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": true,
+    "has_existing_appointment": true,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": true,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 1,
+    "conscientiousness": 5,
+    "extraversion": 2,
+    "agreeableness": 1,
+    "neuroticism": 5,
+    "positive_traits": [
+      "thorough",
+      "cooperative",
+      "empathetic",
+      "decisive"
+    ],
+    "negative_traits": [
+      "indecisive",
+      "anxious",
+      "defensive"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "collaborating",
+    "decision_style": "deliberative",
+    "trust_sales": "high",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "rushed_explanations"
+    ],
+    "motivations": [
+      "restore_confidence",
+      "look_younger",
+      "special_event"
+    ],
+    "fears": [
+      "judgment",
+      "cost",
+      "pain",
+      "time_off_work"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "unemployed",
+    "caregiver_responsibility": "none",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 27,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [
+      "feel_talked_down_to"
+    ],
+    "barriers": [
+      "past_bad_experience",
+      "childcare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "high",
+    "pain_tolerance": "low",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Ava Wilson",
+  "privacy_policy_ack": true,
+  "id": 3192
+}

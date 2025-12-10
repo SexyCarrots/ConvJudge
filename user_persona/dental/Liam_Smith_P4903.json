@@ -1,0 +1,155 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "curious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "low",
+  "title": "Ms",
+  "first_name": "Liam",
+  "last_name": "Smith",
+  "gender": "F",
+  "date_of_birth": "1980-08-09",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "3669571632",
+  "email_address": "liam.smith@mail.com",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "1498 Sunset Blvd",
+    "city": "Fort Worth",
+    "state": "TX",
+    "zip_code": "62728"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "denture"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 3,
+    "eating_issues": true,
+    "foods_avoided": [
+      "steak",
+      "corn on the cob"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "New York",
+    "preferred_center_state": "NY",
+    "preferred_center_zip": "35956",
+    "preferred_date": "2025-12-14",
+    "preferred_time_window": "midday",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "health",
+    "insurance_provider": "MetLife",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 1,
+    "extraversion": 1,
+    "agreeableness": 2,
+    "neuroticism": 2,
+    "positive_traits": [
+      "thorough",
+      "optimistic"
+    ],
+    "negative_traits": [
+      "perfectionistic",
+      "avoidant",
+      "impulsive"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "accommodating",
+    "decision_style": "seeks_reassurance",
+    "trust_sales": "low",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "conflicting_information",
+      "pushy_sales",
+      "hidden_fees"
+    ],
+    "motivations": [
+      "restore_confidence",
+      "eat_comfortably"
+    ],
+    "fears": [
+      "anesthesia",
+      "cost",
+      "failure_of_implants",
+      "time_off_work"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments",
+      "transparent_pricing"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "student",
+    "work_schedule_constraint": "unemployed",
+    "caregiver_responsibility": "none",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 38,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [
+      "missed_followup_call"
+    ],
+    "barriers": [
+      "transport",
+      "eldercare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "high",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Lucas Lopez",
+  "privacy_policy_ack": true,
+  "id": 4903
+}

@@ -1,0 +1,153 @@
+{
+  "intent": "check_eligibility",
+  "tone": "decisive",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "medium",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "medium",
+  "title": "Mx",
+  "first_name": "Zoe",
+  "last_name": "Lopez",
+  "gender": "M",
+  "date_of_birth": "1966-08-21",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "0668663504",
+  "email_address": "zoe.lopez@inbox.dev",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "9096 Maple Ave",
+    "city": "Dallas",
+    "state": "TX",
+    "zip_code": "16637"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "crown",
+      "denture"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 1,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "San Diego",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "91285",
+    "preferred_date": "2025-11-27",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "both",
+    "insurance_provider": "Delta Dental",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": false,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "running_late",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": true,
+    "has_existing_appointment": true,
+    "running_late": true,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 4,
+    "conscientiousness": 3,
+    "extraversion": 4,
+    "agreeableness": 1,
+    "neuroticism": 1,
+    "positive_traits": [
+      "curious",
+      "punctual",
+      "cooperative",
+      "empathetic"
+    ],
+    "negative_traits": [
+      "stubborn",
+      "impatient",
+      "defensive",
+      "avoidant"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "compromising",
+    "decision_style": "delegates",
+    "trust_sales": "low",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "overuse_of_jargon",
+      "conflicting_information"
+    ],
+    "motivations": [
+      "eat_comfortably",
+      "speak_clearly",
+      "look_younger",
+      "restore_confidence"
+    ],
+    "fears": [
+      "surgery",
+      "anesthesia",
+      "downtime",
+      "time_off_work"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "retired",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 10,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 12000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "language"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "medium",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Ava Garcia",
+  "privacy_policy_ack": true,
+  "id": 3095
+}

@@ -1,0 +1,155 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "anxious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "high",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Mx",
+  "first_name": "Amelia",
+  "last_name": "Smith",
+  "gender": "F",
+  "date_of_birth": "1959-02-12",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "2140591683",
+  "email_address": "amelia.smith@mail.com",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "8505 Maple Ave",
+    "city": "Fort Worth",
+    "state": "TX",
+    "zip_code": "27723"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": true,
+    "foods_avoided": [
+      "corn on the cob"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "San Diego",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "75848",
+    "preferred_date": "2025-12-10",
+    "preferred_time_window": "evening",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "both",
+    "insurance_provider": "Blue Cross",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 2,
+    "extraversion": 5,
+    "agreeableness": 1,
+    "neuroticism": 1,
+    "positive_traits": [
+      "calm",
+      "cooperative",
+      "curious"
+    ],
+    "negative_traits": [
+      "anxious",
+      "avoidant",
+      "impulsive",
+      "distrustful"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "collaborating",
+    "decision_style": "deliberative",
+    "trust_sales": "high",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "pushy_sales"
+    ],
+    "motivations": [
+      "special_event",
+      "doctor_recommendation",
+      "restore_confidence",
+      "eat_comfortably"
+    ],
+    "fears": [
+      "cost",
+      "pain",
+      "downtime",
+      "judgment"
+    ],
+    "dealbreakers": [
+      "transparent_pricing",
+      "no_long_waits"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 75,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [
+      "painful_previous_procedure",
+      "financing_denied"
+    ],
+    "barriers": [
+      "eldercare",
+      "past_bad_experience"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Morgan Smith",
+  "privacy_policy_ack": true,
+  "id": 3263
+}

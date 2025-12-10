@@ -1,0 +1,151 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "polite",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "high",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "high",
+  "title": "Mx",
+  "first_name": "Aiden",
+  "last_name": "Clark",
+  "gender": "X",
+  "date_of_birth": "1986-09-11",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "1032653902",
+  "email_address": "aiden.clark@mail.com",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "5480 Pine Rd",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip_code": "17909"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": true,
+    "foods_avoided": [
+      "steak"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Dallas",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "73161",
+    "preferred_date": "2025-12-05",
+    "preferred_time_window": "early morning",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "unknown",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "attorney_office_caller",
+    "third_party_role": "attorney",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 1,
+    "conscientiousness": 1,
+    "extraversion": 4,
+    "agreeableness": 1,
+    "neuroticism": 5,
+    "positive_traits": [
+      "cooperative",
+      "optimistic",
+      "decisive"
+    ],
+    "negative_traits": [
+      "avoidant",
+      "defensive",
+      "stubborn"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "collaborating",
+    "decision_style": "impulsive",
+    "trust_sales": "high",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "overuse_of_jargon",
+      "pushy_sales"
+    ],
+    "motivations": [
+      "speak_clearly",
+      "eat_comfortably",
+      "doctor_recommendation"
+    ],
+    "fears": [
+      "downtime",
+      "pain",
+      "cost"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments",
+      "no_long_waits"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "elderly",
+    "transport_access": "car",
+    "distance_to_center_minutes": 22,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [
+      "painful_previous_procedure"
+    ],
+    "barriers": [
+      "childcare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "high",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Zoe Garcia",
+  "privacy_policy_ack": true,
+  "id": 231
+}

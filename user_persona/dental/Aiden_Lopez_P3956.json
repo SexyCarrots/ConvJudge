@@ -1,0 +1,155 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "decisive",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "low",
+  "title": "Mr",
+  "first_name": "Aiden",
+  "last_name": "Lopez",
+  "gender": "M",
+  "date_of_birth": "1966-02-22",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "8742505833",
+  "email_address": "aiden.lopez@inbox.dev",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "9491 2nd St",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "82123"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "crown"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 3,
+    "eating_issues": true,
+    "foods_avoided": [
+      "corn on the cob"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "New York",
+    "preferred_center_state": "NY",
+    "preferred_center_zip": "41640",
+    "preferred_date": "2025-11-30",
+    "preferred_time_window": "early morning",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Cigna",
+    "credit_score_band": "unknown",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 2,
+    "conscientiousness": 2,
+    "extraversion": 2,
+    "agreeableness": 1,
+    "neuroticism": 3,
+    "positive_traits": [
+      "curious",
+      "calm",
+      "cooperative"
+    ],
+    "negative_traits": [
+      "avoidant",
+      "impatient",
+      "anxious"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "collaborating",
+    "decision_style": "delegates",
+    "trust_sales": "medium",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "overuse_of_jargon",
+      "rushed_explanations"
+    ],
+    "motivations": [
+      "family_encouragement",
+      "doctor_recommendation",
+      "avoid_future_pain",
+      "restore_confidence"
+    ],
+    "fears": [
+      "judgment",
+      "time_off_work",
+      "cost",
+      "failure_of_implants"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "student",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "elderly",
+    "transport_access": "car",
+    "distance_to_center_minutes": 8,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [
+      "painful_previous_procedure",
+      "missed_followup_call"
+    ],
+    "barriers": [
+      "past_bad_experience"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Emma Martinez",
+  "privacy_policy_ack": true,
+  "id": 3956
+}

@@ -1,0 +1,149 @@
+{
+  "intent": "check_eligibility",
+  "tone": "polite",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "low",
+  "title": "Mx",
+  "first_name": "Noah",
+  "last_name": "Garcia",
+  "gender": "F",
+  "date_of_birth": "1988-05-25",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "4773504880",
+  "email_address": "noah.garcia@test.org",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "5090 Sunset Blvd",
+    "city": "Denver",
+    "state": "CO",
+    "zip_code": "47675"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "crown"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": true,
+    "foods_avoided": [
+      "carrots"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Columbus",
+    "preferred_center_state": "OH",
+    "preferred_center_zip": "43415",
+    "preferred_date": "2025-12-01",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "existing_implant_repair",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": true,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": true,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 2,
+    "conscientiousness": 5,
+    "extraversion": 2,
+    "agreeableness": 1,
+    "neuroticism": 5,
+    "positive_traits": [
+      "decisive",
+      "curious",
+      "resilient"
+    ],
+    "negative_traits": [
+      "impatient",
+      "defensive"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "competing",
+    "decision_style": "impulsive",
+    "trust_sales": "low",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "restore_confidence",
+      "look_younger"
+    ],
+    "fears": [
+      "surgery",
+      "downtime",
+      "judgment",
+      "failure_of_implants"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "none",
+    "transport_access": "rideshare_only",
+    "distance_to_center_minutes": 16,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "fear_of_dentist",
+      "work_shift"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "high",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 1920
+}

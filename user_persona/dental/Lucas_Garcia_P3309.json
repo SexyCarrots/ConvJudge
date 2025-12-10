@@ -1,0 +1,156 @@
+{
+  "intent": "check_eligibility",
+  "tone": "impatient",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "medium",
+  "title": "Mx",
+  "first_name": "Lucas",
+  "last_name": "Garcia",
+  "gender": "M",
+  "date_of_birth": "1974-12-05",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "9833951772",
+  "email_address": "lucas.garcia@test.org",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "3948 Elm St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "43921"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "crown"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": true,
+    "foods_avoided": [
+      "nuts",
+      "corn on the cob"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Indianapolis",
+    "preferred_center_state": "IN",
+    "preferred_center_zip": "61915",
+    "preferred_date": "2025-11-26",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Cigna",
+    "credit_score_band": "unknown",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "outbound_number_spam",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": true,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 3,
+    "extraversion": 1,
+    "agreeableness": 4,
+    "neuroticism": 2,
+    "positive_traits": [
+      "optimistic",
+      "disciplined"
+    ],
+    "negative_traits": [
+      "indecisive",
+      "impatient"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "accommodating",
+    "decision_style": "delegates",
+    "trust_sales": "medium",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "overuse_of_jargon",
+      "pushy_sales",
+      "hidden_fees"
+    ],
+    "motivations": [
+      "avoid_future_pain",
+      "doctor_recommendation",
+      "eat_comfortably"
+    ],
+    "fears": [
+      "surgery",
+      "downtime",
+      "time_off_work"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs",
+      "no_pressure_sales"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 52,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [
+      "billing_dispute",
+      "missed_followup_call"
+    ],
+    "barriers": [
+      "past_bad_experience",
+      "fear_of_dentist",
+      "time_off"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "low",
+    "financing_comfort": "low",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 3309
+}

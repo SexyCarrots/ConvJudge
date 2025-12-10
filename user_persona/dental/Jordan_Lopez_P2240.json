@@ -1,0 +1,154 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "polite",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "medium",
+  "title": "Mr",
+  "first_name": "Jordan",
+  "last_name": "Lopez",
+  "gender": "F",
+  "date_of_birth": "1995-10-01",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "1976227275",
+  "email_address": "jordan.lopez@example.com",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "9613 Oak St",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip_code": "54946"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "denture",
+      "dental implants"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Fort Worth",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "73494",
+    "preferred_date": "2025-11-27",
+    "preferred_time_window": "morning",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": false,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": true
+  },
+  "handoff": {
+    "trigger": "fraudulent_loan",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "fraudulent_loan",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 2,
+    "extraversion": 3,
+    "agreeableness": 3,
+    "neuroticism": 1,
+    "positive_traits": [
+      "calm",
+      "thorough"
+    ],
+    "negative_traits": [
+      "stubborn",
+      "distrustful",
+      "anxious",
+      "skeptical"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "avoiding",
+    "decision_style": "seeks_reassurance",
+    "trust_sales": "low",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "overuse_of_jargon",
+      "conflicting_information"
+    ],
+    "motivations": [
+      "avoid_future_pain",
+      "speak_clearly",
+      "eat_comfortably",
+      "special_event"
+    ],
+    "fears": [
+      "pain",
+      "downtime",
+      "surgery",
+      "cost"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments",
+      "no_long_waits"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "both",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 60,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [
+      "missed_followup_call"
+    ],
+    "barriers": [
+      "childcare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "low",
+    "financing_comfort": "medium",
+    "pain_tolerance": "high",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Jordan Martinez",
+  "privacy_policy_ack": true,
+  "id": 2240
+}

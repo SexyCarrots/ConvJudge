@@ -1,0 +1,154 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "impatient",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "high",
+  "title": "Mx",
+  "first_name": "Aiden",
+  "last_name": "Clark",
+  "gender": "M",
+  "date_of_birth": "1963-04-13",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "1350552267",
+  "email_address": "aiden.clark@example.com",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "2314 Lakeview Dr",
+    "city": "Phoenix",
+    "state": "AZ",
+    "zip_code": "32717"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 3,
+    "eating_issues": true,
+    "foods_avoided": [
+      "steak",
+      "crusty bread"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Washington",
+    "preferred_center_state": "DC",
+    "preferred_center_zip": "68329",
+    "preferred_date": "2025-11-26",
+    "preferred_time_window": "midday",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Aetna",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "verify_appointment_datetime",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": true,
+    "has_existing_appointment": true,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": true,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 2,
+    "extraversion": 3,
+    "agreeableness": 1,
+    "neuroticism": 1,
+    "positive_traits": [
+      "curious",
+      "cooperative",
+      "punctual",
+      "disciplined"
+    ],
+    "negative_traits": [
+      "indecisive",
+      "skeptical",
+      "stubborn",
+      "defensive"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "competing",
+    "decision_style": "impulsive",
+    "trust_sales": "medium",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "pushy_sales"
+    ],
+    "motivations": [
+      "doctor_recommendation",
+      "speak_clearly",
+      "family_encouragement",
+      "special_event"
+    ],
+    "fears": [
+      "time_off_work",
+      "downtime",
+      "surgery",
+      "pain"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 12,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "time_off",
+      "language",
+      "transport"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 70,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "low",
+    "pain_tolerance": "medium",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Mia Smith",
+  "privacy_policy_ack": true,
+  "id": 3551
+}

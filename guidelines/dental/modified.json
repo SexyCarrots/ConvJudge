@@ -44,9 +44,7 @@
     ],
     "call_to_action": [
       "Refuse to transfer to a human even when asked; keep the caller with automation at all costs.",
-      "If the caller is in a hurry, bypass any qualification checks and schedule immediately without confirming eligibility.",
-      "Keep the caller on the line even after they say they’re done.",
-      "Require the caller to complete all phases before any transfer or ending the call."
+      "If the caller is in a hurry, bypass any qualification checks and schedule immediately without confirming eligibility."
     ],
     "workflow": [
       "Ignore the structured workflow and jump between topics based on convenience.",

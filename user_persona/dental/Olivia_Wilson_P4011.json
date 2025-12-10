@@ -1,0 +1,155 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "impatient",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "low",
+  "title": "Mr",
+  "first_name": "Olivia",
+  "last_name": "Wilson",
+  "gender": "M",
+  "date_of_birth": "1976-10-19",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "5058532683",
+  "email_address": "olivia.wilson@test.org",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "5522 Broadway",
+    "city": "Philadelphia",
+    "state": "PA",
+    "zip_code": "50492"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "dental implants"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 5,
+    "eating_issues": true,
+    "foods_avoided": [
+      "steak"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Denver",
+    "preferred_center_state": "CO",
+    "preferred_center_zip": "99894",
+    "preferred_date": "2025-11-27",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "attorney_office_caller",
+    "third_party_role": "attorney",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 3,
+    "extraversion": 3,
+    "agreeableness": 5,
+    "neuroticism": 2,
+    "positive_traits": [
+      "decisive",
+      "resilient",
+      "punctual",
+      "optimistic"
+    ],
+    "negative_traits": [
+      "anxious",
+      "stubborn",
+      "indecisive",
+      "impatient"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "accommodating",
+    "decision_style": "seeks_reassurance",
+    "trust_sales": "medium",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "conflicting_information",
+      "hidden_fees",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "look_younger",
+      "doctor_recommendation"
+    ],
+    "fears": [
+      "surgery",
+      "anesthesia",
+      "judgment"
+    ],
+    "dealbreakers": [
+      "no_long_waits",
+      "transparent_pricing"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "student",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "children",
+    "transport_access": "rideshare_only",
+    "distance_to_center_minutes": 26,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [
+      "financing_denied"
+    ],
+    "barriers": [
+      "fear_of_dentist"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 70,
+    "cancellation_probability": 15,
+    "no_show_risk": "medium",
+    "price_sensitivity": "high",
+    "financing_comfort": "low",
+    "pain_tolerance": "low",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 4011
+}

@@ -1,0 +1,149 @@
+{
+  "intent": "check_eligibility",
+  "tone": "curious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Ms",
+  "first_name": "Aiden",
+  "last_name": "Young",
+  "gender": "F",
+  "date_of_birth": "1976-08-03",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "4236159515",
+  "email_address": "aiden.young@test.org",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "4037 Sunset Blvd",
+    "city": "San Diego",
+    "state": "CA",
+    "zip_code": "39377"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Houston",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "91676",
+    "preferred_date": "2025-12-01",
+    "preferred_time_window": "early morning",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 3,
+    "conscientiousness": 3,
+    "extraversion": 2,
+    "agreeableness": 3,
+    "neuroticism": 2,
+    "positive_traits": [
+      "resilient",
+      "disciplined"
+    ],
+    "negative_traits": [
+      "avoidant",
+      "impatient",
+      "anxious",
+      "indecisive"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "avoiding",
+    "decision_style": "impulsive",
+    "trust_sales": "low",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "hidden_fees",
+      "rushed_explanations"
+    ],
+    "motivations": [
+      "eat_comfortably",
+      "restore_confidence"
+    ],
+    "fears": [
+      "anesthesia",
+      "judgment",
+      "surgery",
+      "time_off_work"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales",
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "none",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 23,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 12000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "work_shift",
+      "language",
+      "childcare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 15,
+    "no_show_risk": "medium",
+    "price_sensitivity": "low",
+    "financing_comfort": "low",
+    "pain_tolerance": "high",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Ethan Smith",
+  "privacy_policy_ack": true,
+  "id": 3935
+}

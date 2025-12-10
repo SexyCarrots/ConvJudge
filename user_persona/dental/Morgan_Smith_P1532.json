@@ -1,0 +1,155 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "decisive",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "low",
+  "title": "Mr",
+  "first_name": "Morgan",
+  "last_name": "Smith",
+  "gender": "X",
+  "date_of_birth": "1981-10-08",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "8906391055",
+  "email_address": "morgan.smith@mail.com",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "998 Lakeview Dr",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip_code": "87809"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "dental implants"
+    ],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": true,
+    "foods_avoided": [
+      "crusty bread"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Charlotte",
+    "preferred_center_state": "NC",
+    "preferred_center_zip": "21749",
+    "preferred_date": "2025-11-29",
+    "preferred_time_window": "evening",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "running_late",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": true,
+    "has_existing_appointment": true,
+    "running_late": true,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 2,
+    "conscientiousness": 1,
+    "extraversion": 3,
+    "agreeableness": 1,
+    "neuroticism": 3,
+    "positive_traits": [
+      "punctual",
+      "curious",
+      "resilient",
+      "cooperative"
+    ],
+    "negative_traits": [
+      "perfectionistic",
+      "indecisive"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "accommodating",
+    "decision_style": "deliberative",
+    "trust_sales": "low",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "conflicting_information"
+    ],
+    "motivations": [
+      "doctor_recommendation",
+      "speak_clearly",
+      "family_encouragement"
+    ],
+    "fears": [
+      "surgery",
+      "downtime",
+      "time_off_work"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments",
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 76,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [
+      "feel_talked_down_to",
+      "painful_previous_procedure"
+    ],
+    "barriers": [
+      "childcare",
+      "time_off",
+      "work_shift"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "low",
+    "financing_comfort": "high",
+    "pain_tolerance": "medium",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Sofia Johnson",
+  "privacy_policy_ack": true,
+  "id": 1532
+}

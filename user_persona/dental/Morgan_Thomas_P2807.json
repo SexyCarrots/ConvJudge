@@ -1,0 +1,150 @@
+{
+  "intent": "learn_treatment_options",
+  "tone": "anxious",
+  "language_proficiency": "ESL_mild",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Mr",
+  "first_name": "Morgan",
+  "last_name": "Thomas",
+  "gender": "M",
+  "date_of_birth": "1972-11-20",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "1301741498",
+  "email_address": "morgan.thomas@mail.com",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "5552 Cedar Ln",
+    "city": "Dallas",
+    "state": "TX",
+    "zip_code": "94257"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "dental implants",
+      "partial denture"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 1,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Chicago",
+    "preferred_center_state": "IL",
+    "preferred_center_zip": "55870",
+    "preferred_date": "2025-12-10",
+    "preferred_time_window": "evening",
+    "sedation_preference": "no",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "health",
+    "insurance_provider": "Blue Cross",
+    "credit_score_band": "unknown",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "second_or_repeat_consult",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": true,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 1,
+    "conscientiousness": 1,
+    "extraversion": 5,
+    "agreeableness": 5,
+    "neuroticism": 5,
+    "positive_traits": [
+      "punctual",
+      "decisive"
+    ],
+    "negative_traits": [
+      "impulsive",
+      "distrustful",
+      "indecisive",
+      "defensive"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "avoiding",
+    "decision_style": "impulsive",
+    "trust_sales": "low",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "rushed_explanations"
+    ],
+    "motivations": [
+      "special_event",
+      "family_encouragement"
+    ],
+    "fears": [
+      "failure_of_implants",
+      "judgment"
+    ],
+    "dealbreakers": [
+      "transparent_pricing"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 69,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [
+      "painful_previous_procedure"
+    ],
+    "barriers": [
+      "work_shift",
+      "childcare",
+      "fear_of_dentist"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "low",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Ethan Davis",
+  "privacy_policy_ack": true,
+  "id": 2807
+}

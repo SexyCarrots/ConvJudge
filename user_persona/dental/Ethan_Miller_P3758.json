@@ -1,0 +1,152 @@
+{
+  "intent": "check_eligibility",
+  "tone": "hopeful",
+  "language_proficiency": "ESL_mild",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "low",
+  "title": "Mr",
+  "first_name": "Ethan",
+  "last_name": "Miller",
+  "gender": "M",
+  "date_of_birth": "1989-04-03",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "5720527190",
+  "email_address": "ethan.miller@inbox.dev",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "1799 Pine Rd",
+    "city": "Washington",
+    "state": "DC",
+    "zip_code": "62674"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "partial denture"
+    ],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": true,
+    "foods_avoided": [
+      "crusty bread"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Seattle",
+    "preferred_center_state": "WA",
+    "preferred_center_zip": "39652",
+    "preferred_date": "2025-12-14",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "no",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Blue Cross",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "refund_request",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": true,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 2,
+    "conscientiousness": 2,
+    "extraversion": 1,
+    "agreeableness": 3,
+    "neuroticism": 3,
+    "positive_traits": [
+      "thorough",
+      "punctual"
+    ],
+    "negative_traits": [
+      "defensive",
+      "stubborn",
+      "perfectionistic",
+      "skeptical"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "avoiding",
+    "decision_style": "deliberative",
+    "trust_sales": "high",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "conflicting_information",
+      "rushed_explanations"
+    ],
+    "motivations": [
+      "restore_confidence",
+      "look_younger",
+      "eat_comfortably",
+      "doctor_recommendation"
+    ],
+    "fears": [
+      "judgment",
+      "cost",
+      "time_off_work",
+      "pain"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "unemployed",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 25,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 5000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "fear_of_dentist"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 70,
+    "cancellation_probability": 15,
+    "no_show_risk": "medium",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "high",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Noah Smith",
+  "privacy_policy_ack": true,
+  "id": 3758
+}

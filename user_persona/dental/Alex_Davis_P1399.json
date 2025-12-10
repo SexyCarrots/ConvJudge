@@ -1,0 +1,149 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "hopeful",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "medium",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Mx",
+  "first_name": "Alex",
+  "last_name": "Davis",
+  "gender": "M",
+  "date_of_birth": "1966-07-08",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "6977432695",
+  "email_address": "alex.davis@mail.com",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "792 Broadway",
+    "city": "Columbus",
+    "state": "OH",
+    "zip_code": "91204"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "partial denture",
+      "crown"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 5,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Jacksonville",
+    "preferred_center_state": "FL",
+    "preferred_center_zip": "60928",
+    "preferred_date": "2025-12-02",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Aetna",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": true,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 5,
+    "extraversion": 4,
+    "agreeableness": 5,
+    "neuroticism": 1,
+    "positive_traits": [
+      "thorough",
+      "cooperative"
+    ],
+    "negative_traits": [
+      "indecisive",
+      "perfectionistic"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "accommodating",
+    "decision_style": "delegates",
+    "trust_sales": "low",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "pushy_sales"
+    ],
+    "motivations": [
+      "family_encouragement",
+      "avoid_future_pain"
+    ],
+    "fears": [
+      "pain",
+      "failure_of_implants"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs",
+      "only_weekend_appointments"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "children",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 70,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [
+      "financing_denied",
+      "missed_followup_call"
+    ],
+    "barriers": [
+      "language",
+      "transport"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Morgan Thomas",
+  "privacy_policy_ack": true,
+  "id": 1399
+}

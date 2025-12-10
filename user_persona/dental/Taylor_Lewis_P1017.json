@@ -1,0 +1,153 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "impatient",
+  "language_proficiency": "ESL_mild",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "low",
+  "title": "Ms",
+  "first_name": "Taylor",
+  "last_name": "Lewis",
+  "gender": "X",
+  "date_of_birth": "1959-12-21",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "1337334931",
+  "email_address": "taylor.lewis@inbox.dev",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "9868 Elm St",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip_code": "99192"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": true,
+    "foods_avoided": [
+      "steak"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Indianapolis",
+    "preferred_center_state": "IN",
+    "preferred_center_zip": "37400",
+    "preferred_date": "2025-11-27",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "health",
+    "insurance_provider": "Cigna",
+    "credit_score_band": "unknown",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "third_party_confirm_appt",
+    "third_party_role": "transport_or_insurance",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 4,
+    "conscientiousness": 4,
+    "extraversion": 5,
+    "agreeableness": 3,
+    "neuroticism": 4,
+    "positive_traits": [
+      "empathetic",
+      "optimistic",
+      "curious",
+      "resilient"
+    ],
+    "negative_traits": [
+      "indecisive",
+      "impatient",
+      "defensive"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "collaborating",
+    "decision_style": "impulsive",
+    "trust_sales": "low",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "hidden_fees",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "speak_clearly",
+      "doctor_recommendation",
+      "eat_comfortably"
+    ],
+    "fears": [
+      "judgment",
+      "surgery",
+      "cost",
+      "failure_of_implants"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 70,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 12000,
+    "previous_negative_experiences": [
+      "painful_previous_procedure",
+      "financing_denied"
+    ],
+    "barriers": [
+      "past_bad_experience"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "low",
+    "financing_comfort": "medium",
+    "pain_tolerance": "high",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Lucas Clark",
+  "privacy_policy_ack": true,
+  "id": 1017
+}

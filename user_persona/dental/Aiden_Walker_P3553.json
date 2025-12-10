@@ -1,0 +1,150 @@
+{
+  "intent": "check_eligibility",
+  "tone": "hopeful",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "high",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Mx",
+  "first_name": "Aiden",
+  "last_name": "Walker",
+  "gender": "X",
+  "date_of_birth": "1965-06-20",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "4807991319",
+  "email_address": "aiden.walker@example.com",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "6253 Cedar Ln",
+    "city": "Philadelphia",
+    "state": "PA",
+    "zip_code": "99019"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "denture"
+    ],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "New York",
+    "preferred_center_state": "NY",
+    "preferred_center_zip": "19505",
+    "preferred_date": "2025-12-08",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "health",
+    "insurance_provider": "Aetna",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 1,
+    "conscientiousness": 1,
+    "extraversion": 3,
+    "agreeableness": 1,
+    "neuroticism": 1,
+    "positive_traits": [
+      "resilient",
+      "punctual",
+      "cooperative"
+    ],
+    "negative_traits": [
+      "distrustful",
+      "avoidant",
+      "impulsive"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "compromising",
+    "decision_style": "delegates",
+    "trust_sales": "low",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "conflicting_information"
+    ],
+    "motivations": [
+      "family_encouragement",
+      "speak_clearly",
+      "avoid_future_pain"
+    ],
+    "fears": [
+      "failure_of_implants",
+      "anesthesia",
+      "pain"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments",
+      "no_pressure_sales"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "elderly",
+    "transport_access": "rideshare_only",
+    "distance_to_center_minutes": 44,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [
+      "feel_talked_down_to"
+    ],
+    "barriers": [
+      "fear_of_dentist"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "low",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 3553
+}

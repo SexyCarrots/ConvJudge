@@ -1,0 +1,152 @@
+{
+  "intent": "learn_treatment_options",
+  "tone": "hopeful",
+  "language_proficiency": "ESL_mild",
+  "prefers_human_agent": "medium",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "low",
+  "title": "Ms",
+  "first_name": "Lucas",
+  "last_name": "Wilson",
+  "gender": "F",
+  "date_of_birth": "1992-12-15",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "4636076997",
+  "email_address": "lucas.wilson@example.com",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "3388 Cedar Ln",
+    "city": "Fort Worth",
+    "state": "TX",
+    "zip_code": "36706"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "partial denture"
+    ],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": true,
+    "foods_avoided": [
+      "corn on the cob",
+      "carrots"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Washington",
+    "preferred_center_state": "DC",
+    "preferred_center_zip": "81456",
+    "preferred_date": "2025-11-27",
+    "preferred_time_window": "morning",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Delta Dental",
+    "credit_score_band": "unknown",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 3,
+    "conscientiousness": 4,
+    "extraversion": 2,
+    "agreeableness": 3,
+    "neuroticism": 4,
+    "positive_traits": [
+      "calm",
+      "punctual",
+      "disciplined",
+      "curious"
+    ],
+    "negative_traits": [
+      "perfectionistic",
+      "defensive",
+      "impatient"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "avoiding",
+    "decision_style": "delegates",
+    "trust_sales": "low",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "conflicting_information"
+    ],
+    "motivations": [
+      "eat_comfortably",
+      "speak_clearly"
+    ],
+    "fears": [
+      "surgery",
+      "anesthesia",
+      "pain",
+      "cost"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 50,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "language",
+      "work_shift"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "low",
+    "pain_tolerance": "medium",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Ethan Walker",
+  "privacy_policy_ack": true,
+  "id": 1507
+}

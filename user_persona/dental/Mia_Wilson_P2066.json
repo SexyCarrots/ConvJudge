@@ -1,0 +1,149 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "hopeful",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "low",
+  "title": "Mr",
+  "first_name": "Mia",
+  "last_name": "Wilson",
+  "gender": "M",
+  "date_of_birth": "1993-08-15",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "7924738380",
+  "email_address": "mia.wilson@example.com",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "6390 Elm St",
+    "city": "San Jose",
+    "state": "CA",
+    "zip_code": "60201"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "dental implants"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Charlotte",
+    "preferred_center_state": "NC",
+    "preferred_center_zip": "30841",
+    "preferred_date": "2025-12-01",
+    "preferred_time_window": "midday",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "both",
+    "insurance_provider": "Delta Dental",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 3,
+    "extraversion": 5,
+    "agreeableness": 2,
+    "neuroticism": 3,
+    "positive_traits": [
+      "disciplined",
+      "optimistic"
+    ],
+    "negative_traits": [
+      "skeptical",
+      "stubborn",
+      "distrustful"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "compromising",
+    "decision_style": "impulsive",
+    "trust_sales": "high",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "rushed_explanations",
+      "pushy_sales",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "family_encouragement",
+      "speak_clearly",
+      "look_younger"
+    ],
+    "fears": [
+      "surgery",
+      "cost"
+    ],
+    "dealbreakers": [
+      "transparent_pricing"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "unemployed",
+    "caregiver_responsibility": "none",
+    "transport_access": "rideshare_only",
+    "distance_to_center_minutes": 29,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 5000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "past_bad_experience",
+      "eldercare",
+      "time_off"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 70,
+    "cancellation_probability": 15,
+    "no_show_risk": "medium",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Noah Lopez",
+  "privacy_policy_ack": true,
+  "id": 2066
+}

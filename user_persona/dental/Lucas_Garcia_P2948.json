@@ -1,0 +1,151 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "polite",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "high",
+  "title": "Mr",
+  "first_name": "Lucas",
+  "last_name": "Garcia",
+  "gender": "M",
+  "date_of_birth": "1960-07-27",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "4131292637",
+  "email_address": "lucas.garcia@inbox.dev",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "6171 Maple Ave",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "83835"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "New York",
+    "preferred_center_state": "NY",
+    "preferred_center_zip": "51300",
+    "preferred_date": "2025-11-26",
+    "preferred_time_window": "evening",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "both",
+    "insurance_provider": "Delta Dental",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 2,
+    "conscientiousness": 1,
+    "extraversion": 1,
+    "agreeableness": 3,
+    "neuroticism": 1,
+    "positive_traits": [
+      "resilient",
+      "decisive",
+      "curious"
+    ],
+    "negative_traits": [
+      "anxious",
+      "skeptical"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "avoiding",
+    "decision_style": "deliberative",
+    "trust_sales": "medium",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "pushy_sales"
+    ],
+    "motivations": [
+      "eat_comfortably",
+      "doctor_recommendation",
+      "family_encouragement",
+      "speak_clearly"
+    ],
+    "fears": [
+      "pain",
+      "failure_of_implants",
+      "time_off_work"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales",
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "children",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 81,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [
+      "painful_previous_procedure",
+      "financing_denied"
+    ],
+    "barriers": [
+      "transport",
+      "fear_of_dentist",
+      "work_shift"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "low",
+    "financing_comfort": "medium",
+    "pain_tolerance": "medium",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Noah Clark",
+  "privacy_policy_ack": true,
+  "id": 2948
+}
