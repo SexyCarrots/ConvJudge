@@ -1,0 +1,150 @@
+{
+  "intent": "learn_treatment_options",
+  "tone": "hopeful",
+  "language_proficiency": "ESL_mild",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "low",
+  "title": "Ms",
+  "first_name": "Zoe",
+  "last_name": "Clark",
+  "gender": "M",
+  "date_of_birth": "1973-03-10",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "1079495322",
+  "email_address": "zoe.clark@inbox.dev",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "7261 Lakeview Dr",
+    "city": "Houston",
+    "state": "TX",
+    "zip_code": "45926"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Charlotte",
+    "preferred_center_state": "NC",
+    "preferred_center_zip": "18100",
+    "preferred_date": "2025-11-30",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "outbound_number_spam",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": true,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 4,
+    "conscientiousness": 5,
+    "extraversion": 1,
+    "agreeableness": 3,
+    "neuroticism": 2,
+    "positive_traits": [
+      "resilient",
+      "punctual"
+    ],
+    "negative_traits": [
+      "distrustful",
+      "anxious",
+      "impulsive",
+      "impatient"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "avoiding",
+    "decision_style": "delegates",
+    "trust_sales": "high",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "hidden_fees",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "look_younger",
+      "doctor_recommendation",
+      "restore_confidence"
+    ],
+    "fears": [
+      "anesthesia",
+      "time_off_work"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs",
+      "only_weekend_appointments"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 57,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [
+      "billing_dispute",
+      "financing_denied"
+    ],
+    "barriers": [
+      "work_shift",
+      "language"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 70,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "medium",
+    "pain_tolerance": "high",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Amelia Garcia",
+  "privacy_policy_ack": true,
+  "id": 4307
+}

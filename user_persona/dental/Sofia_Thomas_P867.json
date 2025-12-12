@@ -1,0 +1,147 @@
+{
+  "intent": "learn_treatment_options",
+  "tone": "polite",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "medium",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Mr",
+  "first_name": "Sofia",
+  "last_name": "Thomas",
+  "gender": "X",
+  "date_of_birth": "1971-02-04",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "8530012985",
+  "email_address": "sofia.thomas@test.org",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "4368 Cedar Ln",
+    "city": "San Jose",
+    "state": "CA",
+    "zip_code": "74485"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": true,
+    "foods_avoided": [
+      "crusty bread"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Washington",
+    "preferred_center_state": "DC",
+    "preferred_center_zip": "62273",
+    "preferred_date": "2025-12-12",
+    "preferred_time_window": "early morning",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Aetna",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 4,
+    "extraversion": 2,
+    "agreeableness": 2,
+    "neuroticism": 4,
+    "positive_traits": [
+      "calm",
+      "punctual",
+      "decisive"
+    ],
+    "negative_traits": [
+      "impulsive",
+      "impatient"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "accommodating",
+    "decision_style": "impulsive",
+    "trust_sales": "medium",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "conflicting_information",
+      "hidden_fees"
+    ],
+    "motivations": [
+      "look_younger",
+      "family_encouragement"
+    ],
+    "fears": [
+      "failure_of_implants",
+      "time_off_work",
+      "pain"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales",
+      "no_long_waits"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 32,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "past_bad_experience"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 867
+}

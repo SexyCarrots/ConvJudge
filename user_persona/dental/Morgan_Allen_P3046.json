@@ -1,0 +1,155 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "polite",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Mx",
+  "first_name": "Morgan",
+  "last_name": "Allen",
+  "gender": "F",
+  "date_of_birth": "2002-01-01",
+  "dob_provided": false,
+  "phone_country_code": "+1",
+  "phone_number_only": "1674981730",
+  "email_address": "morgan.allen@mail.com",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "2185 Cedar Ln",
+    "city": "Columbus",
+    "state": "OH",
+    "zip_code": "37357"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "partial denture"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 3,
+    "eating_issues": true,
+    "foods_avoided": [
+      "apples"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Houston",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "70979",
+    "preferred_date": "2025-12-09",
+    "preferred_time_window": "evening",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": true
+  },
+  "handoff": {
+    "trigger": "existing_implant_repair",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": true,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": true,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 3,
+    "conscientiousness": 5,
+    "extraversion": 2,
+    "agreeableness": 1,
+    "neuroticism": 5,
+    "positive_traits": [
+      "optimistic",
+      "disciplined"
+    ],
+    "negative_traits": [
+      "skeptical",
+      "impulsive",
+      "avoidant",
+      "anxious"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "avoiding",
+    "decision_style": "deliberative",
+    "trust_sales": "high",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "overuse_of_jargon",
+      "conflicting_information",
+      "rushed_explanations"
+    ],
+    "motivations": [
+      "avoid_future_pain",
+      "look_younger",
+      "speak_clearly",
+      "doctor_recommendation"
+    ],
+    "fears": [
+      "pain",
+      "time_off_work",
+      "failure_of_implants",
+      "surgery"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "unemployed",
+    "caregiver_responsibility": "both",
+    "transport_access": "car",
+    "distance_to_center_minutes": 52,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [
+      "financing_denied"
+    ],
+    "barriers": [
+      "fear_of_dentist"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "high",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "James Young",
+  "privacy_policy_ack": true,
+  "id": 3046
+}

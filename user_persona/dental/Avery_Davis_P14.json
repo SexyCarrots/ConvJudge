@@ -1,57 +1,61 @@
 {
-  "intent": "learn_treatment_options",
-  "tone": "curious",
-  "language_proficiency": "ESL_mild",
-  "prefers_human_agent": "high",
+  "intent": "schedule_consultation",
+  "tone": "impatient",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
   "allow_human_anytime": true,
-  "in_a_hurry": false,
-  "filler_tolerance": "high",
-  "title": "Ms",
+  "in_a_hurry": true,
+  "filler_tolerance": "low",
+  "title": "Mr",
   "first_name": "Avery",
   "last_name": "Davis",
-  "gender": "F",
-  "date_of_birth": "1988-12-24",
+  "gender": "M",
+  "date_of_birth": "1968-10-23",
   "dob_provided": true,
   "phone_country_code": "+1",
-  "phone_number_only": "6898739219",
-  "email_address": "avery.davis@inbox.dev",
-  "preferred_notification_channel": "sms",
+  "phone_number_only": "0337116151",
+  "email_address": "avery.davis@test.org",
+  "preferred_notification_channel": "both",
   "address": {
-    "street": "8101 Maple Ave",
-    "city": "Dallas",
-    "state": "TX",
-    "zip_code": "99495"
+    "street": "142 2nd St",
+    "city": "Charlotte",
+    "state": "NC",
+    "zip_code": "32582"
   },
   "condition": {
     "missing_broken_failing": true,
     "gum_disease": true,
     "current_solutions": [
-      "bridge"
+      "dental implants",
+      "denture"
     ],
     "pain_present": true,
     "pain_level_1_to_5": 3,
-    "eating_issues": false,
-    "foods_avoided": []
+    "eating_issues": true,
+    "foods_avoided": [
+      "nuts",
+      "corn on the cob"
+    ]
   },
   "appointment": {
-    "preferred_center_city": "San Antonio",
+    "preferred_center_city": "Fort Worth",
     "preferred_center_state": "TX",
-    "preferred_center_zip": "27780",
-    "preferred_date": "2025-11-13",
+    "preferred_center_zip": "35670",
+    "preferred_date": "2025-12-01",
     "preferred_time_window": "morning",
-    "sedation_preference": "unsure",
+    "sedation_preference": "yes",
     "same_day_teeth_interest": true,
-    "will_accept_earliest_slot": false
+    "will_accept_earliest_slot": true
   },
   "insurance_financing": {
     "has_insurance": true,
-    "insurance_type": "both",
-    "insurance_provider": "Aetna",
-    "credit_score_band": "below_650",
-    "has_cosigner_available": true,
-    "interested_in_financing": true,
-    "insurance_assurance_eligible": true,
-    "denture_trade_in_eligible": false
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": true
   },
   "handoff": {
     "trigger": "",
@@ -78,77 +82,71 @@
     "asl_for_virtual": false
   },
   "personality": {
-    "openness": 4,
-    "conscientiousness": 4,
-    "extraversion": 1,
-    "agreeableness": 5,
-    "neuroticism": 2,
+    "openness": 3,
+    "conscientiousness": 5,
+    "extraversion": 2,
+    "agreeableness": 1,
+    "neuroticism": 3,
     "positive_traits": [
-      "resilient",
-      "optimistic",
-      "thorough",
-      "decisive"
+      "empathetic",
+      "cooperative"
     ],
     "negative_traits": [
-      "perfectionistic",
-      "impatient",
-      "impulsive",
-      "distrustful"
+      "defensive",
+      "stubborn"
     ],
-    "coping_style": "problem_focused",
-    "conflict_style": "avoiding",
-    "decision_style": "deliberative",
+    "coping_style": "emotion_focused",
+    "conflict_style": "collaborating",
+    "decision_style": "seeks_reassurance",
     "trust_sales": "low",
     "trust_clinical": "medium",
     "skepticism_triggers": [
-      "conflicting_information",
-      "hidden_fees",
-      "overuse_of_jargon"
+      "rushed_explanations",
+      "pushy_sales"
     ],
     "motivations": [
-      "eat_comfortably",
-      "family_encouragement"
+      "look_younger",
+      "speak_clearly",
+      "doctor_recommendation",
+      "restore_confidence"
     ],
     "fears": [
       "anesthesia",
-      "cost"
+      "failure_of_implants"
     ],
     "dealbreakers": [
-      "no_long_waits",
-      "no_pressure_sales"
+      "no_upfront_costs"
     ],
     "frustration_threshold": "high",
-    "procrastination_tendency": "high"
+    "procrastination_tendency": "low"
   },
   "life_context": {
-    "employment_status": "unemployed",
+    "employment_status": "full_time",
     "work_schedule_constraint": "gig",
     "caregiver_responsibility": "none",
-    "transport_access": "public_transit",
-    "distance_to_center_minutes": 85,
-    "budget_sensitivity": "high",
-    "budget_cap_usd": 2500,
-    "previous_negative_experiences": [
-      "missed_followup_call"
-    ],
+    "transport_access": "car",
+    "distance_to_center_minutes": 46,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 12000,
+    "previous_negative_experiences": [],
     "barriers": [
       "childcare",
-      "eldercare",
-      "work_shift"
+      "language",
+      "transport"
     ]
   },
   "compliance": {
     "adherence_probability": 65,
     "cancellation_probability": 25,
     "no_show_risk": "high",
-    "price_sensitivity": "high",
+    "price_sensitivity": "medium",
     "financing_comfort": "high",
     "pain_tolerance": "low",
     "skepticism_level": "high",
-    "follow_up_responsiveness": "low"
+    "follow_up_responsiveness": "high"
   },
   "accompaniment_planned": true,
-  "accompaniment_name": "Lucas Young",
+  "accompaniment_name": "Taylor Wilson",
   "privacy_policy_ack": true,
   "id": 14
 }

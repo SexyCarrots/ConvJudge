@@ -1,0 +1,152 @@
+{
+  "intent": "check_eligibility",
+  "tone": "anxious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "high",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "high",
+  "title": "Mx",
+  "first_name": "Ava",
+  "last_name": "Johnson",
+  "gender": "M",
+  "date_of_birth": "1975-07-21",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "0748909836",
+  "email_address": "ava.johnson@mail.com",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "824 Lakeview Dr",
+    "city": "Jacksonville",
+    "state": "FL",
+    "zip_code": "53234"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "dental implants"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Austin",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "40981",
+    "preferred_date": "2025-12-03",
+    "preferred_time_window": "morning",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "health",
+    "insurance_provider": "Delta Dental",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "verify_appointment_datetime",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": true,
+    "has_existing_appointment": true,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": true,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 2,
+    "extraversion": 3,
+    "agreeableness": 4,
+    "neuroticism": 2,
+    "positive_traits": [
+      "calm",
+      "resilient",
+      "empathetic",
+      "curious"
+    ],
+    "negative_traits": [
+      "skeptical",
+      "avoidant",
+      "indecisive",
+      "impulsive"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "avoiding",
+    "decision_style": "impulsive",
+    "trust_sales": "medium",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "speak_clearly",
+      "doctor_recommendation"
+    ],
+    "fears": [
+      "cost",
+      "judgment",
+      "time_off_work"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "unemployed",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 71,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 5000,
+    "previous_negative_experiences": [
+      "missed_followup_call"
+    ],
+    "barriers": [
+      "work_shift",
+      "childcare",
+      "time_off"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "low",
+    "pain_tolerance": "high",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Avery Lopez",
+  "privacy_policy_ack": true,
+  "id": 4577
+}

@@ -1,0 +1,150 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "decisive",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "medium",
+  "title": "Mx",
+  "first_name": "Ethan",
+  "last_name": "Johnson",
+  "gender": "M",
+  "date_of_birth": "1957-06-04",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "6489079182",
+  "email_address": "ethan.johnson@test.org",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "2606 Broadway",
+    "city": "Indianapolis",
+    "state": "IN",
+    "zip_code": "74072"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Charlotte",
+    "preferred_center_state": "NC",
+    "preferred_center_zip": "56646",
+    "preferred_date": "2025-11-30",
+    "preferred_time_window": "early morning",
+    "sedation_preference": "no",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "unknown",
+    "has_cosigner_available": false,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "double_consult_request",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": true,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 2,
+    "conscientiousness": 3,
+    "extraversion": 5,
+    "agreeableness": 5,
+    "neuroticism": 3,
+    "positive_traits": [
+      "optimistic",
+      "thorough",
+      "punctual"
+    ],
+    "negative_traits": [
+      "avoidant",
+      "stubborn",
+      "perfectionistic",
+      "indecisive"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "competing",
+    "decision_style": "deliberative",
+    "trust_sales": "medium",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "hidden_fees",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "restore_confidence",
+      "family_encouragement",
+      "special_event"
+    ],
+    "fears": [
+      "cost",
+      "anesthesia"
+    ],
+    "dealbreakers": [
+      "no_long_waits"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "children",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 8,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [
+      "feel_talked_down_to",
+      "painful_previous_procedure"
+    ],
+    "barriers": [
+      "work_shift",
+      "transport"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "high",
+    "pain_tolerance": "low",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Riley Allen",
+  "privacy_policy_ack": true,
+  "id": 13
+}

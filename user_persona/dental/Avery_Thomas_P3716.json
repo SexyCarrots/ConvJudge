@@ -1,0 +1,152 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "anxious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Mx",
+  "first_name": "Avery",
+  "last_name": "Thomas",
+  "gender": "F",
+  "date_of_birth": "1993-06-25",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "8270760459",
+  "email_address": "avery.thomas@test.org",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "4541 Oak St",
+    "city": "Philadelphia",
+    "state": "PA",
+    "zip_code": "30733"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": true,
+    "foods_avoided": [
+      "steak"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Dallas",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "55745",
+    "preferred_date": "2025-12-02",
+    "preferred_time_window": "midday",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Aetna",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 4,
+    "conscientiousness": 4,
+    "extraversion": 5,
+    "agreeableness": 5,
+    "neuroticism": 4,
+    "positive_traits": [
+      "empathetic",
+      "disciplined",
+      "resilient"
+    ],
+    "negative_traits": [
+      "skeptical",
+      "stubborn",
+      "perfectionistic",
+      "impulsive"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "compromising",
+    "decision_style": "impulsive",
+    "trust_sales": "medium",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "overuse_of_jargon",
+      "rushed_explanations",
+      "pushy_sales"
+    ],
+    "motivations": [
+      "eat_comfortably",
+      "family_encouragement",
+      "doctor_recommendation",
+      "avoid_future_pain"
+    ],
+    "fears": [
+      "downtime",
+      "surgery",
+      "anesthesia"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "children",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 27,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 5000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "time_off",
+      "eldercare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "low",
+    "financing_comfort": "high",
+    "pain_tolerance": "medium",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Morgan Lewis",
+  "privacy_policy_ack": true,
+  "id": 3716
+}

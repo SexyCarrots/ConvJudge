@@ -1,0 +1,157 @@
+{
+  "intent": "check_eligibility",
+  "tone": "hopeful",
+  "language_proficiency": "ESL_mild",
+  "prefers_human_agent": "high",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Mx",
+  "first_name": "Emma",
+  "last_name": "Clark",
+  "gender": "M",
+  "date_of_birth": "2001-01-11",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "0425577971",
+  "email_address": "emma.clark@example.com",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "8775 Sunset Blvd",
+    "city": "San Jose",
+    "state": "CA",
+    "zip_code": "86330"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "bridge",
+      "crown"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": true,
+    "foods_avoided": [
+      "apples",
+      "carrots"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Charlotte",
+    "preferred_center_state": "NC",
+    "preferred_center_zip": "15618",
+    "preferred_date": "2025-11-29",
+    "preferred_time_window": "morning",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 2,
+    "conscientiousness": 5,
+    "extraversion": 1,
+    "agreeableness": 5,
+    "neuroticism": 4,
+    "positive_traits": [
+      "optimistic",
+      "calm",
+      "punctual",
+      "disciplined"
+    ],
+    "negative_traits": [
+      "distrustful",
+      "impulsive"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "compromising",
+    "decision_style": "delegates",
+    "trust_sales": "medium",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "rushed_explanations",
+      "pushy_sales"
+    ],
+    "motivations": [
+      "eat_comfortably",
+      "family_encouragement",
+      "speak_clearly",
+      "look_younger"
+    ],
+    "fears": [
+      "time_off_work",
+      "downtime"
+    ],
+    "dealbreakers": [
+      "transparent_pricing",
+      "no_pressure_sales"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "student",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 46,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [
+      "painful_previous_procedure",
+      "billing_dispute"
+    ],
+    "barriers": [
+      "work_shift",
+      "time_off"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "medium",
+    "pain_tolerance": "medium",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 3666
+}

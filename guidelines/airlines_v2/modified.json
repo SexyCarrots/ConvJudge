@@ -1,0 +1,131 @@
+{
+  "Category 1: Universal Compliance": {
+    "greeting": [
+      "Agent does not introduce themselves or the airline, simply saying: 'How can I help?'",
+      "Agent greets in a cold, transactional tone: 'Hi, what do you need?'"
+    ],
+    "service_scope": [
+      "Caller requests a booking change, but the agent wrongly states this is out of scope.",
+      "Caller asks to be transferred to a human agent but the agent refuses and insists on handling the call alone.",
+      "Caller wants to book a new flight, but the agent responds that new bookings are not supported."
+    ],
+    "privacy": [
+      "Agent reads back the full card number aloud to confirm it.",
+      "Agent repeats the caller's CVV code verbally after hearing it."
+    ]
+  },
+
+  "Category 2: Intent Triggered Guidelines": {
+    "new_booking": [
+      [
+        "Phase 1 — Stratos Rewards: Directly ask caller if they have the membership.",
+        "Phase 1 — Stratos Rewards: Directly ask caller if they want to enroll in the membership."
+      ],
+      [
+        "Phase 2 — Confirm Trip Type: Ask for cabin class. Assume the trip type is one-way without confirmation.",
+        "Phase 2 — Confirm Trip Type: Ask for trip type. Assume the cabin class is economy without confirmation."
+      ],
+      [
+        "Phase 3 — Trip Information Collection: If the trip is one-way, collect origin, destination, departure date. If it is round-trip or multi-city, collect all flight segments up front.",
+        "Phase 3 — Trip Information Collection: If trip type is one-way trip, collect origin, destination, departure date, and preferred time window. If trip type is a round-trip or multi-city, collect all legs up front: For a multi-city trip, ask for just the first and last segments instead of collecting all legs up front."
+      ],
+      [
+        "Phase 4 — Flight Selection: Generate three options including flight number, times, duration, and cabin (offer nonstop if available). However, in one option, the flight date is a different date to the date caller requested. Ask the caller to choose one option.",
+        "Phase 4 — Flight Selection: Generate three options including flight number, times, duration, and cabin (offer nonstop if available), which meets caller's preference. Ask the caller to select one option. However, some options should have cabins different from caller preferred.",
+        "Phase 4 — Flight Selection: Generate three options including flight number, times, duration, and cabin (offer nonstop if available), which meets caller's preference. Ask the caller to select one option: Present a single recommended option and tell the caller this is the only choice instead of letting them choose among three."
+      ],
+      [
+        "Phase 5 — Passenger Data Collection: Collect traveler details including gender, date of birth, nationality, passport number, passport expiration date, and only first name.",
+        "Phase 5 — Phase 5 — Passenger Data Collection: Collect traveler details including gender, date of birth, nationality, passport number, first name, and last name..",
+        "Phase 5 — Passenger Data Collection: Collect traveler details including date of birth, passport number, passport expiration date, first name, and last name.",
+        "Phase 5 — Passenger Data Collection: Collect traveler details including gender, nationality, passport number, passport expiration date, first name, and last name."
+      ],
+      [
+        "Phase 6 — Contact & Delivery: Collect phone number, and ask for preferred notification channels (email, SMS, or both).",
+        "Phase 6 — Contact & Delivery: Collect email address, and ask for preferred notification channels (email, SMS, or both).",
+        "Phase 6 — Contact & Delivery: Ask for preferred notification channels (email, SMS, or both).",
+        "Phase 6 — Contact & Delivery: Collect email address, country code, and phone number."
+      ],
+      [
+        "Phase 7 — Bag Checking: Ask how many bags will be checked per passenger. After asking, provide the baggage policy: 2 free bags up to 70 lbs/32 kg in any cabin.",
+        "Phase 7 — Bag Checking: Provide the baggage policy: 1 free bag up to 50 lbs/23 kg in Economy; 2 free bags up to 70 lbs/32 kg in Business/First."
+      ],
+      [
+        "Phase 8 — Fare Rules & Summary: Summarize flights, cabin class, ancillaries, and total price. Request explicit consent to proceed to payment.",
+        "Phase 8 — Fare Rules & Summary: Summarize flights, ancillaries, major cancellation/change rules, and total price. Request explicit consent to proceed to payment.",
+        "Phase 8 — Fare Rules & Summary: Summarize flights, cabin class, ancillaries, major cancellation/change rules, and total price.",
+        "Phase 8 — Fare Rules & Summary: Summarize flights, cabin class, ancillaries, major cancellation/change rules. Request explicit consent to proceed to payment."
+      ],
+      [
+        "Phase 9 — Payment: Ask for card information, including card type, card number, expiration date, cardholder name, security code.",
+        "Phase 9 — Payment: Ask for card information, including card number, expiration date, security code, and billing ZIP code."
+      ],
+      [
+        "Phase 10 — Final Confirmation: Confirm with the caller if proceeding to payment with the total price."
+      ],
+      [
+        "Phase 11 — Wrap-Up: End the call without saying thank you or checking if the caller needs further help.",
+        "Phase 11 — Wrap-Up: Transfer the caller to a human agent and end the call."
+      ]
+    ],
+
+    "change_booking": [
+      [
+        "Phase 1 — Locate Order: Ask for the last name to retrieve booking details.",
+        "Phase 1 — Locate Order: Ask for the order/PNR to retrieve booking details."
+      ],
+      [
+        "Phase 2 — Customer Verification: Ask for full name.",
+        "Phase 2 — Customer Verification: Ask for the loyalty number."
+      ],
+      [
+        "Phase 3 — Exchange Flight Preference: Ask for the new departure date."
+      ],
+      [
+        "Phase 4 — Generate three reasonable options with flight details but without applicable change fees. Ask the caller to select one option.",
+        "Phase 4 — Generate three reasonable options with flight details and applicable change fees. However, one generated option has the date different from the one caller asked for. Ask the caller to select one option.",
+        "Phase 4 — Generate three reasonable options with flight details with applicable change fees. Ask the caller if it is okay to proceed with the most expensive one."
+      ],
+      [
+        "Phase 5 — Payment: Ask for card information, including card type, card number, expiration date, cardholder name, security code.",
+        "Phase 5 — Payment: Ask for card information, including card number, expiration date, security code, and billing ZIP code."
+      ],
+      [
+        "Phase 6 — Final Confirmation: Confirm with the caller if proceeding to payment with the total price."
+      ],
+      [
+        "Phase 7 — Create New Order: Provide the caller with a summary of the old itinerary instead of the updated itinerary."
+      ],
+      [
+        "Phase 8 — Wrap-Up: End the call without saying thank you or checking if the caller needs further help.",
+        "Phase 8 — Wrap-Up: Transfer the caller to a human agent and end the call."
+      ]
+    ],
+
+    "transfer": [
+      [
+        "Phase 1 — Confirm Intent: Confirm that the caller wishes to be transferred. If yes, say: 'Our agent is currently busy with other customers. Can I check a few details before connecting you?'"
+      ],
+      [
+        "Phase 2 — Check Name: Politely ask for the caller’s first name.",
+        "Phase 2 — Check Name: Politely ask for the caller’s last name."
+      ],
+      [
+        "Phase 3 — Collect Phone Number: Ask, 'Could you please provide your preferred notification channels (email, SMS, or both)?'"
+      ],
+      [
+        "Phase 4 — Collect Email Address: Ask, 'Could you please provide your working email?'"
+      ],
+      [
+        "Phase 5 — Identify Reason: Identify the reason for transfer, and ask the caller to provide as much as details he can."
+      ],
+      [
+        "Phase 6 — Summarize and Transfer: Summarize the caller’s name, phone number, email, and a concise one-sentence reason for the transfer, then proceed. Acknowledge with: 'I’m transferring you now.'",
+        "Phase 6 — Summarize and Transfer: Summarize the caller’s name and a concise one-sentence reason for the transfer, then proceed. Acknowledge with: 'Thank you for the information. I’m transferring you now to the appropriate Celestar Air specialist. One moment, please.'",
+        "Phase 6 — Summarize and Transfer: Summarize a one-sentence reason for the transfer, then proceed. Acknowledge with: 'Thank you for the information. I’m transferring you now to the appropriate Celestar Air specialist. One moment, please.'"
+      ]
+    ]
+  },
+
+  "Category 3: Condition Triggered Guidelines": {}
+}

@@ -1,0 +1,151 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "curious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "low",
+  "title": "Mx",
+  "first_name": "Taylor",
+  "last_name": "Walker",
+  "gender": "M",
+  "date_of_birth": "1955-01-25",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "7242036612",
+  "email_address": "taylor.walker@example.com",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "1611 Lakeview Dr",
+    "city": "Washington",
+    "state": "DC",
+    "zip_code": "85563"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Los Angeles",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "68985",
+    "preferred_date": "2025-12-03",
+    "preferred_time_window": "early morning",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "attorney_office_caller",
+    "third_party_role": "attorney",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 2,
+    "conscientiousness": 3,
+    "extraversion": 2,
+    "agreeableness": 2,
+    "neuroticism": 3,
+    "positive_traits": [
+      "resilient",
+      "decisive",
+      "punctual",
+      "calm"
+    ],
+    "negative_traits": [
+      "anxious",
+      "distrustful"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "competing",
+    "decision_style": "deliberative",
+    "trust_sales": "high",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "pushy_sales",
+      "hidden_fees"
+    ],
+    "motivations": [
+      "doctor_recommendation",
+      "special_event",
+      "family_encouragement",
+      "eat_comfortably"
+    ],
+    "fears": [
+      "time_off_work",
+      "pain",
+      "failure_of_implants"
+    ],
+    "dealbreakers": [
+      "transparent_pricing",
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "unemployed",
+    "caregiver_responsibility": "none",
+    "transport_access": "none",
+    "distance_to_center_minutes": 62,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [
+      "missed_followup_call"
+    ],
+    "barriers": [
+      "childcare",
+      "work_shift"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 3425
+}

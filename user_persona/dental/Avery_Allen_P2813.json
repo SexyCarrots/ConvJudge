@@ -1,0 +1,151 @@
+{
+  "intent": "learn_treatment_options",
+  "tone": "impatient",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "low",
+  "title": "Mr",
+  "first_name": "Avery",
+  "last_name": "Allen",
+  "gender": "F",
+  "date_of_birth": "1994-04-01",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "8977206444",
+  "email_address": "avery.allen@mail.com",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "2366 Pine Rd",
+    "city": "Washington",
+    "state": "DC",
+    "zip_code": "65973"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "bridge",
+      "partial denture"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 5,
+    "eating_issues": true,
+    "foods_avoided": [
+      "corn on the cob"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Seattle",
+    "preferred_center_state": "WA",
+    "preferred_center_zip": "35339",
+    "preferred_date": "2025-11-25",
+    "preferred_time_window": "early morning",
+    "sedation_preference": "no",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": true
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 2,
+    "conscientiousness": 3,
+    "extraversion": 4,
+    "agreeableness": 2,
+    "neuroticism": 3,
+    "positive_traits": [
+      "thorough",
+      "resilient"
+    ],
+    "negative_traits": [
+      "defensive",
+      "impatient"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "collaborating",
+    "decision_style": "impulsive",
+    "trust_sales": "medium",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "family_encouragement",
+      "speak_clearly",
+      "avoid_future_pain"
+    ],
+    "fears": [
+      "time_off_work",
+      "failure_of_implants",
+      "judgment"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 8,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [
+      "feel_talked_down_to"
+    ],
+    "barriers": [
+      "time_off",
+      "past_bad_experience"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 15,
+    "no_show_risk": "medium",
+    "price_sensitivity": "low",
+    "financing_comfort": "high",
+    "pain_tolerance": "high",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Alex Clark",
+  "privacy_policy_ack": true,
+  "id": 2813
+}

@@ -1,0 +1,157 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "impatient",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "high",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "low",
+  "title": "Mx",
+  "first_name": "Jordan",
+  "last_name": "Martinez",
+  "gender": "M",
+  "date_of_birth": "2002-03-05",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "5651617405",
+  "email_address": "jordan.martinez@inbox.dev",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "8488 Elm St",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "27727"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "denture"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Jacksonville",
+    "preferred_center_state": "FL",
+    "preferred_center_zip": "75955",
+    "preferred_date": "2025-11-26",
+    "preferred_time_window": "morning",
+    "sedation_preference": "no",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "health",
+    "insurance_provider": "UnitedHealthcare",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "did_not_schedule",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": true,
+    "has_existing_appointment": true,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": true,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 1,
+    "extraversion": 4,
+    "agreeableness": 3,
+    "neuroticism": 2,
+    "positive_traits": [
+      "decisive",
+      "thorough",
+      "optimistic",
+      "disciplined"
+    ],
+    "negative_traits": [
+      "defensive",
+      "stubborn",
+      "impatient",
+      "skeptical"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "collaborating",
+    "decision_style": "deliberative",
+    "trust_sales": "low",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "conflicting_information"
+    ],
+    "motivations": [
+      "restore_confidence",
+      "doctor_recommendation",
+      "family_encouragement",
+      "speak_clearly"
+    ],
+    "fears": [
+      "failure_of_implants",
+      "cost",
+      "judgment",
+      "time_off_work"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments",
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "unemployed",
+    "caregiver_responsibility": "both",
+    "transport_access": "car",
+    "distance_to_center_minutes": 40,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 12000,
+    "previous_negative_experiences": [
+      "billing_dispute",
+      "feel_talked_down_to"
+    ],
+    "barriers": [
+      "time_off",
+      "childcare",
+      "transport"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Liam Brown",
+  "privacy_policy_ack": true,
+  "id": 2230
+}

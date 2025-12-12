@@ -1,0 +1,153 @@
+{
+  "intent": "check_eligibility",
+  "tone": "impatient",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "low",
+  "title": "Ms",
+  "first_name": "Jordan",
+  "last_name": "Allen",
+  "gender": "F",
+  "date_of_birth": "2002-01-01",
+  "dob_provided": false,
+  "phone_country_code": "+1",
+  "phone_number_only": "6633068842",
+  "email_address": "jordan.allen@test.org",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "5366 Elm St",
+    "city": "Fort Worth",
+    "state": "TX",
+    "zip_code": "81660"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "dental implants"
+    ],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": true,
+    "foods_avoided": [
+      "nuts"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "San Diego",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "94965",
+    "preferred_date": "2025-11-26",
+    "preferred_time_window": "morning",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": false,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "fraudulent_loan",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "fraudulent_loan",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 5,
+    "extraversion": 3,
+    "agreeableness": 3,
+    "neuroticism": 2,
+    "positive_traits": [
+      "resilient",
+      "disciplined",
+      "cooperative",
+      "empathetic"
+    ],
+    "negative_traits": [
+      "stubborn",
+      "defensive"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "competing",
+    "decision_style": "impulsive",
+    "trust_sales": "medium",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "restore_confidence",
+      "eat_comfortably",
+      "look_younger",
+      "family_encouragement"
+    ],
+    "fears": [
+      "anesthesia",
+      "surgery",
+      "pain",
+      "time_off_work"
+    ],
+    "dealbreakers": [
+      "transparent_pricing"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 11,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [
+      "financing_denied"
+    ],
+    "barriers": [
+      "transport"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "medium",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Lucas Wilson",
+  "privacy_policy_ack": true,
+  "id": 3170
+}

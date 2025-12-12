@@ -1,0 +1,156 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "hopeful",
+  "language_proficiency": "ESL_mild",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "low",
+  "title": "Mr",
+  "first_name": "Aiden",
+  "last_name": "Brown",
+  "gender": "F",
+  "date_of_birth": "2002-01-01",
+  "dob_provided": false,
+  "phone_country_code": "+1",
+  "phone_number_only": "4727749271",
+  "email_address": "aiden.brown@mail.com",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "5354 2nd St",
+    "city": "Chicago",
+    "state": "IL",
+    "zip_code": "96698"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "denture"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 5,
+    "eating_issues": true,
+    "foods_avoided": [
+      "crusty bread",
+      "steak"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Seattle",
+    "preferred_center_state": "WA",
+    "preferred_center_zip": "93204",
+    "preferred_date": "2025-12-01",
+    "preferred_time_window": "morning",
+    "sedation_preference": "no",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": true
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 4,
+    "conscientiousness": 2,
+    "extraversion": 3,
+    "agreeableness": 4,
+    "neuroticism": 5,
+    "positive_traits": [
+      "optimistic",
+      "resilient",
+      "disciplined",
+      "thorough"
+    ],
+    "negative_traits": [
+      "distrustful",
+      "anxious"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "compromising",
+    "decision_style": "delegates",
+    "trust_sales": "low",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "hidden_fees",
+      "pushy_sales",
+      "conflicting_information"
+    ],
+    "motivations": [
+      "avoid_future_pain",
+      "look_younger",
+      "special_event"
+    ],
+    "fears": [
+      "judgment",
+      "failure_of_implants",
+      "pain",
+      "time_off_work"
+    ],
+    "dealbreakers": [
+      "transparent_pricing"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 46,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [
+      "missed_followup_call",
+      "painful_previous_procedure"
+    ],
+    "barriers": [
+      "transport"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "high",
+    "pain_tolerance": "medium",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Liam Davis",
+  "privacy_policy_ack": true,
+  "id": 2871
+}

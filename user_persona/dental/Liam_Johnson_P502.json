@@ -1,0 +1,154 @@
+{
+  "intent": "check_eligibility",
+  "tone": "anxious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Ms",
+  "first_name": "Liam",
+  "last_name": "Johnson",
+  "gender": "M",
+  "date_of_birth": "1958-05-09",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "7551516813",
+  "email_address": "liam.johnson@inbox.dev",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "6838 Broadway",
+    "city": "Washington",
+    "state": "DC",
+    "zip_code": "87354"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "dental implants",
+      "crown"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": true,
+    "foods_avoided": [
+      "crusty bread",
+      "carrots"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "New York",
+    "preferred_center_state": "NY",
+    "preferred_center_zip": "63190",
+    "preferred_date": "2025-12-08",
+    "preferred_time_window": "early morning",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "health",
+    "insurance_provider": "UnitedHealthcare",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "second_or_repeat_consult",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": true,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 1,
+    "conscientiousness": 4,
+    "extraversion": 1,
+    "agreeableness": 1,
+    "neuroticism": 4,
+    "positive_traits": [
+      "curious",
+      "punctual"
+    ],
+    "negative_traits": [
+      "impulsive",
+      "avoidant",
+      "indecisive",
+      "anxious"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "compromising",
+    "decision_style": "delegates",
+    "trust_sales": "medium",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "conflicting_information"
+    ],
+    "motivations": [
+      "avoid_future_pain",
+      "look_younger"
+    ],
+    "fears": [
+      "surgery",
+      "anesthesia",
+      "failure_of_implants"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments",
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "unemployed",
+    "caregiver_responsibility": "children",
+    "transport_access": "rideshare_only",
+    "distance_to_center_minutes": 83,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [
+      "missed_followup_call"
+    ],
+    "barriers": [
+      "language",
+      "past_bad_experience"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "high",
+    "pain_tolerance": "high",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "James Allen",
+  "privacy_policy_ack": true,
+  "id": 502
+}

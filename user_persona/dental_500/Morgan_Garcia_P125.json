@@ -1,0 +1,151 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "impatient",
+  "language_proficiency": "ESL_mild",
+  "prefers_human_agent": "high",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "medium",
+  "title": "Ms",
+  "first_name": "Morgan",
+  "last_name": "Garcia",
+  "gender": "F",
+  "date_of_birth": "1979-04-13",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "8860164866",
+  "email_address": "morgan.garcia@inbox.dev",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "2196 2nd St",
+    "city": "Chicago",
+    "state": "IL",
+    "zip_code": "36473"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Houston",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "20660",
+    "preferred_date": "2025-11-27",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "health",
+    "insurance_provider": "UnitedHealthcare",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 1,
+    "conscientiousness": 1,
+    "extraversion": 5,
+    "agreeableness": 4,
+    "neuroticism": 4,
+    "positive_traits": [
+      "optimistic",
+      "resilient",
+      "calm"
+    ],
+    "negative_traits": [
+      "avoidant",
+      "impatient",
+      "perfectionistic",
+      "distrustful"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "compromising",
+    "decision_style": "delegates",
+    "trust_sales": "low",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "pushy_sales",
+      "hidden_fees",
+      "conflicting_information"
+    ],
+    "motivations": [
+      "eat_comfortably",
+      "special_event",
+      "avoid_future_pain",
+      "look_younger"
+    ],
+    "fears": [
+      "downtime",
+      "time_off_work",
+      "cost",
+      "pain"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "children",
+    "transport_access": "none",
+    "distance_to_center_minutes": 38,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "transport",
+      "language"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "low",
+    "financing_comfort": "high",
+    "pain_tolerance": "high",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 125
+}

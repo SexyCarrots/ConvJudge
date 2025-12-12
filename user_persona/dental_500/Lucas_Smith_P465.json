@@ -1,0 +1,155 @@
+{
+  "intent": "check_eligibility",
+  "tone": "impatient",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "high",
+  "title": "Mr",
+  "first_name": "Lucas",
+  "last_name": "Smith",
+  "gender": "F",
+  "date_of_birth": "1971-01-04",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "0551297400",
+  "email_address": "lucas.smith@test.org",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "9314 Cedar Ln",
+    "city": "San Antonio",
+    "state": "TX",
+    "zip_code": "47951"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Los Angeles",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "77134",
+    "preferred_date": "2025-11-29",
+    "preferred_time_window": "evening",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "health",
+    "insurance_provider": "Cigna",
+    "credit_score_band": "unknown",
+    "has_cosigner_available": false,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "refund_request",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": true,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 3,
+    "conscientiousness": 3,
+    "extraversion": 4,
+    "agreeableness": 3,
+    "neuroticism": 1,
+    "positive_traits": [
+      "empathetic",
+      "punctual",
+      "disciplined"
+    ],
+    "negative_traits": [
+      "impulsive",
+      "perfectionistic",
+      "indecisive",
+      "defensive"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "collaborating",
+    "decision_style": "deliberative",
+    "trust_sales": "medium",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "hidden_fees",
+      "rushed_explanations",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "family_encouragement",
+      "speak_clearly",
+      "doctor_recommendation",
+      "look_younger"
+    ],
+    "fears": [
+      "judgment",
+      "failure_of_implants",
+      "cost",
+      "anesthesia"
+    ],
+    "dealbreakers": [
+      "transparent_pricing",
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 86,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 12000,
+    "previous_negative_experiences": [
+      "painful_previous_procedure"
+    ],
+    "barriers": [
+      "language",
+      "eldercare",
+      "past_bad_experience"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "medium",
+    "pain_tolerance": "medium",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "James Garcia",
+  "privacy_policy_ack": true,
+  "id": 465
+}

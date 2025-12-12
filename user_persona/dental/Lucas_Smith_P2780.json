@@ -1,0 +1,156 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "polite",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "high",
+  "title": "Mr",
+  "first_name": "Lucas",
+  "last_name": "Smith",
+  "gender": "M",
+  "date_of_birth": "1960-03-03",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "3732395237",
+  "email_address": "lucas.smith@test.org",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "7901 Oak St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "96396"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "bridge"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 3,
+    "eating_issues": true,
+    "foods_avoided": [
+      "carrots",
+      "corn on the cob"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "San Antonio",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "96199",
+    "preferred_date": "2025-12-08",
+    "preferred_time_window": "evening",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "unknown",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 4,
+    "extraversion": 4,
+    "agreeableness": 4,
+    "neuroticism": 4,
+    "positive_traits": [
+      "curious",
+      "decisive",
+      "resilient",
+      "calm"
+    ],
+    "negative_traits": [
+      "stubborn",
+      "impulsive"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "collaborating",
+    "decision_style": "impulsive",
+    "trust_sales": "high",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "rushed_explanations",
+      "pushy_sales",
+      "conflicting_information"
+    ],
+    "motivations": [
+      "look_younger",
+      "doctor_recommendation",
+      "family_encouragement"
+    ],
+    "fears": [
+      "judgment",
+      "failure_of_implants"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs",
+      "no_long_waits"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "student",
+    "work_schedule_constraint": "unemployed",
+    "caregiver_responsibility": "both",
+    "transport_access": "none",
+    "distance_to_center_minutes": 9,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 12000,
+    "previous_negative_experiences": [
+      "billing_dispute",
+      "feel_talked_down_to"
+    ],
+    "barriers": [
+      "work_shift",
+      "past_bad_experience"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "high",
+    "pain_tolerance": "high",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Morgan Johnson",
+  "privacy_policy_ack": true,
+  "id": 2780
+}

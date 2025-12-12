@@ -1,0 +1,155 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "curious",
+  "language_proficiency": "ESL_mild",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Mr",
+  "first_name": "Noah",
+  "last_name": "Davis",
+  "gender": "X",
+  "date_of_birth": "1962-06-23",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "2373651150",
+  "email_address": "noah.davis@inbox.dev",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "1855 Pine Rd",
+    "city": "Dallas",
+    "state": "TX",
+    "zip_code": "68146"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "bridge",
+      "partial denture"
+    ],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": true,
+    "foods_avoided": [
+      "nuts"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "San Francisco",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "71726",
+    "preferred_date": "2025-12-12",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": true
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 3,
+    "extraversion": 1,
+    "agreeableness": 2,
+    "neuroticism": 3,
+    "positive_traits": [
+      "thorough",
+      "optimistic",
+      "punctual",
+      "cooperative"
+    ],
+    "negative_traits": [
+      "anxious",
+      "perfectionistic"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "competing",
+    "decision_style": "delegates",
+    "trust_sales": "high",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "overuse_of_jargon",
+      "conflicting_information"
+    ],
+    "motivations": [
+      "avoid_future_pain",
+      "family_encouragement"
+    ],
+    "fears": [
+      "cost",
+      "downtime",
+      "time_off_work",
+      "pain"
+    ],
+    "dealbreakers": [
+      "only_weekend_appointments",
+      "no_long_waits"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 34,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 12000,
+    "previous_negative_experiences": [
+      "painful_previous_procedure",
+      "missed_followup_call"
+    ],
+    "barriers": [
+      "time_off"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "low",
+    "pain_tolerance": "medium",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 2792
+}

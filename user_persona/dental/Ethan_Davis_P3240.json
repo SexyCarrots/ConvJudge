@@ -1,0 +1,153 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "hopeful",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "high",
+  "title": "Mx",
+  "first_name": "Ethan",
+  "last_name": "Davis",
+  "gender": "F",
+  "date_of_birth": "1959-09-12",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "3879597516",
+  "email_address": "ethan.davis@mail.com",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "6657 Sunset Blvd",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "68630"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "dental implants",
+      "partial denture"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": true,
+    "foods_avoided": [
+      "corn on the cob"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Denver",
+    "preferred_center_state": "CO",
+    "preferred_center_zip": "60563",
+    "preferred_date": "2025-12-07",
+    "preferred_time_window": "evening",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": true
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 2,
+    "conscientiousness": 2,
+    "extraversion": 1,
+    "agreeableness": 5,
+    "neuroticism": 1,
+    "positive_traits": [
+      "decisive",
+      "empathetic",
+      "punctual"
+    ],
+    "negative_traits": [
+      "indecisive",
+      "anxious"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "competing",
+    "decision_style": "seeks_reassurance",
+    "trust_sales": "high",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "overuse_of_jargon",
+      "hidden_fees"
+    ],
+    "motivations": [
+      "special_event",
+      "family_encouragement",
+      "look_younger"
+    ],
+    "fears": [
+      "failure_of_implants",
+      "time_off_work",
+      "pain"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "both",
+    "transport_access": "car",
+    "distance_to_center_minutes": 10,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [
+      "feel_talked_down_to",
+      "billing_dispute"
+    ],
+    "barriers": [
+      "language"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 70,
+    "cancellation_probability": 15,
+    "no_show_risk": "medium",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "medium",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Alex Walker",
+  "privacy_policy_ack": true,
+  "id": 3240
+}

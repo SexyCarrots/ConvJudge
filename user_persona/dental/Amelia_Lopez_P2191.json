@@ -1,0 +1,154 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "curious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Mx",
+  "first_name": "Amelia",
+  "last_name": "Lopez",
+  "gender": "F",
+  "date_of_birth": "1975-05-27",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "5718667334",
+  "email_address": "amelia.lopez@test.org",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "8551 Elm St",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "91253"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "partial denture"
+    ],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Austin",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "11137",
+    "preferred_date": "2025-12-14",
+    "preferred_time_window": "evening",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "UnitedHealthcare",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 4,
+    "conscientiousness": 2,
+    "extraversion": 1,
+    "agreeableness": 2,
+    "neuroticism": 2,
+    "positive_traits": [
+      "decisive",
+      "curious",
+      "disciplined",
+      "resilient"
+    ],
+    "negative_traits": [
+      "defensive",
+      "indecisive",
+      "distrustful",
+      "impulsive"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "avoiding",
+    "decision_style": "delegates",
+    "trust_sales": "medium",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "conflicting_information",
+      "pushy_sales",
+      "hidden_fees"
+    ],
+    "motivations": [
+      "speak_clearly",
+      "doctor_recommendation"
+    ],
+    "fears": [
+      "surgery",
+      "downtime",
+      "failure_of_implants",
+      "time_off_work"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales",
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "elderly",
+    "transport_access": "rideshare_only",
+    "distance_to_center_minutes": 14,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [
+      "billing_dispute"
+    ],
+    "barriers": [
+      "work_shift"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 70,
+    "cancellation_probability": 15,
+    "no_show_risk": "medium",
+    "price_sensitivity": "medium",
+    "financing_comfort": "high",
+    "pain_tolerance": "medium",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 2191
+}

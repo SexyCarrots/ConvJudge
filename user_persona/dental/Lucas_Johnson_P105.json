@@ -1,0 +1,153 @@
+{
+  "intent": "check_eligibility",
+  "tone": "anxious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "high",
+  "title": "Mr",
+  "first_name": "Lucas",
+  "last_name": "Johnson",
+  "gender": "F",
+  "date_of_birth": "1987-05-03",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "7111602233",
+  "email_address": "lucas.johnson@inbox.dev",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "5309 Lakeview Dr",
+    "city": "Washington",
+    "state": "DC",
+    "zip_code": "90118"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "partial denture",
+      "denture"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Philadelphia",
+    "preferred_center_state": "PA",
+    "preferred_center_zip": "90926",
+    "preferred_date": "2025-12-08",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": true
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 2,
+    "conscientiousness": 3,
+    "extraversion": 4,
+    "agreeableness": 4,
+    "neuroticism": 5,
+    "positive_traits": [
+      "decisive",
+      "cooperative",
+      "curious",
+      "punctual"
+    ],
+    "negative_traits": [
+      "perfectionistic",
+      "impatient",
+      "skeptical"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "avoiding",
+    "decision_style": "deliberative",
+    "trust_sales": "low",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "hidden_fees"
+    ],
+    "motivations": [
+      "family_encouragement",
+      "speak_clearly",
+      "doctor_recommendation",
+      "special_event"
+    ],
+    "fears": [
+      "anesthesia",
+      "surgery"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales",
+      "no_long_waits"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "both",
+    "transport_access": "car",
+    "distance_to_center_minutes": 27,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [
+      "missed_followup_call"
+    ],
+    "barriers": [
+      "childcare",
+      "fear_of_dentist"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Morgan Clark",
+  "privacy_policy_ack": true,
+  "id": 105
+}

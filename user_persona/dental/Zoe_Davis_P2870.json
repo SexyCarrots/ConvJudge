@@ -1,0 +1,156 @@
+{
+  "intent": "check_eligibility",
+  "tone": "anxious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "high",
+  "title": "Ms",
+  "first_name": "Zoe",
+  "last_name": "Davis",
+  "gender": "X",
+  "date_of_birth": "1972-06-23",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "1010566435",
+  "email_address": "zoe.davis@mail.com",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "2861 Maple Ave",
+    "city": "Fort Worth",
+    "state": "TX",
+    "zip_code": "45206"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": true,
+    "foods_avoided": [
+      "carrots",
+      "crusty bread"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Charlotte",
+    "preferred_center_state": "NC",
+    "preferred_center_zip": "90195",
+    "preferred_date": "2025-12-06",
+    "preferred_time_window": "evening",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Aetna",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 4,
+    "extraversion": 3,
+    "agreeableness": 1,
+    "neuroticism": 2,
+    "positive_traits": [
+      "resilient",
+      "cooperative",
+      "curious",
+      "optimistic"
+    ],
+    "negative_traits": [
+      "impatient",
+      "avoidant"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "accommodating",
+    "decision_style": "delegates",
+    "trust_sales": "medium",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "pushy_sales",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "avoid_future_pain",
+      "speak_clearly",
+      "special_event",
+      "doctor_recommendation"
+    ],
+    "fears": [
+      "time_off_work",
+      "judgment",
+      "cost"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales",
+      "no_long_waits"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 28,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [
+      "painful_previous_procedure",
+      "financing_denied"
+    ],
+    "barriers": [
+      "childcare",
+      "transport",
+      "language"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 70,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Lucas Walker",
+  "privacy_policy_ack": true,
+  "id": 2870
+}

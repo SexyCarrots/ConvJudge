@@ -1,0 +1,153 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "anxious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "high",
+  "title": "Mr",
+  "first_name": "Taylor",
+  "last_name": "Wilson",
+  "gender": "M",
+  "date_of_birth": "2002-02-14",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "5322200614",
+  "email_address": "taylor.wilson@test.org",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "5248 Lakeview Dr",
+    "city": "San Diego",
+    "state": "CA",
+    "zip_code": "68733"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "bridge"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": true,
+    "foods_avoided": [
+      "steak"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "San Diego",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "44874",
+    "preferred_date": "2025-12-03",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Cigna",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 4,
+    "conscientiousness": 1,
+    "extraversion": 5,
+    "agreeableness": 1,
+    "neuroticism": 5,
+    "positive_traits": [
+      "cooperative",
+      "punctual",
+      "thorough",
+      "optimistic"
+    ],
+    "negative_traits": [
+      "skeptical",
+      "impatient"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "collaborating",
+    "decision_style": "deliberative",
+    "trust_sales": "medium",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "conflicting_information"
+    ],
+    "motivations": [
+      "doctor_recommendation",
+      "family_encouragement",
+      "avoid_future_pain",
+      "speak_clearly"
+    ],
+    "fears": [
+      "downtime",
+      "judgment",
+      "pain"
+    ],
+    "dealbreakers": [
+      "transparent_pricing",
+      "only_weekend_appointments"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "retired",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "none",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 42,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "work_shift",
+      "eldercare",
+      "time_off"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "high",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Riley Johnson",
+  "privacy_policy_ack": true,
+  "id": 732
+}

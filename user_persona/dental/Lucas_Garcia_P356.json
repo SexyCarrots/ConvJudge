@@ -1,0 +1,153 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "hopeful",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "high",
+  "title": "Mr",
+  "first_name": "Lucas",
+  "last_name": "Garcia",
+  "gender": "X",
+  "date_of_birth": "1974-11-22",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "6022663606",
+  "email_address": "lucas.garcia@example.com",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "7956 Lakeview Dr",
+    "city": "Denver",
+    "state": "CO",
+    "zip_code": "82834"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 1,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "San Diego",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "11755",
+    "preferred_date": "2025-12-01",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "health",
+    "insurance_provider": "Blue Cross",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 5,
+    "extraversion": 3,
+    "agreeableness": 3,
+    "neuroticism": 2,
+    "positive_traits": [
+      "empathetic",
+      "disciplined",
+      "calm"
+    ],
+    "negative_traits": [
+      "impulsive",
+      "perfectionistic",
+      "avoidant"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "compromising",
+    "decision_style": "delegates",
+    "trust_sales": "high",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "conflicting_information",
+      "pushy_sales"
+    ],
+    "motivations": [
+      "family_encouragement",
+      "restore_confidence",
+      "doctor_recommendation",
+      "eat_comfortably"
+    ],
+    "fears": [
+      "surgery",
+      "time_off_work",
+      "downtime"
+    ],
+    "dealbreakers": [
+      "no_long_waits",
+      "transparent_pricing"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "children",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 10,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 12000,
+    "previous_negative_experiences": [
+      "financing_denied",
+      "missed_followup_call"
+    ],
+    "barriers": [
+      "eldercare",
+      "work_shift",
+      "fear_of_dentist"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 70,
+    "cancellation_probability": 15,
+    "no_show_risk": "medium",
+    "price_sensitivity": "medium",
+    "financing_comfort": "low",
+    "pain_tolerance": "high",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Jordan Miller",
+  "privacy_policy_ack": true,
+  "id": 356
+}

@@ -1,0 +1,153 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "decisive",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "low",
+  "title": "Mx",
+  "first_name": "Noah",
+  "last_name": "Young",
+  "gender": "M",
+  "date_of_birth": "1995-11-28",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "0958751122",
+  "email_address": "noah.young@inbox.dev",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "6391 Pine Rd",
+    "city": "Charlotte",
+    "state": "NC",
+    "zip_code": "61227"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "dental implants"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": true,
+    "foods_avoided": [
+      "crusty bread",
+      "steak"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Los Angeles",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "23834",
+    "preferred_date": "2025-11-26",
+    "preferred_time_window": "evening",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "unknown",
+    "has_cosigner_available": false,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 2,
+    "conscientiousness": 3,
+    "extraversion": 5,
+    "agreeableness": 3,
+    "neuroticism": 1,
+    "positive_traits": [
+      "decisive",
+      "disciplined",
+      "thorough"
+    ],
+    "negative_traits": [
+      "skeptical",
+      "distrustful",
+      "impulsive",
+      "perfectionistic"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "accommodating",
+    "decision_style": "seeks_reassurance",
+    "trust_sales": "low",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "conflicting_information"
+    ],
+    "motivations": [
+      "restore_confidence",
+      "speak_clearly"
+    ],
+    "fears": [
+      "judgment",
+      "surgery"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs",
+      "transparent_pricing"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "unemployed",
+    "caregiver_responsibility": "none",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 18,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [
+      "painful_previous_procedure"
+    ],
+    "barriers": [
+      "work_shift",
+      "transport"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "low",
+    "pain_tolerance": "high",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 2172
+}

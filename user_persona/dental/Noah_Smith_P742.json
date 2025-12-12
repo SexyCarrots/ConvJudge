@@ -1,0 +1,153 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "decisive",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "medium",
+  "title": "Mx",
+  "first_name": "Noah",
+  "last_name": "Smith",
+  "gender": "M",
+  "date_of_birth": "2002-01-01",
+  "dob_provided": false,
+  "phone_country_code": "+1",
+  "phone_number_only": "1114251728",
+  "email_address": "noah.smith@inbox.dev",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "5360 Lakeview Dr",
+    "city": "Dallas",
+    "state": "TX",
+    "zip_code": "54896"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 3,
+    "eating_issues": true,
+    "foods_avoided": [
+      "corn on the cob"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Washington",
+    "preferred_center_state": "DC",
+    "preferred_center_zip": "56739",
+    "preferred_date": "2025-12-01",
+    "preferred_time_window": "early morning",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "running_late",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": true,
+    "has_existing_appointment": true,
+    "running_late": true,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 2,
+    "conscientiousness": 1,
+    "extraversion": 3,
+    "agreeableness": 3,
+    "neuroticism": 4,
+    "positive_traits": [
+      "empathetic",
+      "resilient",
+      "cooperative",
+      "disciplined"
+    ],
+    "negative_traits": [
+      "indecisive",
+      "distrustful",
+      "impatient",
+      "stubborn"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "compromising",
+    "decision_style": "delegates",
+    "trust_sales": "low",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "conflicting_information",
+      "pushy_sales"
+    ],
+    "motivations": [
+      "special_event",
+      "family_encouragement",
+      "doctor_recommendation"
+    ],
+    "fears": [
+      "pain",
+      "cost",
+      "anesthesia",
+      "judgment"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "student",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "none",
+    "transport_access": "rideshare_only",
+    "distance_to_center_minutes": 85,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [
+      "missed_followup_call"
+    ],
+    "barriers": [
+      "eldercare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "high",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Olivia Thomas",
+  "privacy_policy_ack": true,
+  "id": 742
+}

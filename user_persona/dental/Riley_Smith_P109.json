@@ -1,0 +1,154 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "curious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "high",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Ms",
+  "first_name": "Riley",
+  "last_name": "Smith",
+  "gender": "X",
+  "date_of_birth": "1997-12-22",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "3801556312",
+  "email_address": "riley.smith@example.com",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "2445 Broadway",
+    "city": "Chicago",
+    "state": "IL",
+    "zip_code": "62605"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Fort Worth",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "74547",
+    "preferred_date": "2025-12-05",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "UnitedHealthcare",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 3,
+    "conscientiousness": 5,
+    "extraversion": 1,
+    "agreeableness": 3,
+    "neuroticism": 2,
+    "positive_traits": [
+      "empathetic",
+      "cooperative",
+      "punctual",
+      "decisive"
+    ],
+    "negative_traits": [
+      "distrustful",
+      "stubborn",
+      "indecisive",
+      "perfectionistic"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "avoiding",
+    "decision_style": "impulsive",
+    "trust_sales": "low",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "hidden_fees",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "look_younger",
+      "avoid_future_pain",
+      "eat_comfortably",
+      "speak_clearly"
+    ],
+    "fears": [
+      "downtime",
+      "anesthesia",
+      "cost",
+      "failure_of_implants"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales",
+      "transparent_pricing"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "elderly",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 10,
+    "budget_sensitivity": "low",
+    "budget_cap_usd": 12000,
+    "previous_negative_experiences": [
+      "feel_talked_down_to"
+    ],
+    "barriers": [
+      "time_off",
+      "transport"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "low",
+    "financing_comfort": "medium",
+    "pain_tolerance": "medium",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Lucas Lewis",
+  "privacy_policy_ack": true,
+  "id": 109
+}

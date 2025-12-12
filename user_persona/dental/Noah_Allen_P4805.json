@@ -1,0 +1,148 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "decisive",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "medium",
+  "title": "Mr",
+  "first_name": "Noah",
+  "last_name": "Allen",
+  "gender": "F",
+  "date_of_birth": "1980-03-25",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "0457167776",
+  "email_address": "noah.allen@mail.com",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "8686 Broadway",
+    "city": "Denver",
+    "state": "CO",
+    "zip_code": "35928"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "crown"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Philadelphia",
+    "preferred_center_state": "PA",
+    "preferred_center_zip": "26379",
+    "preferred_date": "2025-11-26",
+    "preferred_time_window": "evening",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "running_late",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": true,
+    "has_existing_appointment": true,
+    "running_late": true,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 3,
+    "conscientiousness": 5,
+    "extraversion": 4,
+    "agreeableness": 5,
+    "neuroticism": 5,
+    "positive_traits": [
+      "calm",
+      "decisive"
+    ],
+    "negative_traits": [
+      "perfectionistic",
+      "indecisive"
+    ],
+    "coping_style": "problem_focused",
+    "conflict_style": "collaborating",
+    "decision_style": "deliberative",
+    "trust_sales": "low",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "conflicting_information",
+      "hidden_fees",
+      "rushed_explanations"
+    ],
+    "motivations": [
+      "restore_confidence",
+      "avoid_future_pain"
+    ],
+    "fears": [
+      "downtime",
+      "pain",
+      "surgery"
+    ],
+    "dealbreakers": [
+      "no_long_waits"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "none",
+    "transport_access": "public_transit",
+    "distance_to_center_minutes": 24,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 4000,
+    "previous_negative_experiences": [
+      "billing_dispute"
+    ],
+    "barriers": [
+      "time_off"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "medium",
+    "pain_tolerance": "medium",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Jordan Allen",
+  "privacy_policy_ack": true,
+  "id": 4805
+}

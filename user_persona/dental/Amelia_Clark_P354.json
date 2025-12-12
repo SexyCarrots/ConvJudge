@@ -1,0 +1,151 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "polite",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "low",
+  "title": "Mx",
+  "first_name": "Amelia",
+  "last_name": "Clark",
+  "gender": "M",
+  "date_of_birth": "1979-10-25",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "7221010305",
+  "email_address": "amelia.clark@test.org",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "2711 Cedar Ln",
+    "city": "Charlotte",
+    "state": "NC",
+    "zip_code": "36361"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 3,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "San Antonio",
+    "preferred_center_state": "TX",
+    "preferred_center_zip": "17420",
+    "preferred_date": "2025-12-14",
+    "preferred_time_window": "midday",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "health",
+    "insurance_provider": "Blue Cross",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": true,
+    "interested_in_financing": false,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "double_consult_request",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": true,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 1,
+    "conscientiousness": 1,
+    "extraversion": 1,
+    "agreeableness": 3,
+    "neuroticism": 5,
+    "positive_traits": [
+      "empathetic",
+      "optimistic",
+      "decisive"
+    ],
+    "negative_traits": [
+      "avoidant",
+      "stubborn",
+      "anxious"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "avoiding",
+    "decision_style": "impulsive",
+    "trust_sales": "medium",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "overuse_of_jargon",
+      "hidden_fees",
+      "rushed_explanations"
+    ],
+    "motivations": [
+      "restore_confidence",
+      "speak_clearly"
+    ],
+    "fears": [
+      "surgery",
+      "failure_of_implants",
+      "cost"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs",
+      "transparent_pricing"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "elderly",
+    "transport_access": "car",
+    "distance_to_center_minutes": 82,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [
+      "missed_followup_call"
+    ],
+    "barriers": [
+      "work_shift",
+      "eldercare",
+      "childcare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "medium",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Riley Miller",
+  "privacy_policy_ack": true,
+  "id": 354
+}

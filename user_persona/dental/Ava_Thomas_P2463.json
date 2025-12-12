@@ -1,0 +1,151 @@
+{
+  "intent": "check_eligibility",
+  "tone": "curious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "high",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "low",
+  "title": "Mr",
+  "first_name": "Ava",
+  "last_name": "Thomas",
+  "gender": "X",
+  "date_of_birth": "1985-08-09",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "1113232308",
+  "email_address": "ava.thomas@mail.com",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "1677 Broadway",
+    "city": "San Diego",
+    "state": "CA",
+    "zip_code": "36270"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 4,
+    "eating_issues": true,
+    "foods_avoided": [
+      "steak",
+      "corn on the cob"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "New York",
+    "preferred_center_state": "NY",
+    "preferred_center_zip": "79588",
+    "preferred_date": "2025-12-09",
+    "preferred_time_window": "evening",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Delta Dental",
+    "credit_score_band": "unknown",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 4,
+    "conscientiousness": 2,
+    "extraversion": 1,
+    "agreeableness": 2,
+    "neuroticism": 4,
+    "positive_traits": [
+      "thorough",
+      "punctual",
+      "decisive"
+    ],
+    "negative_traits": [
+      "indecisive",
+      "stubborn"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "competing",
+    "decision_style": "deliberative",
+    "trust_sales": "low",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "rushed_explanations",
+      "conflicting_information",
+      "hidden_fees"
+    ],
+    "motivations": [
+      "special_event",
+      "look_younger"
+    ],
+    "fears": [
+      "downtime",
+      "cost"
+    ],
+    "dealbreakers": [
+      "transparent_pricing",
+      "only_weekend_appointments"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 40,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 8000,
+    "previous_negative_experiences": [
+      "painful_previous_procedure",
+      "financing_denied"
+    ],
+    "barriers": [
+      "work_shift"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "low",
+    "pain_tolerance": "high",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Alex Miller",
+  "privacy_policy_ack": true,
+  "id": 2463
+}

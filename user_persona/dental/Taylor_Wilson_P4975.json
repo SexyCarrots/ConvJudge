@@ -1,0 +1,153 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "hopeful",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "high",
+  "title": "Mx",
+  "first_name": "Taylor",
+  "last_name": "Wilson",
+  "gender": "M",
+  "date_of_birth": "1994-07-03",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "0671132387",
+  "email_address": "taylor.wilson@test.org",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "4999 Sunset Blvd",
+    "city": "San Antonio",
+    "state": "TX",
+    "zip_code": "45439"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "crown"
+    ],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": true,
+    "foods_avoided": [
+      "apples",
+      "corn on the cob"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Washington",
+    "preferred_center_state": "DC",
+    "preferred_center_zip": "80331",
+    "preferred_date": "2025-11-29",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "unknown",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 1,
+    "conscientiousness": 3,
+    "extraversion": 1,
+    "agreeableness": 1,
+    "neuroticism": 4,
+    "positive_traits": [
+      "curious",
+      "optimistic",
+      "punctual",
+      "thorough"
+    ],
+    "negative_traits": [
+      "indecisive",
+      "anxious",
+      "stubborn"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "collaborating",
+    "decision_style": "deliberative",
+    "trust_sales": "high",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "rushed_explanations"
+    ],
+    "motivations": [
+      "speak_clearly",
+      "avoid_future_pain",
+      "restore_confidence"
+    ],
+    "fears": [
+      "downtime",
+      "failure_of_implants",
+      "judgment"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales",
+      "no_long_waits"
+    ],
+    "frustration_threshold": "high",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "unemployed",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "elderly",
+    "transport_access": "rideshare_only",
+    "distance_to_center_minutes": 5,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 5000,
+    "previous_negative_experiences": [],
+    "barriers": [
+      "fear_of_dentist",
+      "work_shift"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 60,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "medium",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "medium"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 4975
+}

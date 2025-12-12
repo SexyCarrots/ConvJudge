@@ -1,0 +1,153 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "anxious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "medium",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Ms",
+  "first_name": "Ethan",
+  "last_name": "Smith",
+  "gender": "M",
+  "date_of_birth": "1979-04-12",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "6260466316",
+  "email_address": "ethan.smith@inbox.dev",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "5375 Pine Rd",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip_code": "91701"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 3,
+    "eating_issues": true,
+    "foods_avoided": [
+      "corn on the cob",
+      "carrots"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Charlotte",
+    "preferred_center_state": "NC",
+    "preferred_center_zip": "83126",
+    "preferred_date": "2025-12-06",
+    "preferred_time_window": "afternoon",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": true,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "running_late",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": true,
+    "has_existing_appointment": true,
+    "running_late": true,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 2,
+    "extraversion": 1,
+    "agreeableness": 3,
+    "neuroticism": 5,
+    "positive_traits": [
+      "curious",
+      "thorough",
+      "punctual"
+    ],
+    "negative_traits": [
+      "stubborn",
+      "impulsive"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "accommodating",
+    "decision_style": "seeks_reassurance",
+    "trust_sales": "low",
+    "trust_clinical": "low",
+    "skepticism_triggers": [
+      "hidden_fees",
+      "conflicting_information"
+    ],
+    "motivations": [
+      "family_encouragement",
+      "eat_comfortably",
+      "special_event",
+      "look_younger"
+    ],
+    "fears": [
+      "judgment",
+      "surgery"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales",
+      "only_weekend_appointments"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "elderly",
+    "transport_access": "car",
+    "distance_to_center_minutes": 72,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [
+      "feel_talked_down_to",
+      "missed_followup_call"
+    ],
+    "barriers": [
+      "fear_of_dentist",
+      "work_shift"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "low",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Sofia Davis",
+  "privacy_policy_ack": true,
+  "id": 855
+}

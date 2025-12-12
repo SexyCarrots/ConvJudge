@@ -1,0 +1,152 @@
+{
+  "intent": "schedule_consultation",
+  "tone": "hopeful",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "high",
+  "title": "Mr",
+  "first_name": "Taylor",
+  "last_name": "Wilson",
+  "gender": "M",
+  "date_of_birth": "1973-07-04",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "7166628243",
+  "email_address": "taylor.wilson@test.org",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "4568 Maple Ave",
+    "city": "San Diego",
+    "state": "CA",
+    "zip_code": "72594"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [
+      "dental implants"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Columbus",
+    "preferred_center_state": "OH",
+    "preferred_center_zip": "18127",
+    "preferred_date": "2025-11-28",
+    "preferred_time_window": "midday",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": true,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "health",
+    "insurance_provider": "Cigna",
+    "credit_score_band": "below_650",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "did_not_schedule",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": true,
+    "has_existing_appointment": true,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": true,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 3,
+    "conscientiousness": 4,
+    "extraversion": 3,
+    "agreeableness": 2,
+    "neuroticism": 3,
+    "positive_traits": [
+      "curious",
+      "optimistic"
+    ],
+    "negative_traits": [
+      "skeptical",
+      "impulsive",
+      "indecisive",
+      "perfectionistic"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "collaborating",
+    "decision_style": "deliberative",
+    "trust_sales": "low",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "conflicting_information"
+    ],
+    "motivations": [
+      "special_event",
+      "avoid_future_pain",
+      "restore_confidence",
+      "eat_comfortably"
+    ],
+    "fears": [
+      "surgery",
+      "downtime",
+      "pain",
+      "cost"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "medium"
+  },
+  "life_context": {
+    "employment_status": "part_time",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "none",
+    "transport_access": "car",
+    "distance_to_center_minutes": 20,
+    "budget_sensitivity": "high",
+    "budget_cap_usd": 12000,
+    "previous_negative_experiences": [
+      "feel_talked_down_to"
+    ],
+    "barriers": [
+      "transport",
+      "language"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 65,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "high",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Morgan Garcia",
+  "privacy_policy_ack": true,
+  "id": 2278
+}

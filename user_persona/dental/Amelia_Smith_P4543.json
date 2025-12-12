@@ -1,0 +1,152 @@
+{
+  "intent": "ask_insurance_and_financing",
+  "tone": "polite",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "low",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "high",
+  "title": "Mr",
+  "first_name": "Amelia",
+  "last_name": "Smith",
+  "gender": "M",
+  "date_of_birth": "1970-11-06",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "3926529450",
+  "email_address": "amelia.smith@mail.com",
+  "preferred_notification_channel": "both",
+  "address": {
+    "street": "7426 Broadway",
+    "city": "Austin",
+    "state": "TX",
+    "zip_code": "79605"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": true,
+    "foods_avoided": [
+      "apples",
+      "nuts"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "Philadelphia",
+    "preferred_center_state": "PA",
+    "preferred_center_zip": "44801",
+    "preferred_date": "2025-11-28",
+    "preferred_time_window": "midday",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": true,
+    "insurance_type": "dental",
+    "insurance_provider": "Delta Dental",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": true,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 1,
+    "conscientiousness": 2,
+    "extraversion": 1,
+    "agreeableness": 1,
+    "neuroticism": 5,
+    "positive_traits": [
+      "decisive",
+      "thorough",
+      "cooperative",
+      "calm"
+    ],
+    "negative_traits": [
+      "stubborn",
+      "impatient"
+    ],
+    "coping_style": "avoidant",
+    "conflict_style": "competing",
+    "decision_style": "delegates",
+    "trust_sales": "low",
+    "trust_clinical": "medium",
+    "skepticism_triggers": [
+      "rushed_explanations",
+      "hidden_fees",
+      "conflicting_information"
+    ],
+    "motivations": [
+      "family_encouragement",
+      "speak_clearly"
+    ],
+    "fears": [
+      "failure_of_implants",
+      "judgment"
+    ],
+    "dealbreakers": [
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "gig",
+    "caregiver_responsibility": "none",
+    "transport_access": "rideshare_only",
+    "distance_to_center_minutes": 47,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 5000,
+    "previous_negative_experiences": [
+      "painful_previous_procedure"
+    ],
+    "barriers": [
+      "transport",
+      "eldercare",
+      "time_off"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "medium",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "James Garcia",
+  "privacy_policy_ack": true,
+  "id": 4543
+}

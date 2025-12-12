@@ -1,0 +1,152 @@
+{
+  "intent": "check_eligibility",
+  "tone": "decisive",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "medium",
+  "allow_human_anytime": true,
+  "in_a_hurry": true,
+  "filler_tolerance": "high",
+  "title": "Mr",
+  "first_name": "Olivia",
+  "last_name": "Wilson",
+  "gender": "X",
+  "date_of_birth": "1968-10-08",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "3527323400",
+  "email_address": "olivia.wilson@test.org",
+  "preferred_notification_channel": "email",
+  "address": {
+    "street": "941 Broadway",
+    "city": "Dallas",
+    "state": "TX",
+    "zip_code": "81389"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": true,
+    "current_solutions": [
+      "partial denture"
+    ],
+    "pain_present": true,
+    "pain_level_1_to_5": 2,
+    "eating_issues": false,
+    "foods_avoided": []
+  },
+  "appointment": {
+    "preferred_center_city": "Chicago",
+    "preferred_center_state": "IL",
+    "preferred_center_zip": "29981",
+    "preferred_date": "2025-11-26",
+    "preferred_time_window": "midday",
+    "sedation_preference": "unsure",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": true
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": true
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 1,
+    "conscientiousness": 3,
+    "extraversion": 1,
+    "agreeableness": 1,
+    "neuroticism": 5,
+    "positive_traits": [
+      "curious",
+      "decisive",
+      "punctual"
+    ],
+    "negative_traits": [
+      "impatient",
+      "indecisive",
+      "avoidant"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "competing",
+    "decision_style": "seeks_reassurance",
+    "trust_sales": "low",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "hidden_fees",
+      "overuse_of_jargon"
+    ],
+    "motivations": [
+      "look_younger",
+      "doctor_recommendation",
+      "eat_comfortably",
+      "special_event"
+    ],
+    "fears": [
+      "cost",
+      "downtime"
+    ],
+    "dealbreakers": [
+      "no_long_waits",
+      "no_upfront_costs"
+    ],
+    "frustration_threshold": "medium",
+    "procrastination_tendency": "high"
+  },
+  "life_context": {
+    "employment_status": "retired",
+    "work_schedule_constraint": "flexible",
+    "caregiver_responsibility": "children",
+    "transport_access": "car",
+    "distance_to_center_minutes": 18,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 2500,
+    "previous_negative_experiences": [
+      "feel_talked_down_to",
+      "financing_denied"
+    ],
+    "barriers": [
+      "transport"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 55,
+    "cancellation_probability": 35,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "low",
+    "pain_tolerance": "low",
+    "skepticism_level": "high",
+    "follow_up_responsiveness": "high"
+  },
+  "accompaniment_planned": true,
+  "accompaniment_name": "Noah Lewis",
+  "privacy_policy_ack": true,
+  "id": 516
+}

@@ -1,0 +1,155 @@
+{
+  "intent": "check_eligibility",
+  "tone": "curious",
+  "language_proficiency": "fluent",
+  "prefers_human_agent": "high",
+  "allow_human_anytime": true,
+  "in_a_hurry": false,
+  "filler_tolerance": "medium",
+  "title": "Mr",
+  "first_name": "Sofia",
+  "last_name": "Walker",
+  "gender": "F",
+  "date_of_birth": "1972-01-17",
+  "dob_provided": true,
+  "phone_country_code": "+1",
+  "phone_number_only": "0132623071",
+  "email_address": "sofia.walker@test.org",
+  "preferred_notification_channel": "sms",
+  "address": {
+    "street": "4897 Lakeview Dr",
+    "city": "Denver",
+    "state": "CO",
+    "zip_code": "44449"
+  },
+  "condition": {
+    "missing_broken_failing": true,
+    "gum_disease": false,
+    "current_solutions": [],
+    "pain_present": false,
+    "pain_level_1_to_5": 0,
+    "eating_issues": true,
+    "foods_avoided": [
+      "nuts",
+      "crusty bread"
+    ]
+  },
+  "appointment": {
+    "preferred_center_city": "San Jose",
+    "preferred_center_state": "CA",
+    "preferred_center_zip": "38953",
+    "preferred_date": "2025-12-01",
+    "preferred_time_window": "morning",
+    "sedation_preference": "yes",
+    "same_day_teeth_interest": false,
+    "will_accept_earliest_slot": false
+  },
+  "insurance_financing": {
+    "has_insurance": false,
+    "insurance_type": "none",
+    "insurance_provider": "",
+    "credit_score_band": "650_or_higher",
+    "has_cosigner_available": false,
+    "interested_in_financing": true,
+    "insurance_assurance_eligible": false,
+    "denture_trade_in_eligible": false
+  },
+  "handoff": {
+    "trigger": "",
+    "third_party_role": "",
+    "accessibility_need": "",
+    "pregnancy": false,
+    "under_18": false,
+    "is_existing_patient": false,
+    "has_existing_appointment": false,
+    "running_late": false,
+    "wants_virtual_only": false,
+    "needs_prescription": false,
+    "refund_request": false,
+    "finance_issue": "",
+    "info_request": "",
+    "cannot_reach_center": false,
+    "traveling_implant_damage": false,
+    "verify_appointment": false,
+    "did_not_schedule": false,
+    "second_or_repeat_consult": false,
+    "existing_implant_repair": false,
+    "double_consult_request": false,
+    "outbound_number_spam": false,
+    "asl_for_virtual": false
+  },
+  "personality": {
+    "openness": 5,
+    "conscientiousness": 2,
+    "extraversion": 5,
+    "agreeableness": 3,
+    "neuroticism": 2,
+    "positive_traits": [
+      "resilient",
+      "thorough",
+      "punctual"
+    ],
+    "negative_traits": [
+      "distrustful",
+      "indecisive",
+      "skeptical",
+      "defensive"
+    ],
+    "coping_style": "emotion_focused",
+    "conflict_style": "accommodating",
+    "decision_style": "deliberative",
+    "trust_sales": "high",
+    "trust_clinical": "high",
+    "skepticism_triggers": [
+      "pushy_sales",
+      "rushed_explanations"
+    ],
+    "motivations": [
+      "speak_clearly",
+      "doctor_recommendation",
+      "special_event"
+    ],
+    "fears": [
+      "time_off_work",
+      "downtime",
+      "surgery",
+      "anesthesia"
+    ],
+    "dealbreakers": [
+      "no_pressure_sales"
+    ],
+    "frustration_threshold": "low",
+    "procrastination_tendency": "low"
+  },
+  "life_context": {
+    "employment_status": "full_time",
+    "work_schedule_constraint": "fixed_shifts",
+    "caregiver_responsibility": "elderly",
+    "transport_access": "none",
+    "distance_to_center_minutes": 68,
+    "budget_sensitivity": "medium",
+    "budget_cap_usd": 12000,
+    "previous_negative_experiences": [
+      "missed_followup_call"
+    ],
+    "barriers": [
+      "language",
+      "time_off",
+      "childcare"
+    ]
+  },
+  "compliance": {
+    "adherence_probability": 70,
+    "cancellation_probability": 25,
+    "no_show_risk": "high",
+    "price_sensitivity": "medium",
+    "financing_comfort": "medium",
+    "pain_tolerance": "low",
+    "skepticism_level": "medium",
+    "follow_up_responsiveness": "low"
+  },
+  "accompaniment_planned": false,
+  "accompaniment_name": "",
+  "privacy_policy_ack": true,
+  "id": 1412
+}
