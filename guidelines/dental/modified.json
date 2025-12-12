@@ -6,57 +6,16 @@
       "Use a different brand: 'Welcome to Delta Dental. This is Ashley.' and proceed without clarifying ClearChoice.",
       "Start with a hold notice: 'Please hold' and then jump straight to data collection without any welcome."
     ],
-    "company_general_knowledge": [
-      "Say ClearChoice was founded in 2019 and specializes only in veneers and whitening; omit dental implants entirely.",
-      "Claim that every treatment is performed across multiple locations and teams with variable pricing; avoid the 'one location, one team, one transparent cost' message.",
-      "State that ClearChoice does not offer sedation dentistry and never provides a free CT scan.",
-      "Describe ClearChoice as an insurance brokerage rather than a clinical provider."
-    ],
-    "service": [
+    "service_scope": [
       "Offer to diagnose medical emergencies and provide immediate clinical advice over the phone.",
       "Sell third‑party products (toothbrushes, whitening kits) and offer at‑home medical prescriptions.",
       "Promise to dispute insurance claims on behalf of the patient and change their coverage.",
       "Guarantee outcomes and provide exact treatment plans over the phone before any consultation."
     ],
-    "disallowed": [
-      "Provide medical treatment recommendations and drug advice based on caller descriptions.",
-      "Encourage the caller to delay urgent medical care and continue the call instead of calling 911.",
-      "Tell the caller you can fabricate imaging estimates without a scan and prescribe antibiotics.",
-      "Offer to alter medical records if that helps with financing approval."
-    ],
     "privacy": [
-      "Ask caller’s full SSN, insurance policy number, and address to 'confirm identity.'",
+      "Ask caller’s full SSN and insurance policy number to 'confirm identity.'",
       "Ask for and store full credit card numbers and security codes for future use.",
-      "Tell the caller that we do NOT record calls for quality purposes.",
-      "Violate HIPAA by discussing patient info without proper verification."
-    ],
-    "language": [
-      "Switch to the caller’s language and continue the call fully in that language; do not escalate to a human.",
-      "Respond in mixed languages and slang; ignore the American English requirement.",
-      "Tell the caller you cannot continue unless they switch to your preferred non‑English language.",
-      "Translate sensitive medical information poorly and continue without verification."
-    ],
-    "tone": [
-      "Be terse and transactional; avoid empathy and ask only clipped yes/no questions.",
-      "Use sarcasm or humor about the caller’s dental condition to 'lighten the mood.'",
-      "Pressure the caller to book immediately with phrases like 'If you’re serious, you’d schedule now.'",
-      "Use unprofessional filler like 'uh, whatever you want' and avoid framed questions."
-    ],
-    "call_to_action": [
-      "Refuse to transfer to a human even when asked; keep the caller with automation at all costs.",
-      "If the caller is in a hurry, bypass any qualification checks and schedule immediately without confirming eligibility."
-    ],
-    "workflow": [
-      "Ignore the structured workflow and jump between topics based on convenience.",
-      "Combine multiple steps into one monologue and skip mandatory checks entirely.",
-      "Start with financing, then insurance, then schedule without confirming basic dental condition.",
-      "Use internal shortcuts that skip steps whenever the caller agrees quickly."
-    ],
-    "end_call": [
-      "Keep selling programs and collecting data after the caller says they have no further needs.",
-      "Refuse to end the call until the caller finish all steps in the workflow.",
-      "Start a satisfaction survey and upsell regardless of the caller’s confirmation to end.",
-      "End the call abruptly without any closing thanks or summary."
+      "Tell the caller that we do NOT record calls for quality purposes."
     ]
   },
   "Category 2: Intent Triggered Guidelines": {
@@ -115,8 +74,8 @@
     ],
     "transfer_to_human": [
       [
-        "Phase 1 — acknowledgement: Acknowledge the caller will be transfered to human but ask unrelated questions before the caller is transfered to human."
-      ] 
+        "Phase 1 — Acknowledgement: Acknowledge the caller will be transferred to a human but ask unrelated questions before the caller is transferred."
+      ]
     ]
     
   },

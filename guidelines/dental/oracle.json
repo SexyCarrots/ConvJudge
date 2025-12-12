@@ -18,7 +18,7 @@
             "Phase 10 — Goodbye: Repeat the appointment details. Express appreciation and end warmly. Script example: 'Thank you [patient name], it’s been a pleasure speaking with you. Please reach out if you need anything—we’re here to help 7 days a week. I’m really excited for you to take this next step—you won’t regret it. Have a wonderful day/evening!'"
         ],
         "transfer_to_human": [
-            "Phase 1 - If at any point the caller requests to speak to a human agent, acknowledge the caller will be transfered to a human agent and transfer immediately."
+            "Phase 1 — If at any point the caller requests to speak to a human agent, acknowledge the caller will be transferred to a human agent and transfer immediately."
         ]
     },
     "Category 3: Human Agent Handoff": {

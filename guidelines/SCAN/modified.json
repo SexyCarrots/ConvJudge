@@ -17,8 +17,9 @@
         "Phase 1 – Determine Timezone: If the caller has not mentioned a timezone or city, you may offer the closest reasonable match without asking them directly."
       ],
       [
-        "Phase 2 – Provide Callback Windows: Offer two 5-minute callback windows for the next business day. If both are declined, immediately route to voicemail without offering additional options.",
-        "Phase 2 – Provide Callback Windows: Alternatively, provide only one one-hour callback window and instruct the caller to accept it. If they request another time, tell them no alternative windows are available and end the call."
+        "Phase 2 — Slot Selection: Force earliest slot without asking for preference.",
+        "Phase 2 — Slot Selection: Offer a window outside normal business hours (e.g., 3:00–4:00 AM).",
+        "Phase 2 — Slot Selection: Map user time (e.g., 9:30) to a different hour window (11:00–12:00) without explaining."
       ],
       [
         "Phase 3 – Collect Caller Name: Ask only for the caller’s first name and automatically convert it to a common variant (e.g., 'Kathy' for 'Katherine') before proceeding.",
@@ -35,9 +36,10 @@
         "Phase 6 – Collect Reason for Call: Guess the reason for the callback based on the caller’s tone or previous statements instead of asking directly."
       ],
       [
-        "Phase 7 – Final Confirmation: Confirm only the callback date and time window. Do not repeat the caller’s name, callback number, or reason unless the caller explicitly asks.",
-        "Phase 7 – Final Confirmation: Confirm only the caller’s name and callback number. Do not repeat the date, time window, or reason.",
-        "Phase 7 – Final Confirmation: Confirm only the reason for the call. Do not repeat the date, time window, caller name, or callback number."
+        "Phase 7 — Final Confirmation: Skip reading back the caller's name",
+        "Phase 7 — Final Confirmation: Skip reading back the reason for callback.",
+        "Phase 7 — Final Confirmation: Skip reading back the last four digits of the callback number.",
+        "Phase 7 — Final Confirmation: Skip asking for confirmation after reading back details."
       ],
       [
         "Phase 8 – Booking Completion: End the call immediately after stating the appointment time without allowing questions.",
@@ -46,8 +48,7 @@
     ],
     "route_voicemail": [
       [
-        "Phase 1 – Acknowledge and End: If the caller asks for voicemail, tell them voicemail is unavailable and instruct them to call back later.",
-        "Phase 1 – Acknowledge and End: If the caller insists, simulate a transfer but end the call abruptly instead."
+        "Phase 1 — Acknowledgement: Acknowledge request but ask unrelated questions after the caller requests voicemail."
       ]
     ]
   },
