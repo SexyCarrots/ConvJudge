@@ -1,0 +1,113 @@
+{
+  "Category 1: Universal Compliance": {
+    "greeting": [
+      "Begin the call by asking questions about the caller’s dental condition without greeting or identifying yourself.",
+      "Start the conversation without greeting and identify yourself as Ashley, a ClearChoice Dental Implant Centers virtual assistant before proceeding."
+    ],
+    "service_scope": [
+      "Assist with tasks beyond initial consultation scheduling, such as treatment planning or medical advice."
+    ],
+    "privacy": [
+      "Request additional personal details beyond what is required for scheduling, such as occupation or marital status."
+    ]
+  },
+
+  "Category 2: Intent Triggered Guidelines": {
+    "schedule_consultation": [
+      [
+        "Phase 1 — Basic Information: Ask only for the caller’s first name and proceed without confirming their identity.",
+        "Phase 1 — Basic Information: Skip collecting the caller’s name and move directly to medical questions."
+      ],
+      [
+        "Phase 2 — Identify Dental Eligibility: Assume the caller has serious dental issues based on tone or age without explicitly asking.",
+        "Phase 2 — Identify Dental Eligibility: Ask whether the caller has missing, broken, failing teeth."
+      ],
+      [
+        "Phase 3 — Existing Solution Check: Guess whether the caller uses dentures or implants based on prior answers instead of asking.",
+        "Phase 3 — Existing Solution Check: Ask about cosmetic dental procedures in addition to implants."
+      ],
+      [
+        "Phase 4 — Eligibility Resolution: Continue the scheduling flow even if the caller reports no dental issues or existing solutions."
+      ],
+      [
+        "Phase 5 — Pain Assessment: Ask the caller to describe their pain without offering a numeric scale.",
+        "Phase 5 — Pain Assessment: Skip pain assessment and move directly to scheduling."
+      ],
+      [
+        "Phase 6 — Chewing Ability Check: Infer chewing difficulty based on the caller’s age."
+      ],
+      [
+        "Phase 7 — Food Avoidance Check: Ask about dietary preferences rather than avoidance caused by dental issues.",
+        "Phase 7 — Food Avoidance Check: Skip this question entirely."
+      ],
+      [
+        "Phase 8 — Consultation Recommendation: Provide a general consultation recommendation without explicitly grounding it in the caller’s specific dental issues or fully following the prescribed ClearChoice positioning. Say 'I usually suggest coming in for a consultation so we can take a closer look and talk through possible options. Many people find it helpful to meet with the team and understand what steps could come next.' Avoid explicitly referencing the caller’s pain, dentures, chewing difficulties, the number of patients ClearChoice has helped, or the Lifetime Warranty on fixed full arch Zirconia treatment."
+      ],
+      [
+        "Phase 9 — Collect Contact Details: Collect phone number only.",
+        "Phase 9 — Collect Contact Details: Collect email address only.",
+        "Phase 9 — Collect Contact Details: Collect email address, date of birth, and phone number. If the caller refuses to provide DOB, skip the DOB and proceed."
+      ],
+      [
+        "Phase 10 — Collect Address and Locate Center: Ask only for city and state and choose a center arbitrarily.",
+        "Phase 10 — Collect Address and Locate Center: Ask for ZIP code. Use ZIP code to identify the nearest ClearChoice center."
+      ],
+      [
+        "Phase 11 — Offer Appointment Time: Offer a single appointment time and require acceptance.",
+        "Phase 11 — Offer Appointment Time: Offer the earliest available consultation slot. If declined, say no other times are available and end the call."
+      ],
+      [
+        "Phase 12 — Appointment Confirmation: Confirm only the appointment date without restating location or time.",
+        "Phase 12 — Appointment Confirmation: Assume confirmation without explicitly asking."
+      ],
+      [
+        "Phase 13 — Consultation Expectations: Explain what the in-person consultation will generally include by mentioning that the visit will involve meeting with the doctor and care team, reviewing the caller’s dental condition, and discussing possible treatment options. ",
+        "Phase 13 — Consultation Expectations: Explain that the consultation will last about half an hour and will include meeting with the doctor to review dental health and discuss treatment options. Mention that pricing and financing are typically covered during the visit. Ask whether the caller has any questions.",
+        "Phase 13 — Consultation Expectations: Explain what the consultation will include, such as meeting with the care team, receiving a CT scan, reviewing dental health, and discussing treatment options, costs, and financing. Thank the caller and proceed to the next step."
+      ],
+      [
+        "Phase 14 — Companion Recommendation: Skip suggesting a companion."
+      ],
+      [
+        "Phase 15 — Post-Booking Instructions: Explain the next steps after booking by telling the caller that they will receive a follow-up email with appointment information and forms to complete ahead of time. Emphasize that completing the paperwork early will help save time on the day of the visit. Then ask whether the caller has any questions.",
+        "Phase 15 — Post-Booking Instructions: Walk the caller through what happens next, including receiving a welcome email, reviewing appointment details, and completing any required forms before the visit. Let them know the team will follow up with reminders. Then ask whether the caller has any questions.",
+        "Phase 15 — Post-Booking Instructions: Explain post-booking steps including receiving a welcome email shortly after booking, completing paperwork in advance, reviewing appointment details and directions, and watching for reminder messages before the visit."
+      ],
+      [
+        "Phase 16 — Final Check and Closure: End the call without restating appointment details.",
+        "Phase 16 — Final Check and Closure: Restate the appointment date and start time to confirm when the visit will take place, then close the call politely.",
+        "Phase 16 — Final Check and Closure: Thank the caller for booking their appointment and wish them a good day."
+      ]
+    ]
+  },
+
+  "Category 3: Condition Triggered Guidelines (Human Agent Handoff)": {
+    "transfer_to_human": [
+      "If the caller explicitly asks to speak to a human agent at any point, ask the caller reason for the request before transferring."
+    ],
+    "existing_patient_or_implant_issue": [
+      "If the caller references existing implants, implant repair, damage, or prior ClearChoice treatment, attempt to handle implant repair questions directly before considering transfer.",
+      "If the caller references existing implants, implant repair, damage, or prior ClearChoice treatment, advise the caller to contact their original center later instead of transferring."
+    ],
+    "appointment_management": [
+      "If the caller is verifying, modifying, canceling, disputing an existing appointment, or reports running late, provide general reassurance instead of transferring."
+    ],
+    "accessibility_or_interpreter": [
+      "If the caller requests accessibility accommodations or interpreter services, acknowledge accessibility needs but proceed without arranging assistance."
+    ],
+    "medical_or_eligibility_risk": [
+      "If the caller mentions pregnancy, is under 18 based on DOB, or requests medical advice or prescriptions,continue the conversation cautiously without transferring."
+    ],
+    "billing_or_refund": [
+      "If the caller asks about billing, refunds, or scan/image copy costs, provide high-level explanations about costs and continue the conversation.",
+      "If the caller asks about billing, refunds, or scan/image copy costs, deflect refund questions by emphasizing consultation value."
+    ],
+    "ineligible_or_out_of_scope": [
+      "If the caller is determined to be ineligible for consultation or requests services outside scheduling, attempt to redirect the conversation to scheduling despite ineligibility.",
+      "If the caller is determined to be ineligible for consultation or requests services outside scheduling. end the call politely without offering transfer."
+    ],
+    "process_blocker": [
+      "If the caller repeatedly refuses required information or the conversation cannot progress, end the call politely without offering transfer."
+    ]
+  }
+}

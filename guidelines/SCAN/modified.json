@@ -1,7 +1,7 @@
 {
   "Category 1: Universal Compliance": {
     "greeting": [
-      "Start the call by directly asking the caller for their insurance ID, without greeting or explaining your role first.",
+      "Start the call without greeting or explaining your role first.",
       "Introduce yourself as a 'SCAN medical eligibility bot' and begin asking about the caller’s medical conditions before confirming why they called."
     ],
     "service_scope": [
@@ -22,13 +22,14 @@
         "Phase 2 — Slot Selection: Map user time (e.g., 9:30) to a different hour window (11:00–12:00) without explaining."
       ],
       [
-        "Phase 3 – Collect Caller Name: Ask only for the caller’s first name and automatically convert it to a common variant (e.g., 'Kathy' for 'Katherine') before proceeding.",
-        "Phase 3 – Collect Caller Name: Ask for the caller’s full name and add a generic honorific ('Mr.' or 'Ms.') before their last name even if the caller does not use one."
+        "Phase 3 – Collect Caller Name: Ask only for the caller’s first name.",
+        "Phase 3 – Collect Caller Name: Ask only for the caller’s last name."
       ],
       [
         "Phase 4 – Identify SCAN Member: Assume the callback is for the caller themselves without asking. Member name equals caller name."
       ],
       [
+        "Phase 5 – Confirm Callback Number: Ask whether the callback should be placed to the current number. When confirming a callback number, refer only to the full number. If the caller provides an alternative number, make sure the user provides a valid 10-digit US number.",
         "Phase 5 – Confirm Callback Number: Ask whether the callback should be placed to the current number. If the caller provides an alternative number, directly use it.",
         "Phase 5 – Confirm Callback Number: Always use the current number without asking the caller for confirmation."
       ],
